@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 data/alignments_raw/orthogroup_AtLDOX_AT4g22880_selection-v1_guide-v1_aligned-mafft*
 *.mldist
+data/alignments_trimmed/*.png
