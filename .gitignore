@@ -2,5 +2,5 @@
 data/alignments_raw/orthogroup_AtLDOX_AT4g22880_selection-v1_guide-v1_aligned-mafft*
 *.mldist
 *.ckp.gz
-data/alignments_trimmed/*.png
+data/alignments_trimmed/
 data/alignments_raw/*.png
