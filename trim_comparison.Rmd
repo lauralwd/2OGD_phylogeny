@@ -1,0 +1,71 @@
+---
+title: "alignment trimming"
+author: "Laura Dijkhuizen"
+date: "25/04/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## import data
+
+```{r}
+setwd("~/gitprojects/ANS_phylogeny/")
+library("data.table")
+library(ggplot2)
+all_dims <- fread(input = "data/alignments_trimmed/allignment_dimensions.tab"
+                  ,header = F
+                  ,col.names = c(
+                    'all_name',
+                    'all_algorithm',
+                    'gap_threshold',
+                    'seq_content',
+                    'res_content',
+                    'quantity',
+                    'value'
+                    )
+                  ,stringsAsFactors = T
+                  )
+head(all_dims)
+```
+
+
+## width
+```{r}
+temp_df <- all_dims[(seq_content=1 & quantity == 'width' & gap_threshold != 3)]
+width_heatmap <- ggplot(temp_df,
+                         mapping = aes(
+                           x=gap_threshold,
+                           y=value
+                           )
+                         )
+width_heatmap <- width_heatmap + geom_line()
+width_heatmap <- width_heatmap + geom_point()
+width_heatmap <- width_heatmap + geom_text(aes(label=value),nudge_x = 3,nudge_y = 1)
+width_heatmap <- width_heatmap + theme_minimal()
+width_heatmap
+```
+
+
+## length
+Let's make a heatmap of allignment dimensions
+```{r}
+temp_df <- all_dims[(gap_threshold == 3 & quantity == 'length')]
+temp_df$seq_content <- as.factor(temp_df$seq_content)
+temp_df$res_content <- as.factor(temp_df$res_content)
+length_heatmap <- ggplot(temp_df,
+                         mapping = aes(
+                           x=seq_content,
+                           y=res_content,
+                           fill=value
+                           )
+                         )
+length_heatmap <- length_heatmap + geom_tile()
+length_heatmap <- length_heatmap + geom_text(aes(label=value))
+length_heatmap <- length_heatmap + theme_minimal()
+length_heatmap
+```
+
+
