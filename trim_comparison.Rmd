@@ -9,6 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# alignment dimensions
+
 ## import data
 
 ```{r}
@@ -69,3 +71,73 @@ length_heatmap
 ```
 
 
+# alignment gap frequency
+
+## import data
+
+```{r}
+setwd("~/gitprojects/ANS_phylogeny/")
+library("data.table")
+library(ggplot2)
+all_gap <- fread(input = "data/alignments_trimmed/allignment_gap-freq.tab"
+                ,header = F
+                ,col.names = c(
+                     'all_name',
+                     'all_algorithm',
+                     'gap_threshold',
+                     'seq_content',
+                     'res_content',
+                     'gaps'
+                     )
+                ,stringsAsFactors = T
+                ,fill = T
+                )
+head(all_gap)
+```
+
+## gap freq
+
+```{r}
+temp_df <- all_gap
+temp_df$seq_content <- as.factor(temp_df$seq_content)
+temp_df$res_content <- as.factor(temp_df$res_content)
+gap_dist_plot <- ggplot(temp_df,
+                         mapping = aes(
+                           x=gaps,col=seq_content
+                           )
+                         )
+gap_dist_plot <- gap_dist_plot + facet_grid(seq_content ~ res_content)
+gap_dist_plot <- gap_dist_plot + geom_freqpoly(binwidth=10)
+gap_dist_plot <- gap_dist_plot + theme_minimal()
+gap_dist_plot
+```
+
+
+```{r}
+gap_dist_plot <- ggplot(temp_df,
+                         mapping = aes(
+                           x=gaps,
+                           col=seq_content,
+                           fill=seq_content
+                           )
+                         )
+gap_dist_plot <- gap_dist_plot + facet_grid( ~ res_content)
+gap_dist_plot <- gap_dist_plot + geom_freqpoly(binwidth=10)
+gap_dist_plot <- gap_dist_plot + theme_minimal()
+gap_dist_plot
+```
+
+
+
+```{r}
+gap_dist_plot <- ggplot(temp_df,
+                         mapping = aes(
+                           x=gaps,fill=res_content,
+                           col=res_content
+                           )
+                         )
+gap_dist_plot <- gap_dist_plot + facet_grid( ~ seq_content)
+gap_dist_plot <- gap_dist_plot + geom_freqpoly()
+gap_dist_plot <- gap_dist_plot + theme_minimal()
+gap_dist_plot
+```
