@@ -23,8 +23,8 @@ all_dims <- fread(input = "data/alignments_trimmed/allignment_dimensions.tab"
                     'all_name',
                     'all_algorithm',
                     'gap_threshold',
-                    'seq_content',
                     'res_content',
+                    'seq_content',
                     'quantity',
                     'value'
                     )
@@ -98,7 +98,7 @@ head(all_gap)
 ## gap freq
 
 ```{r}
-temp_df <- all_gap
+temp_df <- all_gap[res_content>=95]
 temp_df$seq_content <- as.factor(temp_df$seq_content)
 temp_df$res_content <- as.factor(temp_df$res_content)
 gap_dist_plot <- ggplot(temp_df,
@@ -137,6 +137,26 @@ gap_dist_plot <- ggplot(temp_df,
                            )
                          )
 gap_dist_plot <- gap_dist_plot + facet_grid( ~ seq_content)
+gap_dist_plot <- gap_dist_plot + geom_freqpoly()
+gap_dist_plot <- gap_dist_plot + theme_minimal()
+gap_dist_plot
+```
+
+
+
+```{r}
+
+
+gap_dist_plot <- ggplot(temp_df[(
+                                 (seq_content == .5 & res_content == 99 ) | 
+                                 (seq_content == .75 & res_content == 98 ) | 
+                                 (seq_content == .5 & res_content == 95 )
+                                 )],
+                         mapping = aes(
+                           x=gaps,fill=res_content,
+                           col=res_content
+                           )
+                         )
 gap_dist_plot <- gap_dist_plot + geom_freqpoly()
 gap_dist_plot <- gap_dist_plot + theme_minimal()
 gap_dist_plot
