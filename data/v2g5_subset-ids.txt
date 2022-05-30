@@ -1,462 +1,336 @@
-Afi v2 s11G001170.4
-Azfi s0061.g034876
-Afi v2 s44G002700.1
-Azfi s0108.g045269
-CAPN-2009642-Equisetum diffusum
-CAPN-2004627-Equisetum diffusum
-JVSZ-2000344-Equisetum hymale
-CAPN-2007244-Equisetum diffusum
-QVMR-2012273-Psilotum nudum
-QVMR-2000480-Psilotum nudum
-ALVQ-2005668-Tmesipteris parva
-ALVQ-2005667-Tmesipteris parva
-VIBO-2075815-Osmunda javanica
-MEKP-2009936-Dipteris conjugata
-MEKP-2001244-Dipteris conjugata
-PIVW-2015072-Ceratopteris thalictroides
-PIVW-2000366-Ceratopteris thalictroides
-BMJR-2009144-Adiantum tenerum
-ZXJO-2005152-Hemionitis arifolia
-ZXJO-2005153-Hemionitis arifolia
-Ambtr v1 0 27-AmTr v1 0 scaffold00016 371-Amborella trichopoda
-XZUY-2049780-Cycas micholitzii
-WLIC-2120725-Dioon edule
-Pinta v2 0-PITA 000092827 RA-Pinus taeda
-Pinta v2 0-PITA 000011975 RA-Pinus taeda
-Pinta v2 0-PITA 000011980 RA-Pinus taeda
-Pinta v2 0-PITA 000039997 RA-Pinus taeda
-GTHK-2006319-Gnetum montanum
-Ambtr v1 0 27-AmTr v1 0 scaffold00007 64-Amborella trichopoda
-WBOD-2019473-Magnolia grandiflora
-WBOD-2023597-Magnolia grandiflora
-Orysa v7 0-LOC Os11g25060 1-Oryza sativa
-JVBR-2047614-Aloe vera
-Sorbi v2 1-Sobic 003G345100 1-Sorghum bicolor
-Orysa v7 0-LOC Os01g61610 2-Oryza sativa
-Orysa v7 0-LOC Os05g03640 1-Oryza sativa
-Sorbi v2 1-Sobic 009G028200 1-Sorghum bicolor
-Orysa v7 0-LOC Os03g18030 1-Oryza sativa
-Sorbi v2 1-Sobic 001G407800 1-Sorghum bicolor
-Nelnu v1 0-NNU 012345 RA-Nelumbo nucifera
-Nelnu v1 0-NNU 005746 RA-Nelumbo nucifera
-Theca v1 1-Thecc1EG021686t1-Theobroma cacao
-Poptr v3 0-Potri 016G117100 1-Populus trichocarpa
-Poptr v3 0-Potri 006G101100 1-Populus trichocarpa
-Poptr v3 0-Potri 006G101200 1-Populus trichocarpa
-Vitvi Genoscope 12X-GSVIVT01011165001-Vitis vinifera
-Mimgu v2 0-Migut J00158 1-Mimulus guttatus
-Arath TAIR10-AT2G38240 1-Arabidopsis thaliana
-Solly iTAGv2 3-Solyc10g076660 1 1-Solanum lycopersicum
-Solly iTAGv2 3-Solyc10g085190 1 1-Solanum lycopersicum
-Mimgu v2 0-Migut F00689 1-Mimulus guttatus
-Betvu v1 1-Bv2 024220 uwex t1-Beta vulgaris
-Solly iTAGv2 3-Solyc03g096050 2 1-Solanum lycopersicum
-Vitvi Genoscope 12X-GSVIVT01032809001-Vitis vinifera
-Theca v1 1-Thecc1EG042490t1-Theobroma cacao
-Poptr v3 0-Potri 008G069300 1-Populus trichocarpa
-Poptr v3 0-Potri 010G188000 1-Populus trichocarpa
-AALA-2077414-Meliosma cuneifolia
-Arath TAIR10-AT3G55970 1-Arabidopsis thaliana
-Arath TAIR10-AT3G11180 2-Arabidopsis thaliana
-Arath TAIR10-AT5G05600 1-Arabidopsis thaliana
-Selmo v1 0-79989-Selaginella moellendorffii
-CBAE-2008336-Huperzia myrisinites
-ENQF-2000228-Lycopodium annotinum
-PIVW-2091938-Ceratopteris thalictroides
-CVEG-2003723-Azolla cf. caroliniana
-Afi v2 s19G002650.1
-Azfi s0076.g037826
-UPMJ-2017671-Pseudolycopodiella caroliniana
-ENQF-2084088-Lycopodium annotinum
-CBAE-2009268-Huperzia myrisinites
-CBAE-2014111-Huperzia myrisinites
-Pinta v2 0-PITA 000001634 RA-Pinus taeda
-Pinta v2 0-PITA 000042782 RA-Pinus taeda
-Pinta v2 0-PITA 000042784 RA-Pinus taeda
-XZUY-2006700-Cycas micholitzii
-Ginkgo biloba ANS
-WLIC-2120406-Dioon edule
-XZUY-2005939-Cycas micholitzii
-VDAO-2003315-Ephedra sinica
-Ambtr v1 0 27-AmTr v1 0 scaffold00001 188-Amborella trichopoda
-ABSS-2074343-Sassafras albidum
-WBOD-2024499-Magnolia grandiflora
-Spipo v2-Spipo17G0005000-Spirodella polyrhiza
-Spipo v2-Spipo17G0004900-Spirodella polyrhiza
-Allium cepa ANS
-Sorbi v2 1-Sobic 004G000700 1-Sorghum bicolor
-Zea mays ANS
-Orysa v7 0-LOC Os06g42130 1-Oryza sativa
-Orysa v7 0-LOC Os01g27490 1-Oryza sativa
-Oryza sativa ANS
-Fragaria ananassa ANS
-Ipomoea nil ANS
-Mimgu v2 0-Migut E01023 1-Mimulus guttatus
-Perilla frutescens ANS
-Arath TAIR10-AT4G22880 1-Arabidopsis thaliana
-Arabidopsis thaliana LDOX
-Phytolacca americana ANS
-Betvu v1 1-Bv5 096410 imzu t1-Beta vulgaris
-Spinacia oleracea ANS
-Nelnu v1 0-NNU 017324 RA-Nelumbo nucifera
-Nelnu v1 0-NNU 006876 RA-Nelumbo nucifera
-Nelnu v1 0-NNU 006875 RA-Nelumbo nucifera
-AALA-2008582-Meliosma cuneifolia
 AALA-2005806-Meliosma cuneifolia
-Theca v1 1-Thecc1EG016139t1-Theobroma cacao
-Poptr v3 0-Potri 003G119100 1-Populus trichocarpa
-Poptr v3 0-Potri 001G113100 1-Populus trichocarpa
-VDAO-2005128-Ephedra sinica
-SGTW-2038701-Ginkgo biloba
-Ginkgo biloba FLS
-SGTW-2000271-Ginkgo biloba
-WLIC-2119345-Dioon edule
-GTHK-2056534-Gnetum montanum
-Nelnu v1 0-NNU 007261 RA-Nelumbo nucifera
-ABSS-2073765-Sassafras albidum
-AALA-2078641-Meliosma cuneifolia
-Vitvi Genoscope 12X-GSVIVT01008907001-Vitis vinifera
-Theca v1 1-Thecc1EG035063t1-Theobroma cacao
-Ambtr v1 0 27-AmTr v1 0 scaffold00073 14-Amborella trichopoda
-Ambtr v1 0 27-AmTr v1 0 scaffold00349 1-Amborella trichopoda
-MUNP-2006099-Piper auritum
-Orysa v7 0-LOC Os02g52840 1-Oryza sativa
-Sorbi v2 1-Sobic 003G021700 1-Sorghum bicolor
-Sorbi v2 1-Sobic 004G310100 1-Sorghum bicolor
-OSHQ-2047471-Sarcandra glabra
-ABSS-2073834-Sassafras albidum
-GJPF-2063819-Allium sativum
-AALA-2078684-Meliosma cuneifolia
-Nelnu v1 0-NNU 017585 RA-Nelumbo nucifera
-Arath TAIR10-AT5G08640 1-Arabidopsis thaliana
-Arabidopsis thaliana FLS1
-Arath TAIR10-AT5G63590 1-Arabidopsis thaliana
-Arabidopsis thaliana FLS3
-Arath TAIR10-AT5G63595 1-Arabidopsis thaliana
-Arath TAIR10-AT5G43935 1-Arabidopsis thaliana
-Arath TAIR10-AT5G63600 2-Arabidopsis thaliana
-Arabidopsis thaliana FLS5
-Citrus unshiu FLS
-Theca v1 1-Thecc1EG025133t1-Theobroma cacao
-Poptr v3 0-Potri T003300 1-Populus trichocarpa
-Poptr v3 0-Potri 004G139700 1-Populus trichocarpa
-Poptr v3 0-Potri 004G139600 1-Populus trichocarpa
-Poptr v3 0-Potri 004G139500 1-Populus trichocarpa
-Betvu v1 1-Bv 28310 qmjz t1-Beta vulgaris
-Betvu v1 1-Bv1 000200 ckiq t1-Beta vulgaris
-Theca v1 1-Thecc1EG035060t1-Theobroma cacao
-Poptr v3 0-Potri 002G086700 1-Populus trichocarpa
-Rosa hybrida FLS
-Fragaria ananassa FLS
-Petroselinum crispum FLS
-Mimgu v2 0-Migut C01158 1-Mimulus guttatus
-Solly iTAGv2 3-Solyc11g013110 1 1-Solanum lycopersicum
-Torenia fournieri FLS
-Petunia hybrida FLS
-UUHD-2013080-Porella pinnata
-HPXA-2134398-Ptilidium pulcherrimum
-UUHD-2148344-Porella pinnata
-BNCU-2079402-Radula lindenbergia
-UUHD-2149715-Porella pinnata
-UUHD-2001500-Porella pinnata
-UUHD-2001501-Porella pinnata
-UUHD-2001499-Porella pinnata
-HPXA-2001058-Ptilidium pulcherrimum
-HPXA-2000367-Ptilidium pulcherrimum
-HPXA-2000369-Ptilidium pulcherrimum
-HPXA-2001059-Ptilidium pulcherrimum
-HPXA-2001060-Ptilidium pulcherrimum
-HPXA-2001057-Ptilidium pulcherrimum
-UHLI-2018392-Sphagnum recurvatum
-RCBT-2005315-Sphagnum palustre
-GOWD-2081413-Sphagnum lescurii
-YWNF-2008361-Hedwigia ciliata
-HVBQ-2012851-Tetraphis pellucida
-HVBQ-2012850-Tetraphis pellucida
-HVBQ-2012852-Tetraphis pellucida
-UHLI-2088343-Sphagnum recurvatum
-RCBT-2024950-Sphagnum palustre
-RCBT-2179494-Sphagnum palustre
-HVBQ-2001691-Tetraphis pellucida
-YWNF-2008843-Hedwigia ciliata
-YWNF-2008842-Hedwigia ciliata
-EEMJ-2008948-Thuidium delicatulum
-YWNF-2012739-Hedwigia ciliata
-GTHK-2006619-Gnetum montanum
-UPMJ-2017671-Pseudolycopodiella caroliniana
-ENQF-2084088-Lycopodium annotinum
-PQTO-2080320-Lycopodium deuterodensum
-CBAE-2014111-Huperzia myrisinites
-CBAE-2009268-Huperzia myrisinites
-GAON-2011648-Huperzia squarrosa
-GAON-2011649-Huperzia squarrosa
-Pinta v2 0-PITA 000001634 RA-Pinus taeda
-Pinta v2 0-PITA 000042782 RA-Pinus taeda
-XZUY-2006700-Cycas micholitzii
-GNQG-2012345-Encephalartos barteri
-SGTW-2000533-Ginkgo biloba
-GbANS
-Pinta v2 0-PITA 000022353 RA-Pinus taeda
-VDAO-2003936-Ephedra sinica
-VDAO-2003315-Ephedra sinica
-XZUY-2005939-Cycas micholitzii
-WLIC-2120406-Dioon edule
-GNQG-2004856-Encephalartos barteri
-Ambtr v1 0 27-AmTr v1 0 scaffold00001 188-Amborella trichopoda
-WZFE-2014680-Ascarina rubricaulis
-ABSS-2074343-Sassafras albidum
-WBOD-2024499-Magnolia grandiflora
-Musac v1 0-GSMUA Achr5G04080 001-Musa acuminata
-Spipo v2-Spipo17G0005000-Spirodella polyrhiza
-Spipo v2-Spipo17G0004900-Spirodella polyrhiza
-Sorbi v2 1-Sobic 004G000700 1-Sorghum bicolor
-Orysa v7 0-LOC Os06g42130 1-Oryza sativa
-Orysa v7 0-LOC Os01g27490 1-Oryza sativa
-OsANS
-Aquco v1 1-Aquca 013 00483 1-Aquilegia coerulea
-Nelnu v1 0-NNU 006876 RA-Nelumbo nucifera
-Nelnu v1 0-NNU 006875 RA-Nelumbo nucifera
-Nelnu v1 0-NNU 017324 RA-Nelumbo nucifera
 AALA-2008582-Meliosma cuneifolia
-AALA-2005806-Meliosma cuneifolia
-Phavu v1 0-Phvul 002G152700 1-Phaseolus vulgaris
-Manes v4 1-cassava4 1 010809m-Manihot esculenta
-Poptr v3 0-Potri 003G119100 1-Populus trichocarpa
-Poptr v3 0-Potri 001G113100 1-Populus trichocarpa
-Carpa ASGPBv0 4-evm model supercontig 29 41-Carica papaya
-Prupe v1 0-ppa007738m-Prunus persica
-FaANS
-Theca v1 1-Thecc1EG016139t1-Theobroma cacao
-UKUC-2103688-Dunaliella salina-UTEX LB 200
-Arath TAIR10-AT4G22870 2-Arabidopsis thaliana
-Arath TAIR10-AT4G22880 1-Arabidopsis thaliana
-AtLDOX
-InANS
-Solly iTAGv2 3-Solyc08g080040 2 1-Solanum lycopersicum
-Mimgu v2 0-Migut E01023 1-Mimulus guttatus
-PfANS
-Vitvi Genoscope 12X-GSVIVT01019892001-Vitis vinifera
-Betvu v1 1-Bv5 096410 imzu t1-Beta vulgaris
-SoANS
-VDAO-2005128-Ephedra sinica
-SGTW-2038701-Ginkgo biloba
-GbFLS
-SGTW-2000272-Ginkgo biloba
-SGTW-2000271-Ginkgo biloba
-XZUY-2011434-Cycas micholitzii
-GNQG-2085274-Encephalartos barteri
-WLIC-2119345-Dioon edule
-Pinta v2 0-PITA 000061487 RA-Pinus taeda
-TOXE-2011250-Welwitschia mirabilis
-GTHK-2056534-Gnetum montanum
-Ambtr v1 0 27-AmTr v1 0 scaffold00073 23-Amborella trichopoda
-Ambtr v1 0 27-AmTr v1 0 scaffold00073 9-Amborella trichopoda
-Ambtr v1 0 27-AmTr v1 0 scaffold00073 24-Amborella trichopoda
-WBOD-2022710-Magnolia grandiflora
-Nelnu v1 0-NNU 018430 RA-Nelumbo nucifera
-Nelnu v1 0-NNU 007261 RA-Nelumbo nucifera
-AALA-2078641-Meliosma cuneifolia
-Theca v1 1-Thecc1EG035063t1-Theobroma cacao
-Phavu v1 0-Phvul 004G052400 1-Phaseolus vulgaris
-Manes v4 1-cassava4 1 011534m-Manihot esculenta
-Prupe v1 0-ppa008455m-Prunus persica
-Prupe v1 0-ppa008847m-Prunus persica
-Elagu v2 0-p5 sc00011 V1 gene808-Elaeis guineensis
-Ambtr v1 0 27-AmTr v1 0 scaffold00073 14-Amborella trichopoda
-Ambtr v1 0 27-AmTr v1 0 scaffold00349 1-Amborella trichopoda
-OSHQ-2047471-Sarcandra glabra
-WZFE-2015804-Ascarina rubricaulis
-MUNP-2006099-Piper auritum
-WBOD-2010440-Magnolia grandiflora
-ABSS-2073834-Sassafras albidum
-KBXS-2083560-Allium commutatum
-GJPF-2063819-Allium sativum
-Musac v1 0-GSMUA Achr8G23330 001-Musa acuminata
-THEW-2005020-Lilium sargentiae
-Musac v1 0-GSMUA Achr10G25250 001-Musa acuminata
-Musac v1 0-GSMUA Achr10G25240 001-Musa acuminata
-Orysa v7 0-LOC Os02g52840 1-Oryza sativa
-Sorbi v2 1-Sobic 003G021700 1-Sorghum bicolor
-Sorbi v2 1-Sobic 004G310100 1-Sorghum bicolor
-Musac v1 0-GSMUA Achr3G07030 001-Musa acuminata
-Arath TAIR10-AT5G08640 1-Arabidopsis thaliana
-AtAtFLS1
-Arath TAIR10-AT5G63590 1-Arabidopsis thaliana
-AtAtFLS3
-Arath TAIR10-AT5G63595 1-Arabidopsis thaliana
-Arath TAIR10-AT5G63580 1-Arabidopsis thaliana
-Arath TAIR10-AT5G43935 1-Arabidopsis thaliana
-AtAtFLS5
-Nelnu v1 0-NNU 017585 RA-Nelumbo nucifera
-AALA-2078684-Meliosma cuneifolia
+AALA-2073523-Meliosma cuneifolia
+AALA-2073945-Meliosma cuneifolia
 AALA-2074459-Meliosma cuneifolia
-Aquco v1 1-Aquca 014 00168 1-Aquilegia coerulea
-CitFLS
-Theca v1 1-Thecc1EG025133t1-Theobroma cacao
-Poptr v3 0-Potri 009G145500 1-Populus trichocarpa
-Poptr v3 0-Potri T003300 1-Populus trichocarpa
-Poptr v3 0-Potri 004G139700 1-Populus trichocarpa
-Poptr v3 0-Potri 004G139600 1-Populus trichocarpa
-Poptr v3 0-Potri 004G139500 1-Populus trichocarpa
-PcFLS
-Mimgu v2 0-Migut C01158 1-Mimulus guttatus
-Solly iTAGv2 3-Solyc11g013110 1 1-Solanum lycopersicum
-TfFLS
-PhFLS
-Vitvi Genoscope 12X-GSVIVT01008914001-Vitis vinifera
-Vitvi Genoscope 12X-GSVIVT01008913001-Vitis vinifera
-Poptr v3 0-Potri 002G086700 1-Populus trichocarpa
-Manes v4 1-cassava4 1 011509m-Manihot esculenta
-Manes v4 1-cassava4 1 031827m-Manihot esculenta
-Phavu v1 0-Phvul 008G166000 1-Phaseolus vulgaris
-Betvu v1 1-Bv1 000200 ckiq t1-Beta vulgaris
-Theca v1 1-Thecc1EG035060t1-Theobroma cacao
-Prupe v1 0-ppb018307m-Prunus persica
-Prupe v1 0-ppa008322m-Prunus persica
-RhFLS
-FaFLS
-UGNK-2020195-Marattia attenuata
-CQPW-2021325-Anemia tomentosa
-PIVW-2091938-Ceratopteris thalictroides
-CVEG-2003723-Azolla cf. caroliniana
-Afi v2 s19G002650.1
-ZFGK-2039639-Selaginella kraussiana
-Selmo v1 0-79989-Selaginella moellendorffii
-ZZOL-2000521-Selaginella stauntoniana
-UPMJ-2080508-Pseudolycopodiella caroliniana
-CBAE-2008336-Huperzia myrisinites
-GAON-2008880-Huperzia squarrosa
-PQTO-2067126-Lycopodium deuterodensum
-PQTO-2079752-Lycopodium deuterodensum
-ENQF-2000228-Lycopodium annotinum
-CQPW-2000730-Anemia tomentosa
-CVEG-2124660-Azolla cf. caroliniana
+AALA-2075823-Meliosma cuneifolia
+AALA-2077414-Meliosma cuneifolia
+AALA-2078641-Meliosma cuneifolia
+AALA-2078684-Meliosma cuneifolia
+ABSS-2073765-Sassafras albidum
+ABSS-2073834-Sassafras albidum
+ABSS-2074343-Sassafras albidum
 Afi v2 s11G001170.4
-CVEG-2124941-Azolla cf. caroliniana
-CVEG-2124962-Azolla cf. caroliniana
+Afi v2 s19G002650.1
 Afi v2 s44G002700.1
-UGNK-2109930-Marattia attenuata
-UGNK-2010823-Marattia attenuata
-UGNK-2108664-Marattia attenuata
-Selmo v1 0-118442-Selaginella moellendorffii
-CAPN-2009642-Equisetum diffusum
-CAPN-2004627-Equisetum diffusum
-JVSZ-2125828-Equisetum hymale
-JVSZ-2000344-Equisetum hymale
-CAPN-2007244-Equisetum diffusum
-UGNK-2020252-Marattia attenuata
-QVMR-2012273-Psilotum nudum
-ALVQ-2000667-Tmesipteris parva
+Allium cepa ANS
 ALVQ-2000666-Tmesipteris parva
-QVMR-2000480-Psilotum nudum
-ALVQ-2005668-Tmesipteris parva
+ALVQ-2000667-Tmesipteris parva
 ALVQ-2005667-Tmesipteris parva
-VIBO-2075815-Osmunda javanica
-MEKP-2009936-Dipteris conjugata
-MEKP-2001244-Dipteris conjugata
-CQPW-2014754-Anemia tomentosa
-CQPW-2014753-Anemia tomentosa
-PBUU-2000657-Lygodium japonicum
-PBUU-2000656-Lygodium japonicum
-PNZO-2151649-Culcita macrocarpa
-EWXK-2020837-Thyrsopteris elegans
-YJJY-2013269-Woodsia scopulina
-VITX-2009984-Blechnum spicant
-ZXJO-2005152-Hemionitis arifolia
-ZXJO-2005153-Hemionitis arifolia
-PIVW-2015072-Ceratopteris thalictroides
-PIVW-2000366-Ceratopteris thalictroides
-BMJR-2009144-Adiantum tenerum
-BMJR-2009145-Adiantum tenerum
-Nelnu v1 0-NNU 021116 RA-Nelumbo nucifera
-WBOD-2098574-Magnolia grandiflora
+ALVQ-2005668-Tmesipteris parva
+Ambtr v1 0 27-AmTr v1 0 scaffold00001 188-Amborella trichopoda
 Ambtr v1 0 27-AmTr v1 0 scaffold00006 287-Amborella trichopoda
 Ambtr v1 0 27-AmTr v1 0 scaffold00006 288-Amborella trichopoda
-Ambtr v1 0 27-AmTr v1 0 scaffold00016 371-Amborella trichopoda
-Pinta v2 0-PITA 000064233 RA-Pinus taeda
-Pinta v2 0-PITA 000053351 RA-Pinus taeda
-GNQG-2085199-Encephalartos barteri
-WLIC-2120725-Dioon edule
-XZUY-2049780-Cycas micholitzii
-SGTW-2036038-Ginkgo biloba
-GNQG-2085507-Encephalartos barteri
-Pinta v2 0-PITA 000089870 RA-Pinus taeda
-Pinta v2 0-PITA 000076581 RA-Pinus taeda
-Pinta v2 0-PITA 000011975 RA-Pinus taeda
-Pinta v2 0-PITA 000011980 RA-Pinus taeda
-Pinta v2 0-PITA 000077295 RA-Pinus taeda
-Pinta v2 0-PITA 000064959 RA-Pinus taeda
-Pinta v2 0-PITA 000029883 RA-Pinus taeda
-Pinta v2 0-PITA 000061344 RA-Pinus taeda
-Pinta v2 0-PITA 000092827 RA-Pinus taeda
-Pinta v2 0-PITA 000039997 RA-Pinus taeda
-TOXE-2059443-Welwitschia mirabilis
-GTHK-2006319-Gnetum montanum
 Ambtr v1 0 27-AmTr v1 0 scaffold00007 64-Amborella trichopoda
-Musac v1 0-GSMUA Achr10G00230 001-Musa acuminata
-Musac v1 0-GSMUA Achr9G04430 001-Musa acuminata
-Musac v1 0-GSMUA Achr6G32920 001-Musa acuminata
+Ambtr v1 0 27-AmTr v1 0 scaffold00016 371-Amborella trichopoda
+Ambtr v1 0 27-AmTr v1 0 scaffold00073 14-Amborella trichopoda
+Ambtr v1 0 27-AmTr v1 0 scaffold00073 23-Amborella trichopoda
+Ambtr v1 0 27-AmTr v1 0 scaffold00073 24-Amborella trichopoda
+Ambtr v1 0 27-AmTr v1 0 scaffold00073 9-Amborella trichopoda
+Ambtr v1 0 27-AmTr v1 0 scaffold00349 1-Amborella trichopoda
+Aquco v1 1-Aquca 004 00371 1-Aquilegia coerulea
+Aquco v1 1-Aquca 013 00483 1-Aquilegia coerulea
+Aquco v1 1-Aquca 014 00168 1-Aquilegia coerulea
+Arabidopsis thaliana FLS1
+Arabidopsis thaliana FLS3
+Arabidopsis thaliana FLS5
+Arabidopsis thaliana LDOX
+Arath TAIR10-AT2G38240 1-Arabidopsis thaliana
+Arath TAIR10-AT3G11180 2-Arabidopsis thaliana
+Arath TAIR10-AT3G55970 1-Arabidopsis thaliana
+Arath TAIR10-AT4G22870 2-Arabidopsis thaliana
+Arath TAIR10-AT4G22880 1-Arabidopsis thaliana
+Arath TAIR10-AT5G05600 1-Arabidopsis thaliana
+Arath TAIR10-AT5G08640 1-Arabidopsis thaliana
+Arath TAIR10-AT5G43935 1-Arabidopsis thaliana
+Arath TAIR10-AT5G63580 1-Arabidopsis thaliana
+Arath TAIR10-AT5G63590 1-Arabidopsis thaliana
+Arath TAIR10-AT5G63595 1-Arabidopsis thaliana
+Arath TAIR10-AT5G63600 2-Arabidopsis thaliana
+AtAtFLS1
+AtAtFLS3
+AtAtFLS5
+AtLDOX
+Azfi s0061.g034876
+Azfi s0076.g037826
+Azfi s0108.g045269
+Betvu v1 1-Bv1 000200 ckiq t1-Beta vulgaris
+Betvu v1 1-Bv2 024220 uwex t1-Beta vulgaris
+Betvu v1 1-Bv 28310 qmjz t1-Beta vulgaris
+Betvu v1 1-Bv5 096410 imzu t1-Beta vulgaris
+BMJR-2009144-Adiantum tenerum
+BMJR-2009145-Adiantum tenerum
+BNCU-2079402-Radula lindenbergia
+CAPN-2004627-Equisetum diffusum
+CAPN-2007244-Equisetum diffusum
+CAPN-2009642-Equisetum diffusum
+Carpa ASGPBv0 4-evm model supercontig 11 134-Carica papaya
+Carpa ASGPBv0 4-evm model supercontig 1944 1-Carica papaya
+Carpa ASGPBv0 4-evm model supercontig 1944 2-Carica papaya
+Carpa ASGPBv0 4-evm model supercontig 29 41-Carica papaya
+CBAE-2008336-Huperzia myrisinites
+CBAE-2009268-Huperzia myrisinites
+CBAE-2014111-Huperzia myrisinites
+CitFLS
+Citrus unshiu FLS
+CQPW-2000730-Anemia tomentosa
+CQPW-2014753-Anemia tomentosa
+CQPW-2014754-Anemia tomentosa
+CQPW-2021325-Anemia tomentosa
+CVEG-2003723-Azolla cf. caroliniana
+CVEG-2124660-Azolla cf. caroliniana
+CVEG-2124941-Azolla cf. caroliniana
+CVEG-2124962-Azolla cf. caroliniana
+EEMJ-2008948-Thuidium delicatulum
+Elagu v2 0-p5 sc00011 V1 gene808-Elaeis guineensis
 Elagu v2 0-p5 sc00033 V1 gene76-Elaeis guineensis
 Elagu v2 0-p5 sc02228 V1 gene5-Elaeis guineensis
+ENQF-2000228-Lycopodium annotinum
+ENQF-2084088-Lycopodium annotinum
+EWXK-2020837-Thyrsopteris elegans
+FaANS
+FaFLS
+Fragaria ananassa ANS
+Fragaria ananassa FLS
+GAON-2008880-Huperzia squarrosa
+GAON-2011648-Huperzia squarrosa
+GAON-2011649-Huperzia squarrosa
+GbANS
+GbFLS
+Ginkgo biloba ANS
+Ginkgo biloba FLS
+GJPF-2063819-Allium sativum
+GNQG-2004856-Encephalartos barteri
+GNQG-2012345-Encephalartos barteri
+GNQG-2085199-Encephalartos barteri
+GNQG-2085274-Encephalartos barteri
+GNQG-2085507-Encephalartos barteri
+GOWD-2081413-Sphagnum lescurii
+GTHK-2006319-Gnetum montanum
+GTHK-2006619-Gnetum montanum
+GTHK-2056534-Gnetum montanum
+HPXA-2000367-Ptilidium pulcherrimum
+HPXA-2000369-Ptilidium pulcherrimum
+HPXA-2001057-Ptilidium pulcherrimum
+HPXA-2001058-Ptilidium pulcherrimum
+HPXA-2001059-Ptilidium pulcherrimum
+HPXA-2001060-Ptilidium pulcherrimum
+HPXA-2134398-Ptilidium pulcherrimum
+HVBQ-2001691-Tetraphis pellucida
+HVBQ-2012850-Tetraphis pellucida
+HVBQ-2012851-Tetraphis pellucida
+HVBQ-2012852-Tetraphis pellucida
+InANS
+Ipomoea nil ANS
 JVBR-2047614-Aloe vera
-YWNF-2043895-Hedwigia ciliata
-Musac v1 0-GSMUA Achr5G08490 001-Musa acuminata
-Orysa v7 0-LOC Os11g25060 1-Oryza sativa
-Sorbi v2 1-Sobic 008G002600 1-Sorghum bicolor
-Musac v1 0-GSMUA Achr5G29330 001-Musa acuminata
+JVSZ-2000344-Equisetum hymale
+JVSZ-2125828-Equisetum hymale
+KBXS-2083560-Allium commutatum
+Manes v4 1-cassava4 1 010270m-Manihot esculenta
+Manes v4 1-cassava4 1 010357m-Manihot esculenta
+Manes v4 1-cassava4 1 010809m-Manihot esculenta
+Manes v4 1-cassava4 1 011509m-Manihot esculenta
+Manes v4 1-cassava4 1 011534m-Manihot esculenta
+Manes v4 1-cassava4 1 013304m-Manihot esculenta
+Manes v4 1-cassava4 1 031479m-Manihot esculenta
+Manes v4 1-cassava4 1 031827m-Manihot esculenta
+MEKP-2001244-Dipteris conjugata
+MEKP-2009936-Dipteris conjugata
+Mimgu v2 0-Migut C01158 1-Mimulus guttatus
+Mimgu v2 0-Migut E01023 1-Mimulus guttatus
+Mimgu v2 0-Migut F00689 1-Mimulus guttatus
+Mimgu v2 0-Migut J00158 1-Mimulus guttatus
+MUNP-2006099-Piper auritum
+Musac v1 0-GSMUA Achr10G00230 001-Musa acuminata
+Musac v1 0-GSMUA Achr10G25240 001-Musa acuminata
+Musac v1 0-GSMUA Achr10G25250 001-Musa acuminata
 Musac v1 0-GSMUA Achr11G23830 001-Musa acuminata
+Musac v1 0-GSMUA Achr3G07030 001-Musa acuminata
+Musac v1 0-GSMUA Achr5G04080 001-Musa acuminata
+Musac v1 0-GSMUA Achr5G08490 001-Musa acuminata
+Musac v1 0-GSMUA Achr5G29330 001-Musa acuminata
 Musac v1 0-GSMUA Achr6G15610 001-Musa acuminata
+Musac v1 0-GSMUA Achr6G32920 001-Musa acuminata
 Musac v1 0-GSMUA Achr7G15540 001-Musa acuminata
-Sorbi v2 1-Sobic 003G345100 1-Sorghum bicolor
+Musac v1 0-GSMUA Achr8G23330 001-Musa acuminata
+Musac v1 0-GSMUA Achr9G04430 001-Musa acuminata
+Nelnu v1 0-NNU 005746 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 006875 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 006876 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 007261 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 012345 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 015297 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 017324 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 017585 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 018430 RA-Nelumbo nucifera
+Nelnu v1 0-NNU 021116 RA-Nelumbo nucifera
+Orysa v7 0-LOC Os01g27490 1-Oryza sativa
 Orysa v7 0-LOC Os01g61610 2-Oryza sativa
+Orysa v7 0-LOC Os02g52840 1-Oryza sativa
 Orysa v7 0-LOC Os03g18030 1-Oryza sativa
 Orysa v7 0-LOC Os05g03640 1-Oryza sativa
-Sorbi v2 1-Sobic 009G028200 1-Sorghum bicolor
-WBOD-2024359-Magnolia grandiflora
-WBOD-2019473-Magnolia grandiflora
-WBOD-2023597-Magnolia grandiflora
+Orysa v7 0-LOC Os06g42130 1-Oryza sativa
+Orysa v7 0-LOC Os11g25060 1-Oryza sativa
+Oryza sativa ANS
+OsANS
 OSHQ-2042462-Sarcandra glabra
-WZFE-2019839-Ascarina rubricaulis
 OSHQ-2046109-Sarcandra glabra
-Nelnu v1 0-NNU 012345 RA-Nelumbo nucifera
-Nelnu v1 0-NNU 005746 RA-Nelumbo nucifera
-Nelnu v1 0-NNU 015297 RA-Nelumbo nucifera
-AALA-2075823-Meliosma cuneifolia
-Aquco v1 1-Aquca 004 00371 1-Aquilegia coerulea
-AALA-2073945-Meliosma cuneifolia
-AALA-2077414-Meliosma cuneifolia
-AALA-2073523-Meliosma cuneifolia
-Mimgu v2 0-Migut J00158 1-Mimulus guttatus
-Arath TAIR10-AT2G38240 1-Arabidopsis thaliana
-Solly iTAGv2 3-Solyc10g085190 1 1-Solanum lycopersicum
-Solly iTAGv2 3-Solyc10g076680 1 1-Solanum lycopersicum
-Solly iTAGv2 3-Solyc10g076670 1 1-Solanum lycopersicum
-Solly iTAGv2 3-Solyc10g076660 1 1-Solanum lycopersicum
-Vitvi Genoscope 12X-GSVIVT01011165001-Vitis vinifera
-Carpa ASGPBv0 4-evm model supercontig 11 134-Carica papaya
-Theca v1 1-Thecc1EG021686t1-Theobroma cacao
-Prupe v1 0-ppa007856m-Prunus persica
-Phavu v1 0-Phvul 010G000300 1-Phaseolus vulgaris
+OSHQ-2047471-Sarcandra glabra
+PBUU-2000656-Lygodium japonicum
+PBUU-2000657-Lygodium japonicum
+PcFLS
+Perilla frutescens ANS
+Petroselinum crispum FLS
+Petunia hybrida FLS
+PfANS
+Phavu v1 0-Phvul 001G244000 1-Phaseolus vulgaris
+Phavu v1 0-Phvul 002G152700 1-Phaseolus vulgaris
+Phavu v1 0-Phvul 004G052400 1-Phaseolus vulgaris
 Phavu v1 0-Phvul 008G098500 1-Phaseolus vulgaris
-Manes v4 1-cassava4 1 010357m-Manihot esculenta
-Manes v4 1-cassava4 1 031479m-Manihot esculenta
-Poptr v3 0-Potri 016G117100 1-Populus trichocarpa
+Phavu v1 0-Phvul 008G166000 1-Phaseolus vulgaris
+Phavu v1 0-Phvul 008G223500 1-Phaseolus vulgaris
+Phavu v1 0-Phvul 010G000300 1-Phaseolus vulgaris
+PhFLS
+Phytolacca americana ANS
+Pinta v2 0-PITA 000001634 RA-Pinus taeda
+Pinta v2 0-PITA 000011975 RA-Pinus taeda
+Pinta v2 0-PITA 000011980 RA-Pinus taeda
+Pinta v2 0-PITA 000022353 RA-Pinus taeda
+Pinta v2 0-PITA 000029883 RA-Pinus taeda
+Pinta v2 0-PITA 000039997 RA-Pinus taeda
+Pinta v2 0-PITA 000042782 RA-Pinus taeda
+Pinta v2 0-PITA 000042784 RA-Pinus taeda
+Pinta v2 0-PITA 000053351 RA-Pinus taeda
+Pinta v2 0-PITA 000061344 RA-Pinus taeda
+Pinta v2 0-PITA 000061487 RA-Pinus taeda
+Pinta v2 0-PITA 000064233 RA-Pinus taeda
+Pinta v2 0-PITA 000064959 RA-Pinus taeda
+Pinta v2 0-PITA 000076581 RA-Pinus taeda
+Pinta v2 0-PITA 000077295 RA-Pinus taeda
+Pinta v2 0-PITA 000089870 RA-Pinus taeda
+Pinta v2 0-PITA 000092827 RA-Pinus taeda
+PIVW-2000366-Ceratopteris thalictroides
+PIVW-2015072-Ceratopteris thalictroides
+PIVW-2091938-Ceratopteris thalictroides
+PNZO-2151649-Culcita macrocarpa
+Poptr v3 0-Potri 001G113100 1-Populus trichocarpa
+Poptr v3 0-Potri 002G086700 1-Populus trichocarpa
+Poptr v3 0-Potri 003G119100 1-Populus trichocarpa
+Poptr v3 0-Potri 004G139500 1-Populus trichocarpa
+Poptr v3 0-Potri 004G139600 1-Populus trichocarpa
+Poptr v3 0-Potri 004G139700 1-Populus trichocarpa
 Poptr v3 0-Potri 006G101100 1-Populus trichocarpa
 Poptr v3 0-Potri 006G101200 1-Populus trichocarpa
-Mimgu v2 0-Migut F00689 1-Mimulus guttatus
-Betvu v1 1-Bv2 024220 uwex t1-Beta vulgaris
-Solly iTAGv2 3-Solyc03g096050 2 1-Solanum lycopersicum
-Theca v1 1-Thecc1EG042490t1-Theobroma cacao
-Prupe v1 0-ppa007719m-Prunus persica
-Vitvi Genoscope 12X-GSVIVT01032809001-Vitis vinifera
-Carpa ASGPBv0 4-evm model supercontig 1944 1-Carica papaya
 Poptr v3 0-Potri 008G069300 1-Populus trichocarpa
+Poptr v3 0-Potri 009G145500 1-Populus trichocarpa
 Poptr v3 0-Potri 010G188000 1-Populus trichocarpa
-Carpa ASGPBv0 4-evm model supercontig 1944 2-Carica papaya
-Phavu v1 0-Phvul 001G244000 1-Phaseolus vulgaris
-Phavu v1 0-Phvul 008G223500 1-Phaseolus vulgaris
-Manes v4 1-cassava4 1 010270m-Manihot esculenta
-Manes v4 1-cassava4 1 013304m-Manihot esculenta
-Arath TAIR10-AT3G55970 1-Arabidopsis thaliana
-Arath TAIR10-AT3G11180 2-Arabidopsis thaliana
-Arath TAIR10-AT5G05600 1-Arabidopsis thaliana
+Poptr v3 0-Potri 016G117100 1-Populus trichocarpa
+Poptr v3 0-Potri T003300 1-Populus trichocarpa
+PQTO-2067126-Lycopodium deuterodensum
+PQTO-2079752-Lycopodium deuterodensum
+PQTO-2080320-Lycopodium deuterodensum
+Prupe v1 0-ppa007719m-Prunus persica
+Prupe v1 0-ppa007738m-Prunus persica
+Prupe v1 0-ppa007856m-Prunus persica
+Prupe v1 0-ppa008322m-Prunus persica
+Prupe v1 0-ppa008455m-Prunus persica
+Prupe v1 0-ppa008847m-Prunus persica
+Prupe v1 0-ppb018307m-Prunus persica
+QVMR-2000480-Psilotum nudum
+QVMR-2012273-Psilotum nudum
+RCBT-2005315-Sphagnum palustre
+RCBT-2024950-Sphagnum palustre
+RCBT-2179494-Sphagnum palustre
+RhFLS
+Rosa hybrida FLS
+Selmo v1 0-118442-Selaginella moellendorffii
+Selmo v1 0-79989-Selaginella moellendorffii
+SGTW-2000271-Ginkgo biloba
+SGTW-2000272-Ginkgo biloba
+SGTW-2000533-Ginkgo biloba
+SGTW-2036038-Ginkgo biloba
+SGTW-2038701-Ginkgo biloba
+SoANS
+Solly iTAGv2 3-Solyc03g096050 2 1-Solanum lycopersicum
+Solly iTAGv2 3-Solyc08g080040 2 1-Solanum lycopersicum
+Solly iTAGv2 3-Solyc10g076660 1 1-Solanum lycopersicum
+Solly iTAGv2 3-Solyc10g076670 1 1-Solanum lycopersicum
+Solly iTAGv2 3-Solyc10g076680 1 1-Solanum lycopersicum
+Solly iTAGv2 3-Solyc10g085190 1 1-Solanum lycopersicum
+Solly iTAGv2 3-Solyc11g013110 1 1-Solanum lycopersicum
+Sorbi v2 1-Sobic 001G407800 1-Sorghum bicolor
+Sorbi v2 1-Sobic 003G021700 1-Sorghum bicolor
+Sorbi v2 1-Sobic 003G345100 1-Sorghum bicolor
+Sorbi v2 1-Sobic 004G000700 1-Sorghum bicolor
+Sorbi v2 1-Sobic 004G310100 1-Sorghum bicolor
+Sorbi v2 1-Sobic 008G002600 1-Sorghum bicolor
+Sorbi v2 1-Sobic 009G028200 1-Sorghum bicolor
+Spinacia oleracea ANS
+Spipo v2-Spipo17G0004900-Spirodella polyrhiza
+Spipo v2-Spipo17G0005000-Spirodella polyrhiza
+TfFLS
+Theca v1 1-Thecc1EG016139t1-Theobroma cacao
+Theca v1 1-Thecc1EG021686t1-Theobroma cacao
+Theca v1 1-Thecc1EG025133t1-Theobroma cacao
+Theca v1 1-Thecc1EG035060t1-Theobroma cacao
+Theca v1 1-Thecc1EG035063t1-Theobroma cacao
+Theca v1 1-Thecc1EG042490t1-Theobroma cacao
+THEW-2005020-Lilium sargentiae
+Torenia fournieri FLS
+TOXE-2011250-Welwitschia mirabilis
+TOXE-2059443-Welwitschia mirabilis
+UGNK-2010823-Marattia attenuata
+UGNK-2020195-Marattia attenuata
+UGNK-2020252-Marattia attenuata
+UGNK-2108664-Marattia attenuata
+UGNK-2109930-Marattia attenuata
+UHLI-2018392-Sphagnum recurvatum
+UHLI-2088343-Sphagnum recurvatum
+UKUC-2103688-Dunaliella salina-UTEX LB 200
+UPMJ-2017671-Pseudolycopodiella caroliniana
+UPMJ-2080508-Pseudolycopodiella caroliniana
+UUHD-2001499-Porella pinnata
+UUHD-2001500-Porella pinnata
+UUHD-2001501-Porella pinnata
+UUHD-2013080-Porella pinnata
+UUHD-2148344-Porella pinnata
+UUHD-2149715-Porella pinnata
+VDAO-2003315-Ephedra sinica
+VDAO-2003936-Ephedra sinica
+VDAO-2005128-Ephedra sinica
+VIBO-2075815-Osmunda javanica
+Vitvi Genoscope 12X-GSVIVT01008907001-Vitis vinifera
+Vitvi Genoscope 12X-GSVIVT01008913001-Vitis vinifera
+Vitvi Genoscope 12X-GSVIVT01008914001-Vitis vinifera
+Vitvi Genoscope 12X-GSVIVT01011165001-Vitis vinifera
+Vitvi Genoscope 12X-GSVIVT01019892001-Vitis vinifera
+Vitvi Genoscope 12X-GSVIVT01032809001-Vitis vinifera
+VITX-2009984-Blechnum spicant
+WBOD-2010440-Magnolia grandiflora
+WBOD-2019473-Magnolia grandiflora
+WBOD-2022710-Magnolia grandiflora
+WBOD-2023597-Magnolia grandiflora
+WBOD-2024359-Magnolia grandiflora
+WBOD-2024499-Magnolia grandiflora
+WBOD-2098574-Magnolia grandiflora
+WLIC-2119345-Dioon edule
+WLIC-2120406-Dioon edule
+WLIC-2120725-Dioon edule
+WZFE-2014680-Ascarina rubricaulis
+WZFE-2015804-Ascarina rubricaulis
+WZFE-2019839-Ascarina rubricaulis
+XZUY-2005939-Cycas micholitzii
+XZUY-2006700-Cycas micholitzii
+XZUY-2011434-Cycas micholitzii
+XZUY-2049780-Cycas micholitzii
+YJJY-2013269-Woodsia scopulina
+YWNF-2008361-Hedwigia ciliata
+YWNF-2008842-Hedwigia ciliata
+YWNF-2008843-Hedwigia ciliata
+YWNF-2012739-Hedwigia ciliata
+YWNF-2043895-Hedwigia ciliata
+Zea mays ANS
+ZFGK-2039639-Selaginella kraussiana
+ZXJO-2005152-Hemionitis arifolia
+ZXJO-2005153-Hemionitis arifolia
+ZZOL-2000521-Selaginella stauntoniana
