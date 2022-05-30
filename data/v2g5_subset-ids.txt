@@ -71,6 +71,9 @@ Carpa_ASGPBv0_4-evm_model_supercontig_29_41-Carica_papaya
 CBAE-2008336-Huperzia_myrisinites
 CBAE-2009268-Huperzia_myrisinites
 CBAE-2014111-Huperzia_myrisinites
+Chlre_v5_5-Cre10_g466700_t1_1-Chlamydomonas_reinhardtii
+Chlva_v1_0-e_gw1_5_247_1-Chlorella_variabilis
+Chlva_v1_0-gw1_43_12_1-Chlorella_variabilis
 CitFLS
 Citrus_unshiu_FLS
 CQPW-2000730-Anemia_tomentosa
@@ -126,6 +129,7 @@ JVBR-2047614-Aloe_vera
 JVSZ-2000344-Equisetum_hymale
 JVSZ-2125828-Equisetum_hymale
 KBXS-2083560-Allium_commutatum
+Klefl_v1_0-kfl00090_0310-Klebsormidium_flaccidum
 Manes_v4_1-cassava4_1_010270m-Manihot_esculenta
 Manes_v4_1-cassava4_1_010357m-Manihot_esculenta
 Manes_v4_1-cassava4_1_010809m-Manihot_esculenta
@@ -136,6 +140,7 @@ Manes_v4_1-cassava4_1_031479m-Manihot_esculenta
 Manes_v4_1-cassava4_1_031827m-Manihot_esculenta
 MEKP-2001244-Dipteris_conjugata
 MEKP-2009936-Dipteris_conjugata
+Micpu_v3_0-59138-Micromonas_pusilla
 Mimgu_v2_0-Migut_C01158_1-Mimulus_guttatus
 Mimgu_v2_0-Migut_E01023_1-Mimulus_guttatus
 Mimgu_v2_0-Migut_F00689_1-Mimulus_guttatus
