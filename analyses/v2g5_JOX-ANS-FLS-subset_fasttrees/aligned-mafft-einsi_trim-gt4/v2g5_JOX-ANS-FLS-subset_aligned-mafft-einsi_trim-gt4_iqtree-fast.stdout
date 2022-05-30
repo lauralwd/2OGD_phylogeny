@@ -1,0 +1,268 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Mar 30 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    LauraDesktop (AVX2, FMA3, 23 GB RAM)
+Command: iqtree -s data/alignments_trimmed/v2g5_JOX-ANS-FLS-subset_aligned-mafft-einsi_trim-gt4.fasta -fast -m LG+R7 -nt AUTO -ntmax 4 -pre analyses/v2g5_JOX-ANS-FLS-subset_fasttrees/aligned-mafft-einsi_trim-gt4/v2g5_JOX-ANS-FLS-subset_aligned-mafft-einsi_trim-gt4_iqtree-fast
+Seed:    385274 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May 30 13:01:41 2022
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file data/alignments_trimmed/v2g5_JOX-ANS-FLS-subset_aligned-mafft-einsi_trim-gt4.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 228 sequences with 347 columns, 347 distinct patterns
+331 parsimony-informative, 8 singleton sites, 7 constant sites
+                                                                Gap/Ambiguity  Composition  p-value
+   1  Azfi_s0061.g034876                                                2.88%    passed     19.71%
+   2  Azfi_s0076.g037826                                                1.15%    passed     78.50%
+   3  Azfi_s0108.g045269                                                2.59%    passed     71.05%
+   4  Afi_v2_s11G001170.4                                               2.88%    passed     20.99%
+   5  Afi_v2_s19G002650.1                                               1.15%    passed     78.50%
+   6  Afi_v2_s44G002700.1                                               2.59%    passed     71.05%
+   7  Allium_cepa_ANS                                                   2.59%    passed     85.83%
+   8  Arabidopsis_thaliana_FLS1                                         3.75%    passed     75.28%
+   9  Arabidopsis_thaliana_FLS3                                        11.82%    passed     66.50%
+  10  Arabidopsis_thaliana_FLS5                                         6.63%    passed     86.82%
+  11  Arabidopsis_thaliana_LDOX                                         1.15%    passed     19.23%
+  12  Citrus_unshiu_FLS                                                 4.03%    passed     87.40%
+  13  Fragaria_ananassa_ANS                                             1.15%    passed     43.46%
+  14  Fragaria_ananassa_FLS                                             4.03%    passed     69.92%
+  15  Ginkgo_biloba_ANS                                                 1.44%    passed     87.27%
+  16  Ginkgo_biloba_FLS                                                 2.59%    passed     96.34%
+  17  Ipomoea_nil_ANS                                                   1.15%    passed     94.52%
+  18  Oryza_sativa_ANS                                                  1.15%    failed      0.00%
+  19  Phytolacca_americana_ANS                                          1.15%    passed     66.73%
+  20  Petroselinum_crispum_FLS                                          3.75%    passed     72.14%
+  21  Perilla_frutescens_ANS                                            1.15%    passed     73.50%
+  22  Petunia_hybrida_FLS                                               3.46%    passed     73.43%
+  23  Rosa_hybrida_FLS                                                  4.03%    passed     52.95%
+  24  Spinacia_oleracea_ANS                                             1.44%    passed     96.16%
+  25  Torenia_fournieri_FLS                                             2.88%    passed     20.56%
+  26  Zea_mays_ANS                                                      0.58%    failed      0.00%
+  27  WLIC-2119345-Dioon_edule                                          4.32%    passed     99.62%
+  28  Arath_TAIR10-AT5G63600_2-Arabidopsis_thaliana                     6.63%    passed     86.82%
+  29  Selmo_v1_0-118442-Selaginella_moellendorffii                     83.29%    passed      8.45%
+  30  UUHD-2149715-Porella_pinnata                                     23.34%    passed     94.15%
+  31  WBOD-2024499-Magnolia_grandiflora                                 1.15%    passed     54.69%
+  32  SGTW-2038701-Ginkgo_biloba                                        2.59%    passed     96.24%
+  33  Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_24-Amborella_trichopoda    58.21%    passed     53.15%
+  34  Betvu_v1_1-Bv5_096410_imzu_t1-Beta_vulgaris                       1.15%    passed     80.95%
+  35  Poptr_v3_0-Potri_010G188000_1-Populus_trichocarpa                 1.73%    passed     97.39%
+  36  VDAO-2003315-Ephedra_sinica                                       2.59%    passed     24.10%
+  37  VIBO-2075815-Osmunda_javanica                                     1.15%    passed     90.25%
+  38  WLIC-2120725-Dioon_edule                                          1.73%    passed     98.48%
+  39  Arath_TAIR10-AT5G43935_1-Arabidopsis_thaliana                    17.29%    passed     92.29%
+  40  Sorbi_v2_1-Sobic_008G002600_1-Sorghum_bicolor                    25.65%    passed     51.44%
+  41  CVEG-2124941-Azolla_cf._caroliniana                              40.63%    passed     32.47%
+  42  AALA-2074459-Meliosma_cuneifolia                                 49.28%    passed     34.17%
+  43  Nelnu_v1_0-NNU_007261_RA-Nelumbo_nucifera                         4.61%    passed     81.28%
+  44  Ambtr_v1_0_27-AmTr_v1_0_scaffold00016_371-Amborella_trichopoda    2.88%    passed     72.83%
+  45  AALA-2078641-Meliosma_cuneifolia                                  6.05%    passed     85.66%
+  46  XZUY-2006700-Cycas_micholitzii                                    3.75%    passed     86.04%
+  47  ALVQ-2000666-Tmesipteris_parva                                   47.55%    passed     11.98%
+  48  Mimgu_v2_0-Migut_C01158_1-Mimulus_guttatus                        4.32%    passed     66.00%
+  49  Theca_v1_1-Thecc1EG035063t1-Theobroma_cacao                       4.61%    passed     94.52%
+  50  GTHK-2006319-Gnetum_montanum                                      3.75%    passed     60.17%
+  51  MUNP-2006099-Piper_auritum                                       26.22%    passed     81.66%
+  52  JVSZ-2125828-Equisetum_hymale                                    51.59%    passed     97.19%
+  53  ABSS-2073765-Sassafras_albidum                                    4.90%    passed     71.21%
+  54  SGTW-2000533-Ginkgo_biloba                                       19.02%    passed     75.45%
+  55  Orysa_v7_0-LOC_Os06g42130_1-Oryza_sativa                          1.15%    failed      0.00%
+  56  Ambtr_v1_0_27-AmTr_v1_0_scaffold00349_1-Amborella_trichopoda      4.32%    passed     98.11%
+  57  Nelnu_v1_0-NNU_015297_RA-Nelumbo_nucifera                        69.74%    passed     50.14%
+  58  Poptr_v3_0-Potri_004G139700_1-Populus_trichocarpa                 4.03%    passed     29.64%
+  59  Solly_iTAGv2_3-Solyc03g096050_2_1-Solanum_lycopersicum            4.32%    passed     97.31%
+  60  Pinta_v2_0-PITA_000011980_RA-Pinus_taeda                          2.02%    passed      8.10%
+  61  QVMR-2000480-Psilotum_nudum                                       1.15%    passed    100.00%
+  62  Nelnu_v1_0-NNU_005746_RA-Nelumbo_nucifera                         2.59%    passed     93.98%
+  63  PIVW-2000366-Ceratopteris_thalictroides                           1.73%    passed     94.92%
+  64  Sorbi_v2_1-Sobic_009G028200_1-Sorghum_bicolor                     2.59%    failed      0.02%
+  65  JVBR-2047614-Aloe_vera                                           14.70%    passed     84.20%
+  66  Poptr_v3_0-Potri_T003300_1-Populus_trichocarpa                    4.03%    passed     42.54%
+  67  Betvu_v1_1-Bv2_024220_uwex_t1-Beta_vulgaris                       2.02%    passed     97.79%
+  68  Pinta_v2_0-PITA_000076581_RA-Pinus_taeda                         27.67%    failed      0.32%
+  69  Arath_TAIR10-AT3G55970_1-Arabidopsis_thaliana                     1.15%    passed     81.73%
+  70  UUHD-2001499-Porella_pinnata                                     24.50%    passed     98.55%
+  71  WBOD-2022710-Magnolia_grandiflora                                61.38%    passed     61.99%
+  72  Pinta_v2_0-PITA_000077295_RA-Pinus_taeda                         60.81%    passed     50.76%
+  73  MEKP-2001244-Dipteris_conjugata                                   0.86%    passed     80.18%
+  74  Sorbi_v2_1-Sobic_001G407800_1-Sorghum_bicolor                     2.02%    failed      0.14%
+  75  Betvu_v1_1-Bv_28310_qmjz_t1-Beta_vulgaris                         3.75%    passed     80.30%
+  76  ALVQ-2005667-Tmesipteris_parva                                    1.15%    passed     99.51%
+  77  UHLI-2088343-Sphagnum_recurvatum                                 59.65%    passed     77.46%
+  78  Pinta_v2_0-PITA_000042784_RA-Pinus_taeda                          2.59%    passed     95.37%
+  79  Mimgu_v2_0-Migut_J00158_1-Mimulus_guttatus                        0.86%    passed     89.70%
+  80  Nelnu_v1_0-NNU_018430_RA-Nelumbo_nucifera                         4.32%    passed     81.42%
+  81  BMJR-2009145-Adiantum_tenerum                                    46.69%    passed     68.08%
+  82  CVEG-2003723-Azolla_cf._caroliniana                               1.44%    passed     92.20%
+  83  Poptr_v3_0-Potri_001G113100_1-Populus_trichocarpa                 1.15%    passed     96.30%
+  84  XZUY-2005939-Cycas_micholitzii                                   24.21%    passed     69.37%
+  85  Vitvi_Genoscope_12X-GSVIVT01011165001-Vitis_vinifera             25.94%    passed     99.68%
+  86  WBOD-2098574-Magnolia_grandiflora                                72.62%    passed     57.36%
+  87  Sorbi_v2_1-Sobic_004G310100_1-Sorghum_bicolor                     5.19%    passed      6.39%
+  88  Poptr_v3_0-Potri_004G139500_1-Populus_trichocarpa                 4.03%    passed     36.46%
+  89  Betvu_v1_1-Bv1_000200_ckiq_t1-Beta_vulgaris                       4.03%    passed     69.47%
+  90  Pinta_v2_0-PITA_000092827_RA-Pinus_taeda                          2.02%    passed     62.91%
+  91  Spipo_v2-Spipo17G0004900-Spirodella_polyrhiza                     0.58%    passed     99.83%
+  92  Orysa_v7_0-LOC_Os03g18030_1-Oryza_sativa                          2.59%    failed      0.00%
+  93  Vitvi_Genoscope_12X-GSVIVT01008913001-Vitis_vinifera             27.09%    passed     98.55%
+  94  CAPN-2007244-Equisetum_diffusum                                   1.44%    passed     99.70%
+  95  Solly_iTAGv2_3-Solyc10g085190_1_1-Solanum_lycopersicum            1.44%    failed      2.08%
+  96  Pinta_v2_0-PITA_000039997_RA-Pinus_taeda                          1.73%    passed     97.47%
+  97  GOWD-2081413-Sphagnum_lescurii                                   20.46%    passed     93.10%
+  98  Arath_TAIR10-AT5G63580_1-Arabidopsis_thaliana                    28.53%    passed     20.22%
+  99  Arath_TAIR10-AT4G22870_2-Arabidopsis_thaliana                    57.93%    passed     57.46%
+ 100  GJPF-2063819-Allium_sativum                                       4.03%    passed     81.28%
+ 101  HPXA-2000369-Ptilidium_pulcherrimum                              89.05%    passed     42.24%
+ 102  Nelnu_v1_0-NNU_017585_RA-Nelumbo_nucifera                         4.03%    passed     74.63%
+ 103  Poptr_v3_0-Potri_008G069300_1-Populus_trichocarpa                 1.73%    passed     98.23%
+ 104  Orysa_v7_0-LOC_Os01g27490_1-Oryza_sativa                          1.15%    failed      0.00%
+ 105  Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_9-Amborella_trichopoda     41.21%    passed     56.94%
+ 106  GTHK-2056534-Gnetum_montanum                                     15.27%    passed     10.43%
+ 107  HPXA-2001059-Ptilidium_pulcherrimum                              23.34%    passed     95.85%
+ 108  Theca_v1_1-Thecc1EG016139t1-Theobroma_cacao                       0.86%    passed     70.71%
+ 109  Arath_TAIR10-AT5G05600_1-Arabidopsis_thaliana                     1.44%    passed     95.92%
+ 110  Nelnu_v1_0-NNU_006875_RA-Nelumbo_nucifera                         4.03%    passed     96.17%
+ 111  Poptr_v3_0-Potri_009G145500_1-Populus_trichocarpa                74.35%    passed     64.26%
+ 112  Orysa_v7_0-LOC_Os01g61610_2-Oryza_sativa                          1.44%    failed      1.26%
+ 113  Arath_TAIR10-AT3G11180_2-Arabidopsis_thaliana                     2.31%    passed     94.65%
+ 114  Vitvi_Genoscope_12X-GSVIVT01008907001-Vitis_vinifera              4.61%    passed     68.42%
+ 115  Arath_TAIR10-AT5G63595_1-Arabidopsis_thaliana                    22.48%    passed     65.67%
+ 116  SGTW-2000271-Ginkgo_biloba                                        4.61%    passed     93.91%
+ 117  Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_287-Amborella_trichopoda   57.35%    passed     39.24%
+ 118  ABSS-2073834-Sassafras_albidum                                    6.05%    passed     91.24%
+ 119  Pinta_v2_0-PITA_000053351_RA-Pinus_taeda                         22.48%    passed     92.94%
+ 120  Mimgu_v2_0-Migut_F00689_1-Mimulus_guttatus                        1.73%    passed     97.89%
+ 121  Nelnu_v1_0-NNU_021116_RA-Nelumbo_nucifera                        34.58%    passed     22.05%
+ 122  Solly_iTAGv2_3-Solyc10g076660_1_1-Solanum_lycopersicum            0.86%    passed     65.15%
+ 123  Theca_v1_1-Thecc1EG021686t1-Theobroma_cacao                       1.73%    passed     97.52%
+ 124  Pinta_v2_0-PITA_000061487_RA-Pinus_taeda                         21.90%    passed     79.78%
+ 125  Spipo_v2-Spipo17G0005000-Spirodella_polyrhiza                     0.86%    passed     65.98%
+ 126  ALVQ-2005668-Tmesipteris_parva                                    1.15%    passed     99.51%
+ 127  Theca_v1_1-Thecc1EG025133t1-Theobroma_cacao                       4.03%    passed     83.95%
+ 128  WBOD-2023597-Magnolia_grandiflora                                 1.44%    passed     37.34%
+ 129  Pinta_v2_0-PITA_000011975_RA-Pinus_taeda                          2.02%    passed     14.45%
+ 130  Pinta_v2_0-PITA_000042782_RA-Pinus_taeda                          6.63%    passed     95.03%
+ 131  ABSS-2074343-Sassafras_albidum                                    3.46%    passed     98.58%
+ 132  Poptr_v3_0-Potri_002G086700_1-Populus_trichocarpa                 4.03%    passed     86.13%
+ 133  Sorbi_v2_1-Sobic_004G000700_1-Sorghum_bicolor                     2.31%    failed      0.01%
+ 134  MEKP-2009936-Dipteris_conjugata                                   1.44%    passed     90.80%
+ 135  AALA-2073523-Meliosma_cuneifolia                                 54.47%    passed     98.48%
+ 136  HPXA-2000367-Ptilidium_pulcherrimum                              62.82%    passed     96.40%
+ 137  Pinta_v2_0-PITA_000061344_RA-Pinus_taeda                         57.64%    passed     20.20%
+ 138  QVMR-2012273-Psilotum_nudum                                       1.15%    passed     97.04%
+ 139  CAPN-2004627-Equisetum_diffusum                                  20.46%    passed     96.92%
+ 140  RCBT-2005315-Sphagnum_palustre                                    6.05%    passed     96.10%
+ 141  CVEG-2124962-Azolla_cf._caroliniana                              64.55%    passed     98.27%
+ 142  CVEG-2124660-Azolla_cf._caroliniana                              45.82%    passed     38.48%
+ 143  OSHQ-2046109-Sarcandra_glabra                                    35.73%    passed     74.46%
+ 144  RCBT-2179494-Sphagnum_palustre                                   55.33%    passed     18.00%
+ 145  AALA-2005806-Meliosma_cuneifolia                                  2.88%    passed     97.22%
+ 146  Poptr_v3_0-Potri_016G117100_1-Populus_trichocarpa                 1.44%    passed     97.07%
+ 147  OSHQ-2042462-Sarcandra_glabra                                    72.33%    passed     66.86%
+ 148  Theca_v1_1-Thecc1EG035060t1-Theobroma_cacao                       4.03%    passed     94.05%
+ 149  CAPN-2009642-Equisetum_diffusum                                  21.90%    passed     20.33%
+ 150  SGTW-2036038-Ginkgo_biloba                                       53.03%    passed     45.97%
+ 151  Solly_iTAGv2_3-Solyc11g013110_1_1-Solanum_lycopersicum            3.17%    passed     39.01%
+ 152  Orysa_v7_0-LOC_Os05g03640_1-Oryza_sativa                          2.88%    failed      0.07%
+ 153  Poptr_v3_0-Potri_003G119100_1-Populus_trichocarpa                 1.15%    passed     88.80%
+ 154  Pinta_v2_0-PITA_000022353_RA-Pinus_taeda                          1.15%    passed     72.49%
+ 155  PIVW-2015072-Ceratopteris_thalictroides                           3.75%    passed     79.13%
+ 156  Arath_TAIR10-AT5G63590_1-Arabidopsis_thaliana                    11.82%    passed     66.50%
+ 157  Nelnu_v1_0-NNU_012345_RA-Nelumbo_nucifera                         1.44%    passed     93.96%
+ 158  Pinta_v2_0-PITA_000064959_RA-Pinus_taeda                          2.02%    passed     78.07%
+ 159  Mimgu_v2_0-Migut_E01023_1-Mimulus_guttatus                        1.15%    passed     91.47%
+ 160  Pinta_v2_0-PITA_000064233_RA-Pinus_taeda                         65.42%    failed      1.17%
+ 161  Arath_TAIR10-AT2G38240_1-Arabidopsis_thaliana                     1.73%    passed     91.06%
+ 162  Sorbi_v2_1-Sobic_003G021700_1-Sorghum_bicolor                    12.10%    passed     35.17%
+ 163  HPXA-2001058-Ptilidium_pulcherrimum                              21.61%    passed     94.48%
+ 164  XZUY-2011434-Cycas_micholitzii                                   42.36%    passed     48.84%
+ 165  ENQF-2084088-Lycopodium_annotinum                                 2.02%    passed      9.45%
+ 166  Poptr_v3_0-Potri_004G139600_1-Populus_trichocarpa                 4.03%    passed     24.46%
+ 167  UUHD-2001501-Porella_pinnata                                     25.36%    passed     98.64%
+ 168  Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_23-Amborella_trichopoda    21.61%    passed     90.49%
+ 169  Poptr_v3_0-Potri_006G101200_1-Populus_trichocarpa                 1.44%    passed     85.76%
+ 170  JVSZ-2000344-Equisetum_hymale                                     1.44%    passed     93.66%
+ 171  PIVW-2091938-Ceratopteris_thalictroides                           1.15%    passed     74.59%
+ 172  Poptr_v3_0-Potri_006G101100_1-Populus_trichocarpa                 1.44%    passed     95.20%
+ 173  Solly_iTAGv2_3-Solyc10g076680_1_1-Solanum_lycopersicum           76.66%    passed     98.64%
+ 174  AALA-2073945-Meliosma_cuneifolia                                 62.54%    passed     22.47%
+ 175  HPXA-2001057-Ptilidium_pulcherrimum                               8.36%    passed     89.70%
+ 176  GTHK-2006619-Gnetum_montanum                                     59.37%    passed     13.87%
+ 177  Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_14-Amborella_trichopoda     4.32%    passed     98.32%
+ 178  Vitvi_Genoscope_12X-GSVIVT01032809001-Vitis_vinifera              1.73%    passed     98.19%
+ 179  Sorbi_v2_1-Sobic_003G345100_1-Sorghum_bicolor                     0.86%    failed      0.01%
+ 180  Solly_iTAGv2_3-Solyc10g076670_1_1-Solanum_lycopersicum           39.19%    passed     34.39%
+ 181  ALVQ-2000667-Tmesipteris_parva                                   63.98%    passed     86.43%
+ 182  Orysa_v7_0-LOC_Os02g52840_1-Oryza_sativa                          4.61%    failed      0.49%
+ 183  AALA-2075823-Meliosma_cuneifolia                                 46.40%    passed     92.86%
+ 184  Theca_v1_1-Thecc1EG042490t1-Theobroma_cacao                       1.73%    passed     98.85%
+ 185  VDAO-2005128-Ephedra_sinica                                       9.22%    passed     97.69%
+ 186  Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_188-Amborella_trichopoda   10.09%    passed     92.34%
+ 187  WBOD-2010440-Magnolia_grandiflora                                40.92%    passed     93.05%
+ 188  WBOD-2024359-Magnolia_grandiflora                                21.04%    passed     60.89%
+ 189  ENQF-2000228-Lycopodium_annotinum                                 3.46%    passed     80.13%
+ 190  Pinta_v2_0-PITA_000029883_RA-Pinus_taeda                         65.99%    passed     37.81%
+ 191  UUHD-2001500-Porella_pinnata                                     78.10%    passed     74.35%
+ 192  UHLI-2018392-Sphagnum_recurvatum                                 13.83%    passed     92.85%
+ 193  AALA-2078684-Meliosma_cuneifolia                                  4.32%    passed     29.44%
+ 194  HPXA-2134398-Ptilidium_pulcherrimum                               6.92%    passed     78.05%
+ 195  Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_288-Amborella_trichopoda   84.73%    passed     86.11%
+ 196  SGTW-2000272-Ginkgo_biloba                                       57.35%    passed     86.35%
+ 197  Vitvi_Genoscope_12X-GSVIVT01019892001-Vitis_vinifera             33.72%    passed     77.85%
+ 198  Arath_TAIR10-AT4G22880_1-Arabidopsis_thaliana                     1.15%    passed     19.23%
+ 199  RCBT-2024950-Sphagnum_palustre                                   50.72%    passed     51.67%
+ 200  VDAO-2003936-Ephedra_sinica                                      66.57%    passed     94.20%
+ 201  XZUY-2049780-Cycas_micholitzii                                    1.73%    passed     98.90%
+ 202  Vitvi_Genoscope_12X-GSVIVT01008914001-Vitis_vinifera              3.46%    passed     98.88%
+ 203  Pinta_v2_0-PITA_000089870_RA-Pinus_taeda                          1.15%    failed      2.04%
+ 204  Nelnu_v1_0-NNU_006876_RA-Nelumbo_nucifera                         0.86%    passed     93.35%
+ 205  Orysa_v7_0-LOC_Os11g25060_1-Oryza_sativa                          2.02%    passed     31.77%
+ 206  CBAE-2014111-Huperzia_myrisinites                                 3.46%    passed     54.34%
+ 207  Ambtr_v1_0_27-AmTr_v1_0_scaffold00007_64-Amborella_trichopoda     2.88%    passed     71.68%
+ 208  UUHD-2013080-Porella_pinnata                                      6.63%    passed     71.64%
+ 209  Nelnu_v1_0-NNU_017324_RA-Nelumbo_nucifera                         9.80%    passed     99.66%
+ 210  UPMJ-2080508-Pseudolycopodiella_caroliniana                      34.87%    passed     63.69%
+ 211  AALA-2008582-Meliosma_cuneifolia                                  9.80%    passed     36.84%
+ 212  Arath_TAIR10-AT5G08640_1-Arabidopsis_thaliana                     3.75%    passed     75.28%
+ 213  OSHQ-2047471-Sarcandra_glabra                                     4.03%    passed     96.70%
+ 214  Pinta_v2_0-PITA_000001634_RA-Pinus_taeda                          2.88%    passed     91.00%
+ 215  ZXJO-2005153-Hemionitis_arifolia                                  2.02%    passed     83.53%
+ 216  HPXA-2001060-Ptilidium_pulcherrimum                              46.69%    passed     94.81%
+ 217  Selmo_v1_0-79989-Selaginella_moellendorffii                       1.73%    passed     63.90%
+ 218  BNCU-2079402-Radula_lindenbergia                                 69.16%    passed     65.89%
+ 219  CBAE-2008336-Huperzia_myrisinites                                 2.31%    passed     98.00%
+ 220  UUHD-2148344-Porella_pinnata                                     22.19%    passed     74.63%
+ 221  AALA-2077414-Meliosma_cuneifolia                                 21.04%    passed     99.29%
+ 222  UPMJ-2017671-Pseudolycopodiella_caroliniana                       2.02%    passed     44.45%
+ 223  BMJR-2009144-Adiantum_tenerum                                     1.73%    passed     73.74%
+ 224  WLIC-2120406-Dioon_edule                                          3.75%    passed     63.75%
+ 225  CBAE-2009268-Huperzia_myrisinites                                 3.46%    passed     17.44%
+ 226  WBOD-2019473-Magnolia_grandiflora                                25.36%    passed     69.56%
+ 227  ZXJO-2005152-Hemionitis_arifolia                                  2.02%    passed     83.53%
+ 228  Solly_iTAGv2_3-Solyc08g080040_2_1-Solanum_lycopersicum            0.58%    passed     60.62%
+WARNING: 31 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                            16.39%  16 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Afi_v2_s19G002650.1 is identical to Azfi_s0076.g037826 but kept for subsequent analysis
+NOTE: Afi_v2_s44G002700.1 is identical to Azfi_s0108.g045269 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G08640_1-Arabidopsis_thaliana is identical to Arabidopsis_thaliana_FLS1 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G63590_1-Arabidopsis_thaliana is identical to Arabidopsis_thaliana_FLS3 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G63600_2-Arabidopsis_thaliana is identical to Arabidopsis_thaliana_FLS5 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT4G22880_1-Arabidopsis_thaliana is identical to Arabidopsis_thaliana_LDOX but kept for subsequent analysis
+NOTE: ALVQ-2005668-Tmesipteris_parva is identical to ALVQ-2005667-Tmesipteris_parva but kept for subsequent analysis
+NOTE: ZXJO-2005152-Hemionitis_arifolia is identical to ZXJO-2005153-Hemionitis_arifolia but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.149 seconds
+
+NOTE: 90 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+8 trees examined
+Threads: 1 / Time: 4.087 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -109329
+Threads: 2 / Time: 2.166 sec / Speedup: 1.886 / Efficiency: 94% / LogL: -109329
+Threads: 3 / Time: 1.499 sec / Speedup: 2.727 / Efficiency: 91% / LogL: -109329
+Threads: 4 / Time: 1.252 sec / Speedup: 3.264 / Efficiency: 82% / LogL: -109329
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -61413.538
+2. Current log-likelihood: -60480.340
