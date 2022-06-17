@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,16 +41,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1848"
-     inkscape:window-height="1136"
+     inkscape:window-height="1163"
      id="namedview775"
      showgrid="false"
-     inkscape:zoom="1.1295342"
-     inkscape:cx="374.93641"
-     inkscape:cy="316.70583"
-     inkscape:window-x="72"
-     inkscape:window-y="27"
+     inkscape:zoom="1.5974026"
+     inkscape:cx="496.52843"
+     inkscape:cy="222.69592"
+     inkscape:window-x="1992"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer3"
      units="cm"
      fit-margin-left="1"
      fit-margin-top="1"
@@ -1260,7 +1260,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text626">90</text>
     <text
-       x="414.62457"
+       x="406.62457"
        y="434.95151"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1277,7 +1277,7 @@
        id="text630">100</text>
     <text
        x="490.9769"
-       y="578.45941"
+       y="577.83344"
        stroke-miterlimit="10"
        font-weight="normal"
        font-size="30"
@@ -1300,8 +1300,8 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text636">96</text>
     <text
-       x="395.73581"
-       y="697.8667"
+       x="392.91864"
+       y="698.17969"
        stroke-miterlimit="10"
        font-weight="normal"
        font-size="30"
@@ -1340,7 +1340,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text646">92</text>
     <text
-       x="480.65234"
+       x="478.65234"
        y="838.08813"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1364,7 +1364,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text652">100</text>
     <text
-       x="456.96329"
+       x="454.96329"
        y="759.21356"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1372,8 +1372,8 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text654">100</text>
     <text
-       x="502.62323"
-       y="586.12775"
+       x="498.62323"
+       y="586.44073"
        stroke-miterlimit="10"
        font-weight="normal"
        font-size="30"
@@ -1388,7 +1388,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text658">97</text>
     <text
-       x="418.66345"
+       x="416.66345"
        y="800.84186"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1444,7 +1444,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text672">100</text>
     <text
-       x="465.59363"
+       x="463.59363"
        y="829.32428"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1468,7 +1468,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text678">100</text>
     <text
-       x="292.64404"
+       x="290.64404"
        y="620.36151"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1492,8 +1492,8 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text684">98</text>
     <text
-       x="466.39087"
-       y="647.47461"
+       x="460.51276"
+       y="646.22266"
        stroke-miterlimit="10"
        font-weight="normal"
        font-size="30"
@@ -1620,7 +1620,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text716">98</text>
     <text
-       x="455.16168"
+       x="459.16168"
        y="496.2984"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1644,15 +1644,15 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text722">90</text>
     <text
-       x="470.48175"
-       y="654.04749"
+       x="462.91666"
+       y="654.67346"
        stroke-miterlimit="10"
        font-weight="normal"
        font-size="30"
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text724">100</text>
     <text
-       x="519.88208"
+       x="516.12622"
        y="618.99213"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1660,7 +1660,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text726">100</text>
     <text
-       x="455.81824"
+       x="453.81824"
        y="732.92206"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -1708,7 +1708,7 @@
        style="font-weight:normal;font-size:10.95479965px;font-family:Arial;text-anchor:middle;mix-blend-mode:normal;fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
        id="text738">96</text>
     <text
-       x="456.92938"
+       x="454.92938"
        y="517.11249"
        stroke-miterlimit="10"
        font-weight="normal"
@@ -2234,6 +2234,70 @@
        font-weight="none"
        stroke-miterlimit="10"
        d="m 581.668,603.95688 -54.83715,0.88532"
+       sodipodi:nodetypes="cc" />
+    <text
+       id="text1505"
+       style="font-weight:bold;font-size:58.42559814px;font-family:Arial;text-anchor:start;mix-blend-mode:normal;fill:#3a58d6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.36515999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+       font-size="160"
+       font-weight="bold"
+       stroke-miterlimit="10"
+       y="820.89087"
+       x="598.31708" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1523"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:justify;letter-spacing:0px;word-spacing:0px;fill:#3a58d6;fill-opacity:0.97169812"
+       transform="translate(89.230616,362.42985)"><flowRegion
+         id="flowRegion1525"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#3a58d6;fill-opacity:0.97169812"><rect
+           id="rect1527"
+           width="147.11385"
+           height="58.219524"
+           x="555.27643"
+           y="443.47116"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#3a58d6;fill-opacity:0.97169812" /></flowRegion><flowPara
+         id="flowPara1529"><flowSpan
+   style="font-style:italic"
+   id="flowSpan1531">A. thaliana</flowSpan> </flowPara><flowPara
+         id="flowPara1533">JOX1,2,3,4</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       d="m 641.17752,833.31777 c -61.75111,0.88532 5.33599,50.15344 -47.34059,51.03876"
+       stroke-miterlimit="10"
+       font-weight="none"
+       font-size="none"
+       text-anchor="none"
+       style="font-family:none;display:inline;mix-blend-mode:normal;fill:none;fill-rule:nonzero;stroke:#aaaaaa;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0999999;stroke-dasharray:8, 4;stroke-dashoffset:4.69999981"
+       id="path1535"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1537"
+       style="font-family:none;display:inline;mix-blend-mode:normal;fill:none;fill-rule:nonzero;stroke:#aaaaaa;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0999999;stroke-dasharray:8, 4;stroke-dashoffset:4.69999981"
+       text-anchor="none"
+       font-size="none"
+       font-weight="none"
+       stroke-miterlimit="10"
+       d="m 641.17752,833.31777 c -61.75111,0.88532 -5.30629,48.90141 -57.98287,49.78673"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       d="m 641.17752,833.31777 c -61.75111,0.88532 -14.07052,47.33637 -66.7471,48.22169"
+       stroke-miterlimit="10"
+       font-weight="none"
+       font-size="none"
+       text-anchor="none"
+       style="font-family:none;display:inline;mix-blend-mode:normal;fill:none;fill-rule:nonzero;stroke:#aaaaaa;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0999999;stroke-dasharray:8, 4;stroke-dashoffset:4.69999981"
+       id="path1539"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1541"
+       style="font-family:none;display:inline;mix-blend-mode:normal;fill:none;fill-rule:nonzero;stroke:#aaaaaa;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0999999;stroke-dasharray:8, 4;stroke-dashoffset:4.69999981"
+       text-anchor="none"
+       font-size="none"
+       font-weight="none"
+       stroke-miterlimit="10"
+       d="m 641.17752,833.31777 c -61.75111,0.88532 -21.89572,45.77133 -74.5723,46.65665"
        sodipodi:nodetypes="cc" />
   </g>
   <g
