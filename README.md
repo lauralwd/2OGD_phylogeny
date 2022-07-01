@@ -52,7 +52,7 @@ The workflows for which data is shared here, are documented in JuPyter notebooks
 The workflow describing the final version of the complete tree is [2OGD_tree_v5](2OGD_tree_v5.ipynb). 
 The workflow describing the final version of the subsetted tree is [v2g5_JOX-ANS-FLS-subset](v2g5_JOX-ANS-FLS-subset.ipynb). 
 The other workflows are explorative and should be interpreted as such. 
-A blank version of the workflow is maintained [here](https://github.com/lauralwd/lauras_phylogeny_wf).
+A blank version of the workflow is maintained here: [Laura's phylogeny workflow](https://github.com/lauralwd/lauras_phylogeny_wf).
 Note that figures which are embedded in the JuPyter notebooks are not properly displayed online on Github. 
 You may download the `.ipynb` files to display them locally, including images. 
 
