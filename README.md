@@ -31,7 +31,7 @@ Supplemental figure:
 
 ## Guide through directories and files
 
-### directories
+### Directories
 The `data` folder contains (unaligned) fasta files, lists of sequence names, and aligned sequences in both trimmed and untrimmed versions. 
 File names tend to be long, but are meant to reflect the history of that specific file. 
 For example: `orthogroup_AtLDOX_AT4g22880_selection-v2_guide-v5_aligned-mafft-einsi_trim-gt30.fasta` contains sequences from the 1kP orthogroup retrevied with LDOX from _Arabidopsis thaliana_ from which a manual selection was taken (v2). 
@@ -48,7 +48,7 @@ The `figures` folder contains the final versions of the figures shown in Güngö
 These were made by importing a `.treefile` in [iToL](https://itol.embl.de/), then adding annotation manually, and downloading these as `.svg` file.
 These `.svg` files were then finalised in Inkscape to their published form and exported as pdf or png. 
 
-### files
+### Files
 The workflows for which data is shared here, are documented in JuPyter notebooks (`*.ipynb`).
 The workflow describing the final version of the complete tree is [2OGD_tree_v5](2OGD_tree_v5.ipynb). 
 The workflow describing the final version of the subsetted tree is [v2g5_JOX-ANS-FLS-subset](v2g5_JOX-ANS-FLS-subset.ipynb). 
@@ -77,5 +77,3 @@ The subset used here is online in [google sheets](https://docs.google.com/spread
 The 1kP project provides a wealth of sequencing information on taxa of plants for which few sequences are available from genome sequences, let alone sequences of which their function is verified. 
 Therefore, we thankfully made use of the sequences collected in literature and online databases; 
 most notably so in [Kawai _et al_. 2014: Evolution and diversity of the 2–oxoglutarate-dependent dioxygenase superfamily in plants](https://onlinelibrary.wiley.com/doi/10.1111/tpj.12479).
-
- 
