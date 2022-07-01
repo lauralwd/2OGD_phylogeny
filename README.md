@@ -22,7 +22,8 @@ Secondly of the entire 2-OGD superfamily
 
 Main text figure:
 ----------------------
-![](figures/v2g5_JOX-ANS-FLS-subset_trees_transfer-bootstrap.png)
+<img src="figures/v2g5_JOX-ANS-FLS-subset_trees_transfer-bootstrap.png" width="500" />
+
 
 Supplemental figure:
 ----------------------
