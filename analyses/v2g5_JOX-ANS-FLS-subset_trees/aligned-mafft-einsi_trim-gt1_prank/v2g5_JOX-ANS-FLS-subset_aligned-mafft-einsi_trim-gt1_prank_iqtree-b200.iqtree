@@ -1,0 +1,1173 @@
+IQ-TREE 2.1.2 COVID-edition built Mar 30 2021
+
+Input file name: data/alignments_trimmed/v2g5_JOX-ANS-FLS-subset_aligned-mafft-einsi_trim-gt1_prank.fasta
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (200 replicates)
+Random seed number: 879999
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 233 sequences with 747 amino-acid sites
+Number of constant sites: 274 (= 36.6801% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 274 (= 36.6801% of all sites)
+Number of parsimony informative sites: 421
+Number of distinct site patterns: 647
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+R7           -66267.365  133484.731 +    0.115  135153.366 +   0.0614  135677.362 +    0.926
+JTT+R8           -66263.325  133480.651 +    0.885  135175.863 - 7.99e-07  135682.514 +   0.0705
+JTT+R6           -66279.703  133505.406 - 3.73e-06  135147.912 +    0.938  135688.805 -  0.00303
+JTTDCMut+R7      -66275.348  133500.697 - 3.93e-05  135169.331 - 2.09e-05  135693.328 - 0.000316
+JTTDCMut+R8      -66271.351  133496.701 - 0.000289  135191.913 - 2.61e-10  135698.564 -  2.3e-05
+JTTDCMut+R6      -66287.598  133521.196 - 1.39e-09  135163.701 -  0.00035  135704.594 - 1.13e-06
+LG+R7            -66296.931  133543.862 - 1.66e-14  135212.496 - 8.87e-15  135736.493 - 1.34e-13
+LG+R8            -66292.217  133538.434 - 2.51e-13  135233.646 - 2.27e-19  135740.297 -    2e-14
+LG+R6            -66307.367  133560.733 - 3.61e-18  135203.239 - 9.08e-13  135744.132 - 2.94e-15
+LG+R5            -66322.928  133587.856 - 4.65e-24  135204.671 - 4.44e-13  135762.023 - 3.83e-19
+LG+R4            -66370.472  133678.945 - 7.72e-44  135270.497 - 2.26e-27  135843.879 - 6.43e-37
+LG+F+R7          -66289.069  133566.138 - 2.42e-19  135506.853 - 1.07e-78  135846.474 - 1.76e-37
+LG+F+R6          -66300.116  133584.232 - 2.85e-23  135494.122 - 6.22e-76  135855.336 - 2.09e-39
+LG+F+R8          -66287.009  133566.018 - 2.57e-19  135538.114 - 1.74e-85  135855.586 - 1.84e-39
+WAG+R7           -66381.194  133712.388 - 4.22e-51  135381.023 - 2.25e-51  135905.019 -  3.4e-50
+LG+G4            -66419.680  133767.360 - 4.88e-63  135297.573 - 2.98e-33  135909.214 - 4.17e-51
+LG+I+G4          -66417.296  133764.592 - 1.95e-62  135306.870 - 2.85e-35  135911.062 - 1.66e-51
+WAG+R6           -66391.548  133729.097 - 9.94e-55  135371.602 -  2.5e-49  135912.495 - 8.09e-52
+WAG+R8           -66379.139  133712.278 - 4.46e-51  135407.490 - 4.03e-57  135914.141 - 3.55e-52
+JTT+F+R7         -66379.203  133746.406 - 1.73e-58  135687.120 - 7.67e-118  136026.742 - 1.26e-76
+JTT+F+R8         -66376.017  133744.034 - 5.67e-58  135716.130 - 3.85e-124  136033.602 - 4.08e-78
+JTT+F+R6         -66391.506  133767.012 - 5.81e-63  135676.902 - 1.27e-115  136038.116 - 4.26e-79
+JTTDCMut+F+R7    -66387.232  133762.465 - 5.64e-62  135703.179 - 2.5e-121  136042.801 -  4.1e-80
+JTTDCMut+F+R8    -66384.035  133760.070 - 1.87e-61  135732.166 - 1.27e-127  136049.638 - 1.34e-81
+JTTDCMut+F+R6    -66399.673  133783.347 - 1.65e-66  135693.237 - 3.6e-119  136054.451 - 1.21e-82
+LG+R3            -66593.149  134120.297 - 1.12e-139  135687.007 - 8.11e-118  136276.000 - 9.42e-131
+WAG+F+R7         -66529.064  134046.128 - 1.43e-123  135986.842 - 6.32e-183  136326.464 - 1.04e-141
+WAG+F+R6         -66538.794  134061.587 - 6.28e-127  135971.477 - 1.37e-179  136332.691 - 4.61e-143
+WAG+F+R8         -66526.919  134045.837 - 1.65e-123  136017.933 - 1.12e-189  136335.405 - 1.19e-143
+VT+R7            -66601.344  134152.688 - 1.04e-146  135821.323 - 5.53e-147  136345.319 - 8.35e-146
+VT+R8            -66598.055  134150.109 - 3.76e-146  135845.321 - 3.4e-152  136351.973 -   3e-147
+VT+R6            -66611.704  134169.409 - 2.43e-150  135811.914 - 6.11e-145  136352.807 - 1.97e-147
+VT+F+R7          -66744.583  134477.165 - 3.6e-217  136417.880 - 1.59e-276  136757.502 - 2.61e-235
+VT+F+R6          -66755.274  134494.547 - 6.05e-221  136404.437 - 1.32e-273  136765.652 - 4.44e-237
+VT+F+R8          -66742.297  134476.594 - 4.79e-217  136448.690 - 3.25e-283  136766.162 - 3.44e-237
+rtREV+F+R7       -66813.799  134615.597 - 3.14e-247  136556.312 - 1.39e-306  136895.934 - 2.28e-265
+rtREV+F+R6       -66822.364  134628.728 - 4.42e-250  136538.618 - 9.64e-303  136899.832 - 3.24e-266
+rtREV+F+R8       -66809.447  134610.894 - 3.29e-246  136582.990 - 2.23e-312  136900.463 - 2.36e-266
+cpREV+R7         -66987.521  134925.041 -   2e-314  136593.676 - 1.07e-314  137117.672 - 1.61e-313
+cpREV+R6         -66995.357  134936.714 - 5.84e-317  136579.220 - 1.47e-311  137120.113 - 4.76e-314
+cpREV+R8         -66984.805  134923.610 - 4.1e-314  136618.821 - 3.7e-320  137125.473 - 3.26e-315
+LG+R2            -67069.353  135068.705 -        0  136610.983 - 1.86e-318  137215.176 -        0
+Dayhoff+R7       -67042.473  135034.945 -        0  136703.580 -        0  137227.576 -        0
+Dayhoff+R6       -67051.552  135049.104 -        0  136691.609 -        0  137232.503 -        0
+DCMut+R7         -67045.045  135040.090 -        0  136708.724 -        0  137232.721 -        0
+Dayhoff+R8       -67039.390  135032.780 -        0  136727.991 -        0  137234.643 -        0
+DCMut+R6         -67053.944  135053.888 -        0  136696.394 -        0  137237.287 -        0
+mtInv+F+R6       -66991.652  134967.304 - 1.48e-323  136877.194 -        0  137238.408 -        0
+DCMut+R8         -67041.980  135037.960 -        0  136733.172 -        0  137239.823 -        0
+mtInv+F+R7       -66985.912  134959.825 - 5.58e-322  136900.539 -        0  137240.161 -        0
+cpREV+F+R7       -67021.392  135030.785 -        0  136971.499 -        0  137311.121 -        0
+cpREV+F+R6       -67032.127  135048.254 -        0  136958.143 -        0  137319.358 -        0
+cpREV+F+R8       -67021.309  135034.619 -        0  137006.715 -        0  137324.187 -        0
+Dayhoff+F+R7     -67044.165  135076.331 -        0  137017.045 -        0  137356.667 -        0
+Dayhoff+F+R6     -67052.366  135088.732 -        0  136998.622 -        0  137359.836 -        0
+DCMut+F+R7       -67046.602  135081.204 -        0  137021.918 -        0  137361.540 -        0
+DCMut+F+R6       -67054.750  135093.500 -        0  137003.390 -        0  137364.604 -        0
+Dayhoff+F+R8     -67042.411  135076.821 -        0  137048.917 -        0  137366.389 -        0
+DCMut+F+R8       -67044.829  135081.658 -        0  137053.754 -        0  137371.226 -        0
+rtREV+R7         -67213.962  135377.924 -        0  137046.558 -        0  137570.555 -        0
+rtREV+R8         -67208.681  135371.362 -        0  137066.574 -        0  137573.225 -        0
+rtREV+R6         -67222.304  135390.608 -        0  137033.114 -        0  137574.007 -        0
+mtMet+F+R7       -67184.194  135356.387 -        0  137297.102 -        0  137636.723 -        0
+mtMet+F+R8       -67179.202  135350.405 -        0  137322.501 -        0  137639.973 -        0
+mtMet+F+R6       -67198.766  135381.532 -        0  137291.422 -        0  137652.636 -        0
+PMB+R6           -67314.422  135574.844 -        0  137217.350 -        0  137758.243 -        0
+PMB+R7           -67311.569  135573.138 -        0  137241.773 -        0  137765.769 -        0
+Blosum62+R6      -67344.224  135634.449 -        0  137276.954 -        0  137817.848 -        0
+Blosum62+R7      -67340.046  135630.092 -        0  137298.726 -        0  137822.723 -        0
+PMB+F+R6         -67523.499  136030.998 -        0  137940.888 -        0  138302.102 -        0
+PMB+F+R7         -67518.575  136025.150 -        0  137965.864 -        0  138305.486 -        0
+Blosum62+F+R7    -67522.572  136033.143 -        0  137973.857 -        0  138313.479 -        0
+Blosum62+F+R6    -67529.540  136043.081 -        0  137952.971 -        0  138314.185 -        0
+Blosum62+F+R8    -67517.633  136027.266 -        0  137999.362 -        0  138316.834 -        0
+mtREV+F+R7       -67540.619  136069.238 -        0  138009.953 -        0  138349.575 -        0
+mtREV+F+R8       -67534.984  136061.967 -        0  138034.063 -        0  138351.536 -        0
+mtREV+F+R6       -67555.143  136094.285 -        0  138004.175 -        0  138365.389 -        0
+FLU+F+R7         -67552.530  136093.060 -        0  138033.774 -        0  138373.396 -        0
+FLU+F+R8         -67548.590  136089.180 -        0  138061.276 -        0  138378.749 -        0
+FLU+F+R6         -67568.879  136121.758 -        0  138031.648 -        0  138392.862 -        0
+mtZOA+F+R7       -67593.213  136174.425 -        0  138115.139 -        0  138454.761 -        0
+mtZOA+F+R8       -67589.203  136170.406 -        0  138142.502 -        0  138459.974 -        0
+mtZOA+F+R6       -67612.181  136208.361 -        0  138118.251 -        0  138479.466 -        0
+HIVb+F+R7        -67641.024  136270.047 -        0  138210.762 -        0  138550.384 -        0
+HIVb+F+R8        -67639.611  136271.222 -        0  138243.318 -        0  138560.791 -        0
+HIVb+F+R6        -67665.383  136314.767 -        0  138224.656 -        0  138585.871 -        0
+HIVb+R7          -67874.719  136699.439 -        0  138368.073 -        0  138892.070 -        0
+HIVb+R8          -67872.661  136699.322 -        0  138394.534 -        0  138901.185 -        0
+HIVb+R6          -67899.223  136744.447 -        0  138386.952 -        0  138927.846 -        0
+FLU+R8           -67936.568  136827.135 -        0  138522.347 -        0  139028.998 -        0
+FLU+R7           -67949.616  136849.233 -        0  138517.868 -        0  139041.864 -        0
+FLU+R6           -67958.729  136863.457 -        0  138505.963 -        0  139046.856 -        0
+mtVer+F+R7       -68033.069  137054.137 -        0  138994.851 -        0  139334.473 -        0
+mtVer+F+R8       -68030.599  137053.199 -        0  139025.295 -        0  139342.767 -        0
+mtVer+F+R6       -68053.724  137091.448 -        0  139001.338 -        0  139362.552 -        0
+mtMAM+F+R8       -68787.068  138566.135 -        0  140538.231 -        0  140855.704 -        0
+mtMAM+F+R7       -68796.282  138580.564 -        0  140521.279 -        0  140860.901 -        0
+mtMAM+F+R6       -68826.629  138637.258 -        0  140547.148 -        0  140908.362 -        0
+mtART+F+R8       -68815.195  138622.391 -        0  140594.487 -        0  140911.959 -        0
+mtART+F+R7       -68829.484  138646.968 -        0  140587.683 -        0  140927.305 -        0
+mtART+F+R6       -68840.936  138665.873 -        0  140575.763 -        0  140936.977 -        0
+mtZOA+R8         -69179.460  139312.920 -        0  141008.132 -        0  141514.783 -        0
+mtZOA+R7         -69190.478  139330.956 -        0  140999.590 -        0  141523.587 -        0
+LG+I             -69232.220  139392.439 -        0  140922.652 -        0  141534.294 -        0
+mtZOA+R6         -69203.503  139353.006 -        0  140995.511 -        0  141536.404 -        0
+LG               -69293.862  139513.724 -        0  141031.971 -        0  141650.962 -        0
+mtMet+R7         -69692.562  140335.125 -        0  142003.759 -        0  142527.755 -        0
+mtMet+R8         -69691.627  140337.254 -        0  142032.466 -        0  142539.117 -        0
+mtMet+R6         -69709.849  140365.698 -        0  142008.203 -        0  142549.097 -        0
+mtREV+R8         -69866.193  140686.387 -        0  142381.599 -        0  142888.250 -        0
+mtREV+R7         -69876.569  140703.139 -        0  142371.774 -        0  142895.770 -        0
+mtREV+R6         -69893.631  140733.261 -        0  142375.767 -        0  142916.660 -        0
+mtVer+R7         -70077.049  141104.097 -        0  142772.732 -        0  143296.728 -        0
+HIVw+F+R8        -70008.964  141009.929 -        0  142982.025 -        0  143299.497 -        0
+HIVw+F+R7        -70018.683  141025.365 -        0  142966.080 -        0  143305.702 -        0
+mtVer+R8         -70076.286  141106.572 -        0  142801.784 -        0  143308.435 -        0
+HIVw+F+R6        -70029.973  141043.945 -        0  142953.835 -        0  143315.049 -        0
+mtVer+R6         -70101.385  141148.769 -        0  142791.275 -        0  143332.168 -        0
+mtInv+R7         -70152.032  141254.064 -        0  142922.699 -        0  143446.695 -        0
+mtInv+R8         -70149.188  141252.376 -        0  142947.588 -        0  143454.240 -        0
+mtInv+R6         -70167.287  141280.574 -        0  142923.079 -        0  143463.973 -        0
+HIVw+R8          -71001.471  142956.942 -        0  144652.153 -        0  145158.805 -        0
+HIVw+R7          -71012.511  142975.022 -        0  144643.657 -        0  145167.653 -        0
+HIVw+R6          -71019.940  142985.881 -        0  144628.386 -        0  145169.280 -        0
+mtMAM+R8         -71245.253  143444.506 -        0  145139.718 -        0  145646.369 -        0
+mtMAM+R7         -71261.440  143472.881 -        0  145141.515 -        0  145665.512 -        0
+mtMAM+R6         -71281.776  143509.551 -        0  145152.057 -        0  145692.950 -        0
+mtART+R8         -71298.224  143550.448 -        0  145245.660 -        0  145752.311 -        0
+mtART+R7         -71305.651  143561.302 -        0  145229.936 -        0  145753.933 -        0
+mtART+R6         -71313.106  143572.211 -        0  145214.717 -        0  145755.610 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+R7
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.0825,0.0634) (0.0754,0.2036) (0.1449,0.3987) (0.2494,0.7265) (0.1883,1.1260) (0.1839,1.7343) (0.0756,2.7704)
+
+ Category  Relative_rate  Proportion
+  1         0.0634         0.0825
+  2         0.2036         0.0754
+  3         0.3987         0.1449
+  4         0.7265         0.2494
+  5         1.1260         0.1883
+  6         1.7343         0.1839
+  7         2.7704         0.0756
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -66199.1671 (s.e. 2814.3578)
+Unconstrained log-likelihood (without tree): -4763.8005
+Number of free parameters (#branches + #model parameters): 475
+Akaike information criterion (AIC) score: 133348.3342
+Corrected Akaike information criterion (AICc) score: 135016.9689
+Bayesian information criterion (BIC) score: 135540.9652
+
+Total tree length (sum of branch lengths): 76.5289
+Sum of internal branch lengths: 32.2938 (42.1982% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Chlre_v5_5-Cre10_g466700_t1_1-Chlamydomonas_reinhardtii' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++----Chlre_v5_5-Cre10_g466700_t1_1-Chlamydomonas_reinhardtii
+|
++----Chlva_v1_0-e_gw1_5_247_1-Chlorella_variabilis
+|
+|     +---------------Micpu_v3_0-59138-Micromonas_pusilla
++-----| (100)
+      |          +--------Chlva_v1_0-gw1_43_12_1-Chlorella_variabilis
+      |       +--| (33)
+      |       |  |                    +**UHLI-2088343-Sphagnum_recurvatum
+      |       |  |                 +--| (66)
+      |       |  |                 |  +**RCBT-2024950-Sphagnum_palustre
+      |       |  |     +-----------| (100)
+      |       |  |     |           +--RCBT-2179494-Sphagnum_palustre
+      |       |  +-----| (98)
+      |       |        |                             +**Azfi_s0061.g034876
+      |       |        |                          +--| (100)
+      |       |        |                          |  +**Afi_v2_s11G001170.4
+      |       |        |                    +-----| (100)
+      |       |        |                    |     +--CVEG-2124660-Azolla_cf._caroliniana
+      |       |        |                 +--| (89)
+      |       |        |                 |  |         +**Azfi_s0108.g045269
+      |       |        |                 |  |      +--| (100)
+      |       |        |                 |  |      |  +**Afi_v2_s44G002700.1
+      |       |        |                 |  |   +--| (55)
+      |       |        |                 |  |   |  +--CVEG-2124962-Azolla_cf._caroliniana
+      |       |        |                 |  +---| (100)
+      |       |        |                 |      +--CVEG-2124941-Azolla_cf._caroliniana
+      |       |        |              +--| (70)
+      |       |        |              |  |        +--------Selmo_v1_0-118442-Selaginella_moellendorffii
+      |       |        |              |  |     +--| (48)
+      |       |        |              |  |     |  |     +--JVSZ-2125828-Equisetum_hymale
+      |       |        |              |  |     |  |  +--| (98)
+      |       |        |              |  |     |  |  |  +--CAPN-2004627-Equisetum_diffusum
+      |       |        |              |  |     |  +--| (73)
+      |       |        |              |  |     |     |  +--CAPN-2007244-Equisetum_diffusum
+      |       |        |              |  |     |     +--| (95)
+      |       |        |              |  |     |        +--JVSZ-2000344-Equisetum_hymale
+      |       |        |              |  |  +--| (47)
+      |       |        |              |  |  |  |     +--VIBO-2075815-Osmunda_javanica
+      |       |        |              |  |  |  |  +--| (67)
+      |       |        |              |  |  |  |  |  |        +--PIVW-2000366-Ceratopteris_thalictroides
+      |       |        |              |  |  |  |  |  |     +--| (99)
+      |       |        |              |  |  |  |  |  |     |  +----PIVW-2015072-Ceratopteris_thalictroides
+      |       |        |              |  |  |  |  |  |  +--| (99)
+      |       |        |              |  |  |  |  |  |  |  |     +**BMJR-2009145-Adiantum_tenerum
+      |       |        |              |  |  |  |  |  |  |  |  +--| (100)
+      |       |        |              |  |  |  |  |  |  |  |  |  +**BMJR-2009144-Adiantum_tenerum
+      |       |        |              |  |  |  |  |  |  |  +--| (90)
+      |       |        |              |  |  |  |  |  |  |     |  +**ZXJO-2005153-Hemionitis_arifolia
+      |       |        |              |  |  |  |  |  |  |     +--| (100)
+      |       |        |              |  |  |  |  |  |  |        +**ZXJO-2005152-Hemionitis_arifolia
+      |       |        |              |  |  |  |  |  +--| (61)
+      |       |        |              |  |  |  |  |     |  +--MEKP-2001244-Dipteris_conjugata
+      |       |        |              |  |  |  |  |     +--| (67)
+      |       |        |              |  |  |  |  |        +--MEKP-2009936-Dipteris_conjugata
+      |       |        |              |  |  |  +--| (95)
+      |       |        |              |  |  |     |        +**ALVQ-2000666-Tmesipteris_parva
+      |       |        |              |  |  |     |     +--| (100)
+      |       |        |              |  |  |     |     |  +--ALVQ-2000667-Tmesipteris_parva
+      |       |        |              |  |  |     |  +--| (100)
+      |       |        |              |  |  |     |  |  +--QVMR-2012273-Psilotum_nudum
+      |       |        |              |  |  |     +--| (87)
+      |       |        |              |  |  |        |  +--QVMR-2000480-Psilotum_nudum
+      |       |        |              |  |  |        +--| (100)
+      |       |        |              |  |  |           |  +**ALVQ-2005667-Tmesipteris_parva
+      |       |        |              |  |  |           +--| (100)
+      |       |        |              |  |  |              +**ALVQ-2005668-Tmesipteris_parva
+      |       |        |              |  +--| (63)
+      |       |        |              |     +---CAPN-2009642-Equisetum_diffusum
+      |       |        |           +--| (54)
+      |       |        |           |  |                                         +--Poptr_v3_0-Potri_010G188000_1-Populus_trichocarpa
+      |       |        |           |  |                                      +--| (100)
+      |       |        |           |  |                                      |  +--Poptr_v3_0-Potri_008G069300_1-Populus_trichocarpa
+      |       |        |           |  |                                   +--| (51)
+      |       |        |           |  |                                   |  +--Theca_v1_1-Thecc1EG042490t1-Theobroma_cacao
+      |       |        |           |  |                                +--| (23)
+      |       |        |           |  |                                |  |  +--Arath_TAIR10-AT3G55970_1-Arabidopsis_thaliana
+      |       |        |           |  |                                |  +--| (64)
+      |       |        |           |  |                                |     |  +--Arath_TAIR10-AT5G05600_1-Arabidopsis_thaliana
+      |       |        |           |  |                                |     +--| (100)
+      |       |        |           |  |                                |        +--Arath_TAIR10-AT3G11180_2-Arabidopsis_thaliana
+      |       |        |           |  |                             +--| (6)
+      |       |        |           |  |                             |  |     +--AALA-2073945-Meliosma_cuneifolia
+      |       |        |           |  |                             |  |  +--| (25)
+      |       |        |           |  |                             |  |  |  +--AALA-2077414-Meliosma_cuneifolia
+      |       |        |           |  |                             |  +--| (11)
+      |       |        |           |  |                             |     +--AALA-2073523-Meliosma_cuneifolia
+      |       |        |           |  |                          +--| (9)
+      |       |        |           |  |                          |  +--Vitvi_Genoscope_12X-GSVIVT01032809001-Vitis_vinifera
+      |       |        |           |  |                       +--| (25)
+      |       |        |           |  |                       |  |     +--Solly_iTAGv2_3-Solyc03g096050_2_1-Solanum_lycopersicum
+      |       |        |           |  |                       |  |  +--| (39)
+      |       |        |           |  |                       |  |  |  +--Mimgu_v2_0-Migut_F00689_1-Mimulus_guttatus
+      |       |        |           |  |                       |  +--| (23)
+      |       |        |           |  |                       |     |  +--Betvu_v1_1-Bv2_024220_uwex_t1-Beta_vulgaris
+      |       |        |           |  |                       |     +--| (21)
+      |       |        |           |  |                       |        +--AALA-2075823-Meliosma_cuneifolia
+      |       |        |           |  |                    +--| (14)
+      |       |        |           |  |                    |  |        +--Mimgu_v2_0-Migut_J00158_1-Mimulus_guttatus
+      |       |        |           |  |                    |  |     +--| (46)
+      |       |        |           |  |                    |  |     |  +--Vitvi_Genoscope_12X-GSVIVT01011165001-Vitis_vinifera
+      |       |        |           |  |                    |  |  +--| (23)
+      |       |        |           |  |                    |  |  |  |     +--Solly_iTAGv2_3-Solyc10g085190_1_1-Solanum_lycopersicum
+      |       |        |           |  |                    |  |  |  |  +--| (95)
+      |       |        |           |  |                    |  |  |  |  |  |     +--Solly_iTAGv2_3-Solyc10g076660_1_1-Solanum_lycopersicum
+      |       |        |           |  |                    |  |  |  |  |  |  +--| (47)
+      |       |        |           |  |                    |  |  |  |  |  |  |  +--Solly_iTAGv2_3-Solyc10g076670_1_1-Solanum_lycopersicum
+      |       |        |           |  |                    |  |  |  |  |  +--| (46)
+      |       |        |           |  |                    |  |  |  |  |     +--Solly_iTAGv2_3-Solyc10g076680_1_1-Solanum_lycopersicum
+      |       |        |           |  |                    |  |  |  +--| (53)
+      |       |        |           |  |                    |  |  |     +----Arath_TAIR10-AT2G38240_1-Arabidopsis_thaliana
+      |       |        |           |  |                    |  +--| (47)
+      |       |        |           |  |                    |     |  +--Theca_v1_1-Thecc1EG021686t1-Theobroma_cacao
+      |       |        |           |  |                    |     +--| (88)
+      |       |        |           |  |                    |        |  +--Poptr_v3_0-Potri_016G117100_1-Populus_trichocarpa
+      |       |        |           |  |                    |        +--| (100)
+      |       |        |           |  |                    |           |  +--Poptr_v3_0-Potri_006G101200_1-Populus_trichocarpa
+      |       |        |           |  |                    |           +--| (76)
+      |       |        |           |  |                    |              +--Poptr_v3_0-Potri_006G101100_1-Populus_trichocarpa
+      |       |        |           |  |                 +--| (18)
+      |       |        |           |  |                 |  |     +--Nelnu_v1_0-NNU_015297_RA-Nelumbo_nucifera
+      |       |        |           |  |                 |  |  +--| (99)
+      |       |        |           |  |                 |  |  |  +--Nelnu_v1_0-NNU_005746_RA-Nelumbo_nucifera
+      |       |        |           |  |                 |  +--| (91)
+      |       |        |           |  |                 |     +--Nelnu_v1_0-NNU_012345_RA-Nelumbo_nucifera
+      |       |        |           |  |              +--| (17)
+      |       |        |           |  |              |  |     +--OSHQ-2042462-Sarcandra_glabra
+      |       |        |           |  |              |  |  +--| (30)
+      |       |        |           |  |              |  |  |  |  +--WBOD-2023597-Magnolia_grandiflora
+      |       |        |           |  |              |  |  |  +--| (94)
+      |       |        |           |  |              |  |  |     +--WBOD-2019473-Magnolia_grandiflora
+      |       |        |           |  |              |  +--| (18)
+      |       |        |           |  |              |     +--WBOD-2024359-Magnolia_grandiflora
+      |       |        |           |  |           +--| (34)
+      |       |        |           |  |           |  |           +---Sorbi_v2_1-Sobic_008G002600_1-Sorghum_bicolor
+      |       |        |           |  |           |  |        +--| (100)
+      |       |        |           |  |           |  |        |  +---Orysa_v7_0-LOC_Os11g25060_1-Oryza_sativa
+      |       |        |           |  |           |  |     +--| (31)
+      |       |        |           |  |           |  |     |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00007_64-Amborella_trichopoda
+      |       |        |           |  |           |  |  +--| (21)
+      |       |        |           |  |           |  |  |  +--JVBR-2047614-Aloe_vera
+      |       |        |           |  |           |  +--| (46)
+      |       |        |           |  |           |     |        +--Sorbi_v2_1-Sobic_009G028200_1-Sorghum_bicolor
+      |       |        |           |  |           |     |     +--| (86)
+      |       |        |           |  |           |     |     |  +--Orysa_v7_0-LOC_Os05g03640_1-Oryza_sativa
+      |       |        |           |  |           |     |  +--| (83)
+      |       |        |           |  |           |     |  |  |  +--Sorbi_v2_1-Sobic_001G407800_1-Sorghum_bicolor
+      |       |        |           |  |           |     |  |  +--| (99)
+      |       |        |           |  |           |     |  |     +--Orysa_v7_0-LOC_Os03g18030_1-Oryza_sativa
+      |       |        |           |  |           |     +--| (63)
+      |       |        |           |  |           |        |  +--Orysa_v7_0-LOC_Os01g61610_2-Oryza_sativa
+      |       |        |           |  |           |        +--| (100)
+      |       |        |           |  |           |           +--Sorbi_v2_1-Sobic_003G345100_1-Sorghum_bicolor
+      |       |        |           |  |        +--| (87)
+      |       |        |           |  |        |  +--OSHQ-2046109-Sarcandra_glabra
+      |       |        |           |  |     +--| (34)
+      |       |        |           |  |     |  +---GTHK-2006319-Gnetum_montanum
+      |       |        |           |  |  +--| (83)
+      |       |        |           |  |  |  +--Pinta_v2_0-PITA_000039997_RA-Pinus_taeda
+      |       |        |           |  +--| (48)
+      |       |        |           |     |              +--WLIC-2120725-Dioon_edule
+      |       |        |           |     |           +--| (45)
+      |       |        |           |     |           |  +--XZUY-2049780-Cycas_micholitzii
+      |       |        |           |     |        +--| (90)
+      |       |        |           |     |        |  +--SGTW-2036038-Ginkgo_biloba
+      |       |        |           |     |     +--| (47)
+      |       |        |           |     |     |  |  +--Pinta_v2_0-PITA_000053351_RA-Pinus_taeda
+      |       |        |           |     |     |  +--| (99)
+      |       |        |           |     |     |     +--Pinta_v2_0-PITA_000064233_RA-Pinus_taeda
+      |       |        |           |     |  +--| (69)
+      |       |        |           |     |  |  |        +--Pinta_v2_0-PITA_000011980_RA-Pinus_taeda
+      |       |        |           |     |  |  |     +--| (100)
+      |       |        |           |     |  |  |     |  +--Pinta_v2_0-PITA_000011975_RA-Pinus_taeda
+      |       |        |           |     |  |  |  +--| (86)
+      |       |        |           |     |  |  |  |  |  +--Pinta_v2_0-PITA_000076581_RA-Pinus_taeda
+      |       |        |           |     |  |  |  |  +--| (100)
+      |       |        |           |     |  |  |  |     +--Pinta_v2_0-PITA_000089870_RA-Pinus_taeda
+      |       |        |           |     |  |  +--| (98)
+      |       |        |           |     |  |     |           +---Pinta_v2_0-PITA_000077295_RA-Pinus_taeda
+      |       |        |           |     |  |     |        +--| (98)
+      |       |        |           |     |  |     |        |  +---Pinta_v2_0-PITA_000029883_RA-Pinus_taeda
+      |       |        |           |     |  |     |     +--| (21)
+      |       |        |           |     |  |     |     |  +--Pinta_v2_0-PITA_000064959_RA-Pinus_taeda
+      |       |        |           |     |  |     |  +--| (21)
+      |       |        |           |     |  |     |  |  +--Pinta_v2_0-PITA_000061344_RA-Pinus_taeda
+      |       |        |           |     |  |     +--| (100)
+      |       |        |           |     |  |        +--Pinta_v2_0-PITA_000092827_RA-Pinus_taeda
+      |       |        |           |     +--| (40)
+      |       |        |           |        |        +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00016_371-Amborella_trichopoda
+      |       |        |           |        |     +--| (77)
+      |       |        |           |        |     |  |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_287-Amborella_trichopoda
+      |       |        |           |        |     |  +--| (70)
+      |       |        |           |        |     |     +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_288-Amborella_trichopoda
+      |       |        |           |        |  +--| (73)
+      |       |        |           |        |  |  |  +--WBOD-2098574-Magnolia_grandiflora
+      |       |        |           |        |  |  +--| (99)
+      |       |        |           |        |  |     +---Nelnu_v1_0-NNU_021116_RA-Nelumbo_nucifera
+      |       |        |           |        +--| (23)
+      |       |        |           |           +-------GTHK-2006619-Gnetum_montanum
+      |       |        |        +--| (19)
+      |       |        |        |  |                                   +--Allium_cepa_ANS
+      |       |        |        |  |                                +--| (91)
+      |       |        |        |  |                                |  |         +--Oryza_sativa_ANS
+      |       |        |        |  |                                |  |      +--| (82)
+      |       |        |        |  |                                |  |      |  +--Orysa_v7_0-LOC_Os01g27490_1-Oryza_sativa
+      |       |        |        |  |                                |  |   +--| (100)
+      |       |        |        |  |                                |  |   |  +--Orysa_v7_0-LOC_Os06g42130_1-Oryza_sativa
+      |       |        |        |  |                                |  +---| (100)
+      |       |        |        |  |                                |      |  +--Zea_mays_ANS
+      |       |        |        |  |                                |      +--| (99)
+      |       |        |        |  |                                |         +--Sorbi_v2_1-Sobic_004G000700_1-Sorghum_bicolor
+      |       |        |        |  |                             +--| (91)
+      |       |        |        |  |                             |  |  +--Spipo_v2-Spipo17G0004900-Spirodella_polyrhiza
+      |       |        |        |  |                             |  +--| (100)
+      |       |        |        |  |                             |     +--Spipo_v2-Spipo17G0005000-Spirodella_polyrhiza
+      |       |        |        |  |                          +--| (73)
+      |       |        |        |  |                          |  |           +**Arabidopsis_thaliana_LDOX
+      |       |        |        |  |                          |  |        +--| (100)
+      |       |        |        |  |                          |  |        |  +**Arath_TAIR10-AT4G22880_1-Arabidopsis_thaliana
+      |       |        |        |  |                          |  |     +--| (100)
+      |       |        |        |  |                          |  |     |  +--Arath_TAIR10-AT4G22870_2-Arabidopsis_thaliana
+      |       |        |        |  |                          |  |  +--| (46)
+      |       |        |        |  |                          |  |  |  +--Fragaria_ananassa_ANS
+      |       |        |        |  |                          |  +--| (85)
+      |       |        |        |  |                          |     |              +--Ipomoea_nil_ANS
+      |       |        |        |  |                          |     |           +--| (45)
+      |       |        |        |  |                          |     |           |  |  +--Perilla_frutescens_ANS
+      |       |        |        |  |                          |     |           |  +--| (99)
+      |       |        |        |  |                          |     |           |     +--Mimgu_v2_0-Migut_E01023_1-Mimulus_guttatus
+      |       |        |        |  |                          |     |        +--| (46)
+      |       |        |        |  |                          |     |        |  +--Solly_iTAGv2_3-Solyc08g080040_2_1-Solanum_lycopersicum
+      |       |        |        |  |                          |     |     +--| (30)
+      |       |        |        |  |                          |     |     |  |  +--Phytolacca_americana_ANS
+      |       |        |        |  |                          |     |     |  +--| (100)
+      |       |        |        |  |                          |     |     |     |  +--Spinacia_oleracea_ANS
+      |       |        |        |  |                          |     |     |     +--| (100)
+      |       |        |        |  |                          |     |     |        +--Betvu_v1_1-Bv5_096410_imzu_t1-Beta_vulgaris
+      |       |        |        |  |                          |     |  +--| (20)
+      |       |        |        |  |                          |     |  |  +--Vitvi_Genoscope_12X-GSVIVT01019892001-Vitis_vinifera
+      |       |        |        |  |                          |     +--| (5)
+      |       |        |        |  |                          |        |           +--Poptr_v3_0-Potri_001G113100_1-Populus_trichocarpa
+      |       |        |        |  |                          |        |        +--| (89)
+      |       |        |        |  |                          |        |        |  +--Poptr_v3_0-Potri_003G119100_1-Populus_trichocarpa
+      |       |        |        |  |                          |        |     +--| (55)
+      |       |        |        |  |                          |        |     |  +--Theca_v1_1-Thecc1EG016139t1-Theobroma_cacao
+      |       |        |        |  |                          |        |  +--| (38)
+      |       |        |        |  |                          |        |  |  |  +--AALA-2005806-Meliosma_cuneifolia
+      |       |        |        |  |                          |        |  |  +--| (98)
+      |       |        |        |  |                          |        |  |     +--AALA-2008582-Meliosma_cuneifolia
+      |       |        |        |  |                          |        +--| (27)
+      |       |        |        |  |                          |           |     +--Nelnu_v1_0-NNU_006875_RA-Nelumbo_nucifera
+      |       |        |        |  |                          |           |  +--| (98)
+      |       |        |        |  |                          |           |  |  +--Nelnu_v1_0-NNU_006876_RA-Nelumbo_nucifera
+      |       |        |        |  |                          |           +--| (75)
+      |       |        |        |  |                          |              +--Nelnu_v1_0-NNU_017324_RA-Nelumbo_nucifera
+      |       |        |        |  |                       +--| (99)
+      |       |        |        |  |                       |  |  +--WBOD-2024499-Magnolia_grandiflora
+      |       |        |        |  |                       |  +--| (87)
+      |       |        |        |  |                       |     +--ABSS-2074343-Sassafras_albidum
+      |       |        |        |  |                    +--| (99)
+      |       |        |        |  |                    |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_188-Amborella_trichopoda
+      |       |        |        |  |                 +--| (45)
+      |       |        |        |  |                 |  +--XZUY-2005939-Cycas_micholitzii
+      |       |        |        |  |              +--| (82)
+      |       |        |        |  |              |  +--WLIC-2120406-Dioon_edule
+      |       |        |        |  |           +--| (96)
+      |       |        |        |  |           |  |     +--Ginkgo_biloba_ANS
+      |       |        |        |  |           |  |  +--| (100)
+      |       |        |        |  |           |  |  |  +**SGTW-2000533-Ginkgo_biloba
+      |       |        |        |  |           |  +--| (68)
+      |       |        |        |  |           |     |     +--VDAO-2003315-Ephedra_sinica
+      |       |        |        |  |           |     |  +--| (98)
+      |       |        |        |  |           |     |  |  +--VDAO-2003936-Ephedra_sinica
+      |       |        |        |  |           |     +--| (83)
+      |       |        |        |  |           |        +--Pinta_v2_0-PITA_000022353_RA-Pinus_taeda
+      |       |        |        |  |        +--| (98)
+      |       |        |        |  |        |  +--XZUY-2006700-Cycas_micholitzii
+      |       |        |        |  |     +--| (93)
+      |       |        |        |  |     |  |                                                +**Arabidopsis_thaliana_FLS1
+      |       |        |        |  |     |  |                                             +--| (100)
+      |       |        |        |  |     |  |                                             |  +**Arath_TAIR10-AT5G08640_1-Arabidopsis_thaliana
+      |       |        |        |  |     |  |                                         +---| (100)
+      |       |        |        |  |     |  |                                         |   |     +**Arabidopsis_thaliana_FLS3
+      |       |        |        |  |     |  |                                         |   |  +--| (100)
+      |       |        |        |  |     |  |                                         |   |  |  +**Arath_TAIR10-AT5G63590_1-Arabidopsis_thaliana
+      |       |        |        |  |     |  |                                         |   +--| (100)
+      |       |        |        |  |     |  |                                         |      |            +**Arabidopsis_thaliana_FLS5
+      |       |        |        |  |     |  |                                         |      |        +---| (100)
+      |       |        |        |  |     |  |                                         |      |        |   +**Arath_TAIR10-AT5G63600_2-Arabidopsis_thaliana
+      |       |        |        |  |     |  |                                         |      |     +--| (52)
+      |       |        |        |  |     |  |                                         |      |     |  +---Arath_TAIR10-AT5G63580_1-Arabidopsis_thaliana
+      |       |        |        |  |     |  |                                         |      |  +--| (68)
+      |       |        |        |  |     |  |                                         |      |  |  +--Arath_TAIR10-AT5G43935_1-Arabidopsis_thaliana
+      |       |        |        |  |     |  |                                         |      +--| (82)
+      |       |        |        |  |     |  |                                         |         +----Arath_TAIR10-AT5G63595_1-Arabidopsis_thaliana
+      |       |        |        |  |     |  |                                      +--| (74)
+      |       |        |        |  |     |  |                                      |  |  +--Citrus_unshiu_FLS
+      |       |        |        |  |     |  |                                      |  +--| (41)
+      |       |        |        |  |     |  |                                      |     |        +--Poptr_v3_0-Potri_004G139700_1-Populus_trichocarpa
+      |       |        |        |  |     |  |                                      |     |     +--| (98)
+      |       |        |        |  |     |  |                                      |     |     |  |  +--Poptr_v3_0-Potri_004G139500_1-Populus_trichocarpa
+      |       |        |        |  |     |  |                                      |     |     |  +--| (100)
+      |       |        |        |  |     |  |                                      |     |     |     +--Poptr_v3_0-Potri_004G139600_1-Populus_trichocarpa
+      |       |        |        |  |     |  |                                      |     |  +--| (98)
+      |       |        |        |  |     |  |                                      |     |  |  |  +**Poptr_v3_0-Potri_T003300_1-Populus_trichocarpa
+      |       |        |        |  |     |  |                                      |     |  |  +--| (100)
+      |       |        |        |  |     |  |                                      |     |  |     +--Poptr_v3_0-Potri_009G145500_1-Populus_trichocarpa
+      |       |        |        |  |     |  |                                      |     +--| (34)
+      |       |        |        |  |     |  |                                      |        +--Theca_v1_1-Thecc1EG025133t1-Theobroma_cacao
+      |       |        |        |  |     |  |                                   +--| (83)
+      |       |        |        |  |     |  |                                   |  |                 +--Fragaria_ananassa_FLS
+      |       |        |        |  |     |  |                                   |  |              +--| (100)
+      |       |        |        |  |     |  |                                   |  |              |  +--Rosa_hybrida_FLS
+      |       |        |        |  |     |  |                                   |  |           +--| (40)
+      |       |        |        |  |     |  |                                   |  |           |  +--Poptr_v3_0-Potri_002G086700_1-Populus_trichocarpa
+      |       |        |        |  |     |  |                                   |  |        +--| (65)
+      |       |        |        |  |     |  |                                   |  |        |  +--Theca_v1_1-Thecc1EG035060t1-Theobroma_cacao
+      |       |        |        |  |     |  |                                   |  |     +--| (43)
+      |       |        |        |  |     |  |                                   |  |     |  |  +---Betvu_v1_1-Bv_28310_qmjz_t1-Beta_vulgaris
+      |       |        |        |  |     |  |                                   |  |     |  +--| (49)
+      |       |        |        |  |     |  |                                   |  |     |     +--Betvu_v1_1-Bv1_000200_ckiq_t1-Beta_vulgaris
+      |       |        |        |  |     |  |                                   |  |  +--| (36)
+      |       |        |        |  |     |  |                                   |  |  |  |  +--Petroselinum_crispum_FLS
+      |       |        |        |  |     |  |                                   |  |  |  +--| (96)
+      |       |        |        |  |     |  |                                   |  |  |     |        +--Petunia_hybrida_FLS
+      |       |        |        |  |     |  |                                   |  |  |     |     +--| (91)
+      |       |        |        |  |     |  |                                   |  |  |     |     |  +--Torenia_fournieri_FLS
+      |       |        |        |  |     |  |                                   |  |  |     |  +--| (100)
+      |       |        |        |  |     |  |                                   |  |  |     |  |  +--Solly_iTAGv2_3-Solyc11g013110_1_1-Solanum_lycopersicum
+      |       |        |        |  |     |  |                                   |  |  |     +--| (61)
+      |       |        |        |  |     |  |                                   |  |  |        +--Mimgu_v2_0-Migut_C01158_1-Mimulus_guttatus
+      |       |        |        |  |     |  |                                   |  +--| (71)
+      |       |        |        |  |     |  |                                   |     |  +--Vitvi_Genoscope_12X-GSVIVT01008913001-Vitis_vinifera
+      |       |        |        |  |     |  |                                   |     +--| (100)
+      |       |        |        |  |     |  |                                   |        +--Vitvi_Genoscope_12X-GSVIVT01008914001-Vitis_vinifera
+      |       |        |        |  |     |  |                                +--| (22)
+      |       |        |        |  |     |  |                                |  |  +--AALA-2074459-Meliosma_cuneifolia
+      |       |        |        |  |     |  |                                |  +--| (44)
+      |       |        |        |  |     |  |                                |     +--AALA-2078684-Meliosma_cuneifolia
+      |       |        |        |  |     |  |                             +--| (27)
+      |       |        |        |  |     |  |                             |  +--Nelnu_v1_0-NNU_017585_RA-Nelumbo_nucifera
+      |       |        |        |  |     |  |                          +--| (7)
+      |       |        |        |  |     |  |                          |  +--GJPF-2063819-Allium_sativum
+      |       |        |        |  |     |  |                       +--| (13)
+      |       |        |        |  |     |  |                       |  +--OSHQ-2047471-Sarcandra_glabra
+      |       |        |        |  |     |  |                    +--| (8)
+      |       |        |        |  |     |  |                    |  +--MUNP-2006099-Piper_auritum
+      |       |        |        |  |     |  |                 +--| (16)
+      |       |        |        |  |     |  |                 |  |  +--ABSS-2073834-Sassafras_albidum
+      |       |        |        |  |     |  |                 |  +--| (36)
+      |       |        |        |  |     |  |                 |     +--WBOD-2010440-Magnolia_grandiflora
+      |       |        |        |  |     |  |              +--| (34)
+      |       |        |        |  |     |  |              |  |      +--Sorbi_v2_1-Sobic_004G310100_1-Sorghum_bicolor
+      |       |        |        |  |     |  |              |  |   +--| (83)
+      |       |        |        |  |     |  |              |  |   |  +---Sorbi_v2_1-Sobic_003G021700_1-Sorghum_bicolor
+      |       |        |        |  |     |  |              |  +---| (100)
+      |       |        |        |  |     |  |              |      +--Orysa_v7_0-LOC_Os02g52840_1-Oryza_sativa
+      |       |        |        |  |     |  |           +--| (99)
+      |       |        |        |  |     |  |           |  |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00349_1-Amborella_trichopoda
+      |       |        |        |  |     |  |           |  +--| (100)
+      |       |        |        |  |     |  |           |     +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_14-Amborella_trichopoda
+      |       |        |        |  |     |  |        +--| (65)
+      |       |        |        |  |     |  |        |  |          +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_24-Amborella_trichopoda
+      |       |        |        |  |     |  |        |  |       +--| (96)
+      |       |        |        |  |     |  |        |  |       |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_9-Amborella_trichopoda
+      |       |        |        |  |     |  |        |  |  +----| (100)
+      |       |        |        |  |     |  |        |  |  |    +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_23-Amborella_trichopoda
+      |       |        |        |  |     |  |        |  +--| (97)
+      |       |        |        |  |     |  |        |     |        +--Nelnu_v1_0-NNU_007261_RA-Nelumbo_nucifera
+      |       |        |        |  |     |  |        |     |     +--| (99)
+      |       |        |        |  |     |  |        |     |     |  +--Nelnu_v1_0-NNU_018430_RA-Nelumbo_nucifera
+      |       |        |        |  |     |  |        |     |  +--| (72)
+      |       |        |        |  |     |  |        |     |  |  |  +--AALA-2078641-Meliosma_cuneifolia
+      |       |        |        |  |     |  |        |     |  |  +--| (80)
+      |       |        |        |  |     |  |        |     |  |     |  +--Theca_v1_1-Thecc1EG035063t1-Theobroma_cacao
+      |       |        |        |  |     |  |        |     |  |     +--| (98)
+      |       |        |        |  |     |  |        |     |  |        +--Vitvi_Genoscope_12X-GSVIVT01008907001-Vitis_vinifera
+      |       |        |        |  |     |  |        |     +--| (91)
+      |       |        |        |  |     |  |        |        |  +--ABSS-2073765-Sassafras_albidum
+      |       |        |        |  |     |  |        |        +--| (100)
+      |       |        |        |  |     |  |        |           +--WBOD-2022710-Magnolia_grandiflora
+      |       |        |        |  |     |  |     +--| (49)
+      |       |        |        |  |     |  |     |  +----------GTHK-2056534-Gnetum_montanum
+      |       |        |        |  |     |  |  +--| (40)
+      |       |        |        |  |     |  |  |  +--Pinta_v2_0-PITA_000061487_RA-Pinus_taeda
+      |       |        |        |  |     |  +--| (74)
+      |       |        |        |  |     |     |     +-------VDAO-2005128-Ephedra_sinica
+      |       |        |        |  |     |     |  +--| (51)
+      |       |        |        |  |     |     |  |  |  +**Ginkgo_biloba_FLS
+      |       |        |        |  |     |     |  |  +--| (100)
+      |       |        |        |  |     |     |  |     +--SGTW-2038701-Ginkgo_biloba
+      |       |        |        |  |     |     +--| (33)
+      |       |        |        |  |     |        |     +--WLIC-2119345-Dioon_edule
+      |       |        |        |  |     |        |  +--| (98)
+      |       |        |        |  |     |        |  |  +--XZUY-2011434-Cycas_micholitzii
+      |       |        |        |  |     |        +--| (71)
+      |       |        |        |  |     |           |  +--SGTW-2000271-Ginkgo_biloba
+      |       |        |        |  |     |           +--| (100)
+      |       |        |        |  |     |              +--SGTW-2000272-Ginkgo_biloba
+      |       |        |        |  |  +--| (86)
+      |       |        |        |  |  |  |       +--Pinta_v2_0-PITA_000042784_RA-Pinus_taeda
+      |       |        |        |  |  |  |    +--| (98)
+      |       |        |        |  |  |  |    |  +--Pinta_v2_0-PITA_000042782_RA-Pinus_taeda
+      |       |        |        |  |  |  +----| (100)
+      |       |        |        |  |  |       +--Pinta_v2_0-PITA_000001634_RA-Pinus_taeda
+      |       |        |        |  +--| (51)
+      |       |        |        |     |       +--ENQF-2084088-Lycopodium_annotinum
+      |       |        |        |     |    +--| (55)
+      |       |        |        |     |    |  |  +--CBAE-2014111-Huperzia_myrisinites
+      |       |        |        |     |    |  +--| (77)
+      |       |        |        |     |    |     +--CBAE-2009268-Huperzia_myrisinites
+      |       |        |        |     +----| (99)
+      |       |        |        |          +--UPMJ-2017671-Pseudolycopodiella_caroliniana
+      |       |        |     +--| (36)
+      |       |        |     |  |           +**Azfi_s0076.g037826
+      |       |        |     |  |        +--| (100)
+      |       |        |     |  |        |  +**Afi_v2_s19G002650.1
+      |       |        |     |  |     +--| (99)
+      |       |        |     |  |     |  +--CVEG-2003723-Azolla_cf._caroliniana
+      |       |        |     |  |  +--| (98)
+      |       |        |     |  |  |  +--PIVW-2091938-Ceratopteris_thalictroides
+      |       |        |     |  +--| (90)
+      |       |        |     |     |        +--ENQF-2000228-Lycopodium_annotinum
+      |       |        |     |     |     +--| (97)
+      |       |        |     |     |     |  +--CBAE-2008336-Huperzia_myrisinites
+      |       |        |     |     |  +--| (58)
+      |       |        |     |     |  |  +--UPMJ-2080508-Pseudolycopodiella_caroliniana
+      |       |        |     |     +--| (99)
+      |       |        |     |        +--Selmo_v1_0-79989-Selaginella_moellendorffii
+      |       |        |  +--| (58)
+      |       |        |  |  |     +**GOWD-2081413-Sphagnum_lescurii
+      |       |        |  |  +-----| (100)
+      |       |        |  |        |  +--RCBT-2005315-Sphagnum_palustre
+      |       |        |  |        +--| (66)
+      |       |        |  |           +--UHLI-2018392-Sphagnum_recurvatum
+      |       |        +--| (60)
+      |       |           |             +--UUHD-2149715-Porella_pinnata
+      |       |           |          +--| (52)
+      |       |           |          |  |     +**UUHD-2001499-Porella_pinnata
+      |       |           |          |  |  +--| (100)
+      |       |           |          |  |  |  +--UUHD-2001501-Porella_pinnata
+      |       |           |          |  +--| (100)
+      |       |           |          |     +--UUHD-2001500-Porella_pinnata
+      |       |           |       +--| (48)
+      |       |           |       |  |           +**HPXA-2000369-Ptilidium_pulcherrimum
+      |       |           |       |  |        +--| (100)
+      |       |           |       |  |        |  +**HPXA-2000367-Ptilidium_pulcherrimum
+      |       |           |       |  |     +--| (85)
+      |       |           |       |  |     |  +--HPXA-2001058-Ptilidium_pulcherrimum
+      |       |           |       |  |  +--| (100)
+      |       |           |       |  |  |  |  +--HPXA-2001059-Ptilidium_pulcherrimum
+      |       |           |       |  |  |  +--| (88)
+      |       |           |       |  |  |     |  +**HPXA-2001057-Ptilidium_pulcherrimum
+      |       |           |       |  |  |     +--| (97)
+      |       |           |       |  |  |        +--HPXA-2001060-Ptilidium_pulcherrimum
+      |       |           |       |  +--| (35)
+      |       |           |       |     +--UUHD-2148344-Porella_pinnata
+      |       |           |  +----| (100)
+      |       |           |  |    +---BNCU-2079402-Radula_lindenbergia
+      |       |           +--| (98)
+      |       |              |   +--HPXA-2134398-Ptilidium_pulcherrimum
+      |       |              +---| (100)
+      |       |                  +--UUHD-2013080-Porella_pinnata
+      +-------| (99)
+              +-----Klefl_v1_0-kfl00090_0310-Klebsormidium_flaccidum
+
+Tree in newick format:
+
+(Chlre_v5_5-Cre10_g466700_t1_1-Chlamydomonas_reinhardtii:0.5212052366,Chlva_v1_0-e_gw1_5_247_1-Chlorella_variabilis:0.6087387105,(Micpu_v3_0-59138-Micromonas_pusilla:1.6389841749,((Chlva_v1_0-gw1_43_12_1-Chlorella_variabilis:0.9861251725,(((UHLI-2088343-Sphagnum_recurvatum:0.0000024095,RCBT-2024950-Sphagnum_palustre:0.0000021794)66:0.0676089784,RCBT-2179494-Sphagnum_palustre:0.2178403227)100:1.3274001852,(((((((((Azfi_s0061.g034876:0.0000010491,Afi_v2_s11G001170.4:0.0000010491)100:0.0842538907,CVEG-2124660-Azolla_cf._caroliniana:0.0042690488)100:0.7144581023,(((Azfi_s0108.g045269:0.0000010491,Afi_v2_s44G002700.1:0.0000010491)100:0.0269290188,CVEG-2124962-Azolla_cf._caroliniana:0.0303360754)55:0.0226735723,CVEG-2124941-Azolla_cf._caroliniana:0.1333489241)100:0.4209484077)89:0.2947760892,(((Selmo_v1_0-118442-Selaginella_moellendorffii:0.9414172203,((JVSZ-2125828-Equisetum_hymale:0.1675887414,CAPN-2004627-Equisetum_diffusum:0.1128155450)98:0.1285452313,(CAPN-2007244-Equisetum_diffusum:0.0830716105,JVSZ-2000344-Equisetum_hymale:0.1113100512)95:0.1491167493)73:0.0557103505)48:0.0821305397,((VIBO-2075815-Osmunda_javanica:0.1235172781,(((PIVW-2000366-Ceratopteris_thalictroides:0.1815363269,PIVW-2015072-Ceratopteris_thalictroides:0.5931755622)99:0.2928383419,((BMJR-2009145-Adiantum_tenerum:0.0000010491,BMJR-2009144-Adiantum_tenerum:0.0000022710)100:0.1133431328,(ZXJO-2005153-Hemionitis_arifolia:0.0000010491,ZXJO-2005152-Hemionitis_arifolia:0.0000010491)100:0.0998235828)90:0.0692493605)99:0.2268493216,(MEKP-2001244-Dipteris_conjugata:0.2144516590,MEKP-2009936-Dipteris_conjugata:0.1432708506)67:0.0578601801)61:0.0460977719)67:0.0710944811,(((ALVQ-2000666-Tmesipteris_parva:0.0000022721,ALVQ-2000667-Tmesipteris_parva:0.0550071817)100:0.1154687776,QVMR-2012273-Psilotum_nudum:0.0663080673)100:0.2114272903,(QVMR-2000480-Psilotum_nudum:0.1577607524,(ALVQ-2005667-Tmesipteris_parva:0.0000010491,ALVQ-2005668-Tmesipteris_parva:0.0000010491)100:0.0957034554)100:0.2143682594)87:0.0571806511)95:0.1548459690)47:0.0835423229,CAPN-2009642-Equisetum_diffusum:0.5013633560)63:0.1051735161)70:0.1243879718,((((((((((((((Poptr_v3_0-Potri_010G188000_1-Populus_trichocarpa:0.0898430339,Poptr_v3_0-Potri_008G069300_1-Populus_trichocarpa:0.0425013295)100:0.0988987669,Theca_v1_1-Thecc1EG042490t1-Theobroma_cacao:0.2356547088)51:0.0619025868,(Arath_TAIR10-AT3G55970_1-Arabidopsis_thaliana:0.3479576567,(Arath_TAIR10-AT5G05600_1-Arabidopsis_thaliana:0.1568089571,Arath_TAIR10-AT3G11180_2-Arabidopsis_thaliana:0.2309581881)100:0.1891323341)64:0.1088332476)23:0.0286897151,((AALA-2073945-Meliosma_cuneifolia:0.2292125460,AALA-2077414-Meliosma_cuneifolia:0.1863774474)25:0.0159527438,AALA-2073523-Meliosma_cuneifolia:0.1343575573)11:0.0733952069)6:0.0140982049,Vitvi_Genoscope_12X-GSVIVT01032809001-Vitis_vinifera:0.2118100168)9:0.0452575437,((Solly_iTAGv2_3-Solyc03g096050_2_1-Solanum_lycopersicum:0.2918885924,Mimgu_v2_0-Migut_F00689_1-Mimulus_guttatus:0.2542946870)39:0.0312187087,(Betvu_v1_1-Bv2_024220_uwex_t1-Beta_vulgaris:0.2702895581,AALA-2075823-Meliosma_cuneifolia:0.1025266422)21:0.0428735994)23:0.0418012913)25:0.0467839741,(((Mimgu_v2_0-Migut_J00158_1-Mimulus_guttatus:0.3002105742,Vitvi_Genoscope_12X-GSVIVT01011165001-Vitis_vinifera:0.2886620589)46:0.0570131582,((Solly_iTAGv2_3-Solyc10g085190_1_1-Solanum_lycopersicum:0.3427831992,((Solly_iTAGv2_3-Solyc10g076660_1_1-Solanum_lycopersicum:0.0912522477,Solly_iTAGv2_3-Solyc10g076670_1_1-Solanum_lycopersicum:0.1068788621)47:0.0236184568,Solly_iTAGv2_3-Solyc10g076680_1_1-Solanum_lycopersicum:0.0699971157)46:0.0375345096)95:0.1363742043,Arath_TAIR10-AT2G38240_1-Arabidopsis_thaliana:0.5700104877)53:0.0674772791)23:0.0376798373,(Theca_v1_1-Thecc1EG021686t1-Theobroma_cacao:0.2148325792,(Poptr_v3_0-Potri_016G117100_1-Populus_trichocarpa:0.0568920604,(Poptr_v3_0-Potri_006G101200_1-Populus_trichocarpa:0.1457458732,Poptr_v3_0-Potri_006G101100_1-Populus_trichocarpa:0.0805832331)76:0.0225647684)100:0.1324496091)88:0.0834433565)47:0.0819552618)14:0.0320508041,((Nelnu_v1_0-NNU_015297_RA-Nelumbo_nucifera:0.2232346829,Nelnu_v1_0-NNU_005746_RA-Nelumbo_nucifera:0.0282887446)99:0.0868485260,Nelnu_v1_0-NNU_012345_RA-Nelumbo_nucifera:0.1242094303)91:0.1228888759)18:0.0853880031,((OSHQ-2042462-Sarcandra_glabra:0.3977259468,(WBOD-2023597-Magnolia_grandiflora:0.2025429646,WBOD-2019473-Magnolia_grandiflora:0.3734486489)94:0.1346990483)30:0.0790223503,WBOD-2024359-Magnolia_grandiflora:0.2239324275)18:0.0500542605)17:0.0371019286,((((Sorbi_v2_1-Sobic_008G002600_1-Sorghum_bicolor:0.4164402119,Orysa_v7_0-LOC_Os11g25060_1-Oryza_sativa:0.4748455143)100:0.3256478965,Ambtr_v1_0_27-AmTr_v1_0_scaffold00007_64-Amborella_trichopoda:0.3916223730)31:0.0799979518,JVBR-2047614-Aloe_vera:0.3772468360)21:0.0298445463,(((Sorbi_v2_1-Sobic_009G028200_1-Sorghum_bicolor:0.1488169369,Orysa_v7_0-LOC_Os05g03640_1-Oryza_sativa:0.1812688123)86:0.1538548415,(Sorbi_v2_1-Sobic_001G407800_1-Sorghum_bicolor:0.1537589031,Orysa_v7_0-LOC_Os03g18030_1-Oryza_sativa:0.1273704081)99:0.2547445165)83:0.1464048782,(Orysa_v7_0-LOC_Os01g61610_2-Oryza_sativa:0.1551514521,Sorbi_v2_1-Sobic_003G345100_1-Sorghum_bicolor:0.1700656023)100:0.2217166251)63:0.1084049219)46:0.1188777649)34:0.0913931267,OSHQ-2046109-Sarcandra_glabra:0.3165106039)87:0.2288876188,GTHK-2006319-Gnetum_montanum:0.4778329729)34:0.1030382713,Pinta_v2_0-PITA_000039997_RA-Pinus_taeda:0.2534713838)83:0.2069628675,(((((WLIC-2120725-Dioon_edule:0.1295525881,XZUY-2049780-Cycas_micholitzii:0.1304765012)45:0.0716977975,SGTW-2036038-Ginkgo_biloba:0.1282183815)90:0.1137694874,(Pinta_v2_0-PITA_000053351_RA-Pinus_taeda:0.0834049513,Pinta_v2_0-PITA_000064233_RA-Pinus_taeda:0.3427536794)99:0.2161432620)47:0.0632544253,(((Pinta_v2_0-PITA_000011980_RA-Pinus_taeda:0.0596904364,Pinta_v2_0-PITA_000011975_RA-Pinus_taeda:0.0804057739)100:0.1614379797,(Pinta_v2_0-PITA_000076581_RA-Pinus_taeda:0.1820707590,Pinta_v2_0-PITA_000089870_RA-Pinus_taeda:0.0796814587)100:0.1417813177)86:0.0476023861,((((Pinta_v2_0-PITA_000077295_RA-Pinus_taeda:0.4814038707,Pinta_v2_0-PITA_000029883_RA-Pinus_taeda:0.4760438774)98:0.1318306344,Pinta_v2_0-PITA_000064959_RA-Pinus_taeda:0.0275106612)21:0.0104551387,Pinta_v2_0-PITA_000061344_RA-Pinus_taeda:0.0073811224)21:0.0098993898,Pinta_v2_0-PITA_000092827_RA-Pinus_taeda:0.0084582565)100:0.1991960286)98:0.1975371499)69:0.1045465165,(((Ambtr_v1_0_27-AmTr_v1_0_scaffold00016_371-Amborella_trichopoda:0.0763506286,(Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_287-Amborella_trichopoda:0.0179094028,Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_288-Amborella_trichopoda:0.3658872198)70:0.1236039475)77:0.2535719043,(WBOD-2098574-Magnolia_grandiflora:0.3655119460,Nelnu_v1_0-NNU_021116_RA-Nelumbo_nucifera:0.4912557791)99:0.3901027200)73:0.2844196722,GTHK-2006619-Gnetum_montanum:0.8670230654)23:0.1772006075)40:0.1597691424)48:0.1439273196)54:0.1648944851,((((((((((((Allium_cepa_ANS:0.2273158492,(((Oryza_sativa_ANS:0.0098524962,Orysa_v7_0-LOC_Os01g27490_1-Oryza_sativa:0.0099247823)82:0.0129477288,Orysa_v7_0-LOC_Os06g42130_1-Oryza_sativa:0.0458654324)100:0.2865115721,(Zea_mays_ANS:0.0667208156,Sorbi_v2_1-Sobic_004G000700_1-Sorghum_bicolor:0.0876804762)99:0.1178753246)100:0.4416249012)91:0.1560140522,(Spipo_v2-Spipo17G0004900-Spirodella_polyrhiza:0.0558109930,Spipo_v2-Spipo17G0005000-Spirodella_polyrhiza:0.2870184928)100:0.2547979350)91:0.1583778133,((((Arabidopsis_thaliana_LDOX:0.0000010491,Arath_TAIR10-AT4G22880_1-Arabidopsis_thaliana:0.0000010491)100:0.0053354923,Arath_TAIR10-AT4G22870_2-Arabidopsis_thaliana:0.3697666390)100:0.2065232621,Fragaria_ananassa_ANS:0.1264415671)46:0.0595097771,(((((Ipomoea_nil_ANS:0.1505898967,(Perilla_frutescens_ANS:0.1345329272,Mimgu_v2_0-Migut_E01023_1-Mimulus_guttatus:0.1576443418)99:0.1079410633)45:0.0561669399,Solly_iTAGv2_3-Solyc08g080040_2_1-Solanum_lycopersicum:0.1740990981)46:0.0399327072,(Phytolacca_americana_ANS:0.1089417076,(Spinacia_oleracea_ANS:0.0850607264,Betvu_v1_1-Bv5_096410_imzu_t1-Beta_vulgaris:0.0606510164)100:0.0418593368)100:0.0793701122)30:0.0286432072,Vitvi_Genoscope_12X-GSVIVT01019892001-Vitis_vinifera:0.2014528940)20:0.0199738495,((((Poptr_v3_0-Potri_001G113100_1-Populus_trichocarpa:0.0869261703,Poptr_v3_0-Potri_003G119100_1-Populus_trichocarpa:0.0585511797)89:0.0423936434,Theca_v1_1-Thecc1EG016139t1-Theobroma_cacao:0.1025641296)55:0.0348774645,(AALA-2005806-Meliosma_cuneifolia:0.0385107427,AALA-2008582-Meliosma_cuneifolia:0.0724987598)98:0.0756166749)38:0.0249930740,((Nelnu_v1_0-NNU_006875_RA-Nelumbo_nucifera:0.0624361953,Nelnu_v1_0-NNU_006876_RA-Nelumbo_nucifera:0.0470959555)98:0.0726723000,Nelnu_v1_0-NNU_017324_RA-Nelumbo_nucifera:0.2872372624)75:0.0424916533)27:0.0255853824)5:0.0106435230)85:0.1011940740)73:0.0433400881,(WBOD-2024499-Magnolia_grandiflora:0.1658400163,ABSS-2074343-Sassafras_albidum:0.1582398261)87:0.0732808867)99:0.1947865445,Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_188-Amborella_trichopoda:0.2230285090)99:0.2580465976,XZUY-2005939-Cycas_micholitzii:0.0882890899)45:0.0410740889,WLIC-2120406-Dioon_edule:0.1187045486)82:0.1001417238,((Ginkgo_biloba_ANS:0.0116923297,SGTW-2000533-Ginkgo_biloba:0.0000030273)100:0.1405489004,((VDAO-2003315-Ephedra_sinica:0.2296473756,VDAO-2003936-Ephedra_sinica:0.3831591149)98:0.4061837754,Pinta_v2_0-PITA_000022353_RA-Pinus_taeda:0.1141969902)83:0.1227083508)68:0.0808416089)96:0.1274211954,XZUY-2006700-Cycas_micholitzii:0.1931988614)98:0.2668215431,((((((((((((((((Arabidopsis_thaliana_FLS1:0.0000010491,Arath_TAIR10-AT5G08640_1-Arabidopsis_thaliana:0.0000010491)100:0.0542109972,((Arabidopsis_thaliana_FLS3:0.0000010491,Arath_TAIR10-AT5G63590_1-Arabidopsis_thaliana:0.0000010491)100:0.3606789640,((((Arabidopsis_thaliana_FLS5:0.0000010491,Arath_TAIR10-AT5G63600_2-Arabidopsis_thaliana:0.0000010491)100:0.5106098603,Arath_TAIR10-AT5G63580_1-Arabidopsis_thaliana:0.4526887266)52:0.0634301062,Arath_TAIR10-AT5G43935_1-Arabidopsis_thaliana:0.3385829645)68:0.0678560953,Arath_TAIR10-AT5G63595_1-Arabidopsis_thaliana:0.5466390506)82:0.0863615366)100:0.1549903666)100:0.4177029243,(Citrus_unshiu_FLS:0.1674095276,(((Poptr_v3_0-Potri_004G139700_1-Populus_trichocarpa:0.0337272241,(Poptr_v3_0-Potri_004G139500_1-Populus_trichocarpa:0.0038627722,Poptr_v3_0-Potri_004G139600_1-Populus_trichocarpa:0.0078282686)100:0.0267955670)98:0.0946203645,(Poptr_v3_0-Potri_T003300_1-Populus_trichocarpa:0.0000022440,Poptr_v3_0-Potri_009G145500_1-Populus_trichocarpa:0.0159595296)100:0.1104219990)98:0.1053634470,Theca_v1_1-Thecc1EG025133t1-Theobroma_cacao:0.2509067614)34:0.0266107240)41:0.0454157365)74:0.0747327892,((((((Fragaria_ananassa_FLS:0.0623644076,Rosa_hybrida_FLS:0.0288965146)100:0.1984676412,Poptr_v3_0-Potri_002G086700_1-Populus_trichocarpa:0.1763713373)40:0.0226877369,Theca_v1_1-Thecc1EG035060t1-Theobroma_cacao:0.2640211914)65:0.0420747095,(Betvu_v1_1-Bv_28310_qmjz_t1-Beta_vulgaris:0.4200932021,Betvu_v1_1-Bv1_000200_ckiq_t1-Beta_vulgaris:0.3950842740)49:0.0737176489)43:0.0363297704,(Petroselinum_crispum_FLS:0.2254759984,(((Petunia_hybrida_FLS:0.0476570807,Torenia_fournieri_FLS:0.0767306267)91:0.0382974814,Solly_iTAGv2_3-Solyc11g013110_1_1-Solanum_lycopersicum:0.1465091590)100:0.0732513654,Mimgu_v2_0-Migut_C01158_1-Mimulus_guttatus:0.2464456100)61:0.0392639683)96:0.0585504020)36:0.0425085564,(Vitvi_Genoscope_12X-GSVIVT01008913001-Vitis_vinifera:0.1287495560,Vitvi_Genoscope_12X-GSVIVT01008914001-Vitis_vinifera:0.1145235729)100:0.1414803741)71:0.0520380606)83:0.0627559901,(AALA-2074459-Meliosma_cuneifolia:0.1670880426,AALA-2078684-Meliosma_cuneifolia:0.1493168925)44:0.0633402870)22:0.0227612361,Nelnu_v1_0-NNU_017585_RA-Nelumbo_nucifera:0.1699894175)27:0.0488857425,GJPF-2063819-Allium_sativum:0.2470419380)7:0.0155649922,OSHQ-2047471-Sarcandra_glabra:0.2555261094)13:0.0326860974,MUNP-2006099-Piper_auritum:0.3186626745)8:0.0192005279,(ABSS-2073834-Sassafras_albidum:0.1768694089,WBOD-2010440-Magnolia_grandiflora:0.2128106366)36:0.0481421690)16:0.0271753221,((Sorbi_v2_1-Sobic_004G310100_1-Sorghum_bicolor:0.1673096806,Sorbi_v2_1-Sobic_003G021700_1-Sorghum_bicolor:0.4464945306)83:0.0152091791,Orysa_v7_0-LOC_Os02g52840_1-Oryza_sativa:0.1461005728)100:0.4516428765)34:0.0780243166,(Ambtr_v1_0_27-AmTr_v1_0_scaffold00349_1-Amborella_trichopoda:0.0086497925,Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_14-Amborella_trichopoda:0.0029576235)100:0.3436628922)99:0.2682985454,(((Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_24-Amborella_trichopoda:0.1893734168,Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_9-Amborella_trichopoda:0.1475876500)96:0.0956505025,Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_23-Amborella_trichopoda:0.0245514915)100:0.5789012140,(((Nelnu_v1_0-NNU_007261_RA-Nelumbo_nucifera:0.1793741138,Nelnu_v1_0-NNU_018430_RA-Nelumbo_nucifera:0.1710794172)99:0.0988075993,(AALA-2078641-Meliosma_cuneifolia:0.2020584942,(Theca_v1_1-Thecc1EG035063t1-Theobroma_cacao:0.1439740370,Vitvi_Genoscope_12X-GSVIVT01008907001-Vitis_vinifera:0.1758664560)98:0.0756391496)80:0.0565825687)72:0.0486768996,(ABSS-2073765-Sassafras_albidum:0.1836813510,WBOD-2022710-Magnolia_grandiflora:0.1271827021)100:0.1303126034)91:0.1021929323)97:0.2030696442)65:0.0718182488,GTHK-2056534-Gnetum_montanum:1.1610362834)49:0.1500275617,Pinta_v2_0-PITA_000061487_RA-Pinus_taeda:0.2340927495)40:0.0759021393,((VDAO-2005128-Ephedra_sinica:0.8879408046,(Ginkgo_biloba_FLS:0.0000028785,SGTW-2038701-Ginkgo_biloba:0.0182832501)100:0.2405110405)51:0.1725952548,((WLIC-2119345-Dioon_edule:0.0995522629,XZUY-2011434-Cycas_micholitzii:0.1684108084)98:0.1683036898,(SGTW-2000271-Ginkgo_biloba:0.0134230831,SGTW-2000272-Ginkgo_biloba:0.0213104884)100:0.1099553756)71:0.0607155572)33:0.0544684786)74:0.1999440036)93:0.3886633588,((Pinta_v2_0-PITA_000042784_RA-Pinus_taeda:0.0480946864,Pinta_v2_0-PITA_000042782_RA-Pinus_taeda:0.1004484897)98:0.1582417026,Pinta_v2_0-PITA_000001634_RA-Pinus_taeda:0.2616871224)100:0.5146690587)86:0.2226946018,((ENQF-2084088-Lycopodium_annotinum:0.1050434906,(CBAE-2014111-Huperzia_myrisinites:0.1912938794,CBAE-2009268-Huperzia_myrisinites:0.3586465959)77:0.1192218515)55:0.0864504802,UPMJ-2017671-Pseudolycopodiella_caroliniana:0.3289039600)99:0.5421623527)51:0.1097281388)19:0.0740557036,((((Azfi_s0076.g037826:0.0000010491,Afi_v2_s19G002650.1:0.0000010491)100:0.0188932798,CVEG-2003723-Azolla_cf._caroliniana:0.0357057450)99:0.3224244231,PIVW-2091938-Ceratopteris_thalictroides:0.3933004102)98:0.3016566699,(((ENQF-2000228-Lycopodium_annotinum:0.1131967527,CBAE-2008336-Huperzia_myrisinites:0.1507582919)97:0.1099795003,UPMJ-2080508-Pseudolycopodiella_caroliniana:0.2058504019)58:0.0505946296,Selmo_v1_0-79989-Selaginella_moellendorffii:0.3167864820)99:0.2068898374)90:0.1430289748)36:0.1437214233,(GOWD-2081413-Sphagnum_lescurii:0.0000021790,(RCBT-2005315-Sphagnum_palustre:0.0167997627,UHLI-2018392-Sphagnum_recurvatum:0.0105909920)66:0.0099235926)100:0.6959410330)58:0.1688368430,((((UUHD-2149715-Porella_pinnata:0.1299677875,((UUHD-2001499-Porella_pinnata:0.0000010491,UUHD-2001501-Porella_pinnata:0.0055244120)100:0.0196623664,UUHD-2001500-Porella_pinnata:0.0612587608)100:0.1647077741)52:0.0473394152,((((HPXA-2000369-Ptilidium_pulcherrimum:0.0000024530,HPXA-2000367-Ptilidium_pulcherrimum:0.0000023022)100:0.1653182251,HPXA-2001058-Ptilidium_pulcherrimum:0.1307741337)85:0.0427785921,(HPXA-2001059-Ptilidium_pulcherrimum:0.0490812106,(HPXA-2001057-Ptilidium_pulcherrimum:0.0000021635,HPXA-2001060-Ptilidium_pulcherrimum:0.0223099907)97:0.0244688457)88:0.0864861174)100:0.3641422243,UUHD-2148344-Porella_pinnata:0.2957502443)35:0.0749910884)48:0.1829445183,BNCU-2079402-Radula_lindenbergia:0.4503140629)100:0.5316040594,(HPXA-2134398-Ptilidium_pulcherrimum:0.1924926683,UUHD-2013080-Porella_pinnata:0.1461741056)100:0.4616365905)98:0.3315253731)60:0.1562591316)98:0.7150064115)33:0.1404046944,Klefl_v1_0-kfl00090_0310-Klebsormidium_flaccidum:0.6777312577)99:0.8896335614)100:0.6836662195);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 200 bootstrap trees
+Log-likelihood of consensus tree: -66219.581522
+Robinson-Foulds distance between ML tree and consensus tree: 40
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----Chlre_v5_5-Cre10_g466700_t1_1-Chlamydomonas_reinhardtii
+|
++----Chlva_v1_0-e_gw1_5_247_1-Chlorella_variabilis
+|
+|      +--------------Micpu_v3_0-59138-Micromonas_pusilla
++------| (100)
+       |      +-------Chlva_v1_0-gw1_43_12_1-Chlorella_variabilis
+       +------| (99)
+              |  +------Klefl_v1_0-kfl00090_0310-Klebsormidium_flaccidum
+              +--| (44)
+                 |                      +--UHLI-2088343-Sphagnum_recurvatum
+                 |                   +--| (66)
+                 |                   |  +--RCBT-2024950-Sphagnum_palustre
+                 |      +------------| (100)
+                 |      |            +--RCBT-2179494-Sphagnum_palustre
+                 +------| (98)
+                        |                             +--Azfi_s0061.g034876
+                        |                          +--| (100)
+                        |                          |  +--Afi_v2_s11G001170.4
+                        |                    +-----| (100)
+                        |                    |     +--CVEG-2124660-Azolla_cf._caroliniana
+                        |                 +--| (89)
+                        |                 |  |         +--Azfi_s0108.g045269
+                        |                 |  |      +--| (100)
+                        |                 |  |      |  +--Afi_v2_s44G002700.1
+                        |                 |  |   +--| (55)
+                        |                 |  |   |  +--CVEG-2124962-Azolla_cf._caroliniana
+                        |                 |  +---| (100)
+                        |                 |      +--CVEG-2124941-Azolla_cf._caroliniana
+                        |              +--| (70)
+                        |              |  |        +--------Selmo_v1_0-118442-Selaginella_moellendorffii
+                        |              |  |     +--| (48)
+                        |              |  |     |  |     +--JVSZ-2125828-Equisetum_hymale
+                        |              |  |     |  |  +--| (98)
+                        |              |  |     |  |  |  +--CAPN-2004627-Equisetum_diffusum
+                        |              |  |     |  +--| (73)
+                        |              |  |     |     |  +--CAPN-2007244-Equisetum_diffusum
+                        |              |  |     |     +--| (95)
+                        |              |  |     |        +--JVSZ-2000344-Equisetum_hymale
+                        |              |  |  +--| (47)
+                        |              |  |  |  |     +--VIBO-2075815-Osmunda_javanica
+                        |              |  |  |  |  +--| (67)
+                        |              |  |  |  |  |  |        +--PIVW-2000366-Ceratopteris_thalictroides
+                        |              |  |  |  |  |  |     +--| (99)
+                        |              |  |  |  |  |  |     |  +----PIVW-2015072-Ceratopteris_thalictroides
+                        |              |  |  |  |  |  |  +--| (99)
+                        |              |  |  |  |  |  |  |  |     +--BMJR-2009145-Adiantum_tenerum
+                        |              |  |  |  |  |  |  |  |  +--| (100)
+                        |              |  |  |  |  |  |  |  |  |  +--BMJR-2009144-Adiantum_tenerum
+                        |              |  |  |  |  |  |  |  +--| (90)
+                        |              |  |  |  |  |  |  |     |  +--ZXJO-2005153-Hemionitis_arifolia
+                        |              |  |  |  |  |  |  |     +--| (100)
+                        |              |  |  |  |  |  |  |        +--ZXJO-2005152-Hemionitis_arifolia
+                        |              |  |  |  |  |  +--| (61)
+                        |              |  |  |  |  |     |  +--MEKP-2001244-Dipteris_conjugata
+                        |              |  |  |  |  |     +--| (67)
+                        |              |  |  |  |  |        +--MEKP-2009936-Dipteris_conjugata
+                        |              |  |  |  +--| (95)
+                        |              |  |  |     |        +--ALVQ-2000666-Tmesipteris_parva
+                        |              |  |  |     |     +--| (100)
+                        |              |  |  |     |     |  +--ALVQ-2000667-Tmesipteris_parva
+                        |              |  |  |     |  +--| (100)
+                        |              |  |  |     |  |  +--QVMR-2012273-Psilotum_nudum
+                        |              |  |  |     +--| (87)
+                        |              |  |  |        |  +--QVMR-2000480-Psilotum_nudum
+                        |              |  |  |        +--| (100)
+                        |              |  |  |           |  +--ALVQ-2005667-Tmesipteris_parva
+                        |              |  |  |           +--| (100)
+                        |              |  |  |              +--ALVQ-2005668-Tmesipteris_parva
+                        |              |  +--| (63)
+                        |              |     +---CAPN-2009642-Equisetum_diffusum
+                        |           +--| (54)
+                        |           |  |                                         +--Poptr_v3_0-Potri_010G188000_1-Populus_trichocarpa
+                        |           |  |                                      +--| (100)
+                        |           |  |                                      |  +--Poptr_v3_0-Potri_008G069300_1-Populus_trichocarpa
+                        |           |  |                                   +--| (51)
+                        |           |  |                                   |  +--Theca_v1_1-Thecc1EG042490t1-Theobroma_cacao
+                        |           |  |                                +--| (14)
+                        |           |  |                                |  +--Vitvi_Genoscope_12X-GSVIVT01032809001-Vitis_vinifera
+                        |           |  |                             +--| (11)
+                        |           |  |                             |  |     +--Arath_TAIR10-AT3G55970_1-Arabidopsis_thaliana
+                        |           |  |                             |  |  +--| (64)
+                        |           |  |                             |  |  |  |  +--Arath_TAIR10-AT5G05600_1-Arabidopsis_thaliana
+                        |           |  |                             |  |  |  +--| (100)
+                        |           |  |                             |  |  |     +--Arath_TAIR10-AT3G11180_2-Arabidopsis_thaliana
+                        |           |  |                             |  +--| (25)
+                        |           |  |                             |     +--AALA-2073945-Meliosma_cuneifolia
+                        |           |  |                          +--| (9)
+                        |           |  |                          |  |  +--AALA-2073523-Meliosma_cuneifolia
+                        |           |  |                          |  +--| (32)
+                        |           |  |                          |     +--AALA-2077414-Meliosma_cuneifolia
+                        |           |  |                       +--| (25)
+                        |           |  |                       |  |        +--Solly_iTAGv2_3-Solyc03g096050_2_1-Solanum_lycopersicum
+                        |           |  |                       |  |     +--| (39)
+                        |           |  |                       |  |     |  +--Mimgu_v2_0-Migut_F00689_1-Mimulus_guttatus
+                        |           |  |                       |  |  +--| (27)
+                        |           |  |                       |  |  |  +--Betvu_v1_1-Bv2_024220_uwex_t1-Beta_vulgaris
+                        |           |  |                       |  +--| (23)
+                        |           |  |                       |     +--AALA-2075823-Meliosma_cuneifolia
+                        |           |  |                    +--| (14)
+                        |           |  |                    |  |        +--Mimgu_v2_0-Migut_J00158_1-Mimulus_guttatus
+                        |           |  |                    |  |     +--| (46)
+                        |           |  |                    |  |     |  +--Vitvi_Genoscope_12X-GSVIVT01011165001-Vitis_vinifera
+                        |           |  |                    |  |  +--| (23)
+                        |           |  |                    |  |  |  |     +--Solly_iTAGv2_3-Solyc10g085190_1_1-Solanum_lycopersicum
+                        |           |  |                    |  |  |  |  +--| (95)
+                        |           |  |                    |  |  |  |  |  |     +--Solly_iTAGv2_3-Solyc10g076660_1_1-Solanum_lycopersicum
+                        |           |  |                    |  |  |  |  |  |  +--| (47)
+                        |           |  |                    |  |  |  |  |  |  |  +--Solly_iTAGv2_3-Solyc10g076670_1_1-Solanum_lycopersicum
+                        |           |  |                    |  |  |  |  |  +--| (46)
+                        |           |  |                    |  |  |  |  |     +--Solly_iTAGv2_3-Solyc10g076680_1_1-Solanum_lycopersicum
+                        |           |  |                    |  |  |  +--| (53)
+                        |           |  |                    |  |  |     +----Arath_TAIR10-AT2G38240_1-Arabidopsis_thaliana
+                        |           |  |                    |  +--| (47)
+                        |           |  |                    |     |  +--Theca_v1_1-Thecc1EG021686t1-Theobroma_cacao
+                        |           |  |                    |     +--| (88)
+                        |           |  |                    |        |  +--Poptr_v3_0-Potri_016G117100_1-Populus_trichocarpa
+                        |           |  |                    |        +--| (100)
+                        |           |  |                    |           |  +--Poptr_v3_0-Potri_006G101200_1-Populus_trichocarpa
+                        |           |  |                    |           +--| (76)
+                        |           |  |                    |              +--Poptr_v3_0-Potri_006G101100_1-Populus_trichocarpa
+                        |           |  |                 +--| (18)
+                        |           |  |                 |  |     +--Nelnu_v1_0-NNU_015297_RA-Nelumbo_nucifera
+                        |           |  |                 |  |  +--| (99)
+                        |           |  |                 |  |  |  +--Nelnu_v1_0-NNU_005746_RA-Nelumbo_nucifera
+                        |           |  |                 |  +--| (91)
+                        |           |  |                 |     +--Nelnu_v1_0-NNU_012345_RA-Nelumbo_nucifera
+                        |           |  |              +--| (17)
+                        |           |  |              |  |     +--OSHQ-2042462-Sarcandra_glabra
+                        |           |  |              |  |  +--| (30)
+                        |           |  |              |  |  |  |  +--WBOD-2023597-Magnolia_grandiflora
+                        |           |  |              |  |  |  +--| (94)
+                        |           |  |              |  |  |     +--WBOD-2019473-Magnolia_grandiflora
+                        |           |  |              |  +--| (18)
+                        |           |  |              |     +--WBOD-2024359-Magnolia_grandiflora
+                        |           |  |           +--| (34)
+                        |           |  |           |  |           +--Sorbi_v2_1-Sobic_008G002600_1-Sorghum_bicolor
+                        |           |  |           |  |        +--| (100)
+                        |           |  |           |  |        |  +---Orysa_v7_0-LOC_Os11g25060_1-Oryza_sativa
+                        |           |  |           |  |     +--| (27)
+                        |           |  |           |  |     |  +--JVBR-2047614-Aloe_vera
+                        |           |  |           |  |  +--| (41)
+                        |           |  |           |  |  |  |        +--Sorbi_v2_1-Sobic_009G028200_1-Sorghum_bicolor
+                        |           |  |           |  |  |  |     +--| (86)
+                        |           |  |           |  |  |  |     |  +--Orysa_v7_0-LOC_Os05g03640_1-Oryza_sativa
+                        |           |  |           |  |  |  |  +--| (83)
+                        |           |  |           |  |  |  |  |  |  +--Sorbi_v2_1-Sobic_001G407800_1-Sorghum_bicolor
+                        |           |  |           |  |  |  |  |  +--| (99)
+                        |           |  |           |  |  |  |  |     +--Orysa_v7_0-LOC_Os03g18030_1-Oryza_sativa
+                        |           |  |           |  |  |  +--| (63)
+                        |           |  |           |  |  |     |  +--Orysa_v7_0-LOC_Os01g61610_2-Oryza_sativa
+                        |           |  |           |  |  |     +--| (100)
+                        |           |  |           |  |  |        +--Sorbi_v2_1-Sobic_003G345100_1-Sorghum_bicolor
+                        |           |  |           |  +--| (46)
+                        |           |  |           |     +---Ambtr_v1_0_27-AmTr_v1_0_scaffold00007_64-Amborella_trichopoda
+                        |           |  |        +--| (87)
+                        |           |  |        |  +--OSHQ-2046109-Sarcandra_glabra
+                        |           |  |     +--| (83)
+                        |           |  |     |  |  +--Pinta_v2_0-PITA_000039997_RA-Pinus_taeda
+                        |           |  |     |  +--| (39)
+                        |           |  |     |     +----GTHK-2006319-Gnetum_montanum
+                        |           |  |  +--| (40)
+                        |           |  |  |  |              +--WLIC-2120725-Dioon_edule
+                        |           |  |  |  |           +--| (45)
+                        |           |  |  |  |           |  +--XZUY-2049780-Cycas_micholitzii
+                        |           |  |  |  |        +--| (90)
+                        |           |  |  |  |        |  +--SGTW-2036038-Ginkgo_biloba
+                        |           |  |  |  |     +--| (47)
+                        |           |  |  |  |     |  |  +--Pinta_v2_0-PITA_000053351_RA-Pinus_taeda
+                        |           |  |  |  |     |  +--| (99)
+                        |           |  |  |  |     |     +--Pinta_v2_0-PITA_000064233_RA-Pinus_taeda
+                        |           |  |  |  |  +--| (69)
+                        |           |  |  |  |  |  |        +--Pinta_v2_0-PITA_000011980_RA-Pinus_taeda
+                        |           |  |  |  |  |  |     +--| (100)
+                        |           |  |  |  |  |  |     |  +--Pinta_v2_0-PITA_000011975_RA-Pinus_taeda
+                        |           |  |  |  |  |  |  +--| (86)
+                        |           |  |  |  |  |  |  |  |  +--Pinta_v2_0-PITA_000076581_RA-Pinus_taeda
+                        |           |  |  |  |  |  |  |  +--| (100)
+                        |           |  |  |  |  |  |  |     +--Pinta_v2_0-PITA_000089870_RA-Pinus_taeda
+                        |           |  |  |  |  |  +--| (98)
+                        |           |  |  |  |  |     |        +---Pinta_v2_0-PITA_000077295_RA-Pinus_taeda
+                        |           |  |  |  |  |     |     +--| (98)
+                        |           |  |  |  |  |     |     |  +---Pinta_v2_0-PITA_000029883_RA-Pinus_taeda
+                        |           |  |  |  |  |     |  +--| (32)
+                        |           |  |  |  |  |     |  |  +--Pinta_v2_0-PITA_000092827_RA-Pinus_taeda
+                        |           |  |  |  |  |     +--| (100)
+                        |           |  |  |  |  |        |  +--Pinta_v2_0-PITA_000061344_RA-Pinus_taeda
+                        |           |  |  |  |  |        +--| (37)
+                        |           |  |  |  |  |           +--Pinta_v2_0-PITA_000064959_RA-Pinus_taeda
+                        |           |  |  |  +--| (41)
+                        |           |  |  |     |      +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00016_371-Amborella_trichopoda
+                        |           |  |  |     |   +--| (77)
+                        |           |  |  |     |   |  |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_287-Amborella_trichopoda
+                        |           |  |  |     |   |  +--| (70)
+                        |           |  |  |     |   |     +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_288-Amborella_trichopoda
+                        |           |  |  |     +---| (73)
+                        |           |  |  |         |  +--WBOD-2098574-Magnolia_grandiflora
+                        |           |  |  |         +--| (99)
+                        |           |  |  |            +---Nelnu_v1_0-NNU_021116_RA-Nelumbo_nucifera
+                        |           |  +--| (48)
+                        |           |     +--------GTHK-2006619-Gnetum_montanum
+                        |        +--| (19)
+                        |        |  |                                +--Allium_cepa_ANS
+                        |        |  |                             +--| (91)
+                        |        |  |                             |  |         +--Oryza_sativa_ANS
+                        |        |  |                             |  |      +--| (82)
+                        |        |  |                             |  |      |  +--Orysa_v7_0-LOC_Os01g27490_1-Oryza_sativa
+                        |        |  |                             |  |   +--| (100)
+                        |        |  |                             |  |   |  +--Orysa_v7_0-LOC_Os06g42130_1-Oryza_sativa
+                        |        |  |                             |  +---| (100)
+                        |        |  |                             |      |  +--Zea_mays_ANS
+                        |        |  |                             |      +--| (99)
+                        |        |  |                             |         +--Sorbi_v2_1-Sobic_004G000700_1-Sorghum_bicolor
+                        |        |  |                          +--| (91)
+                        |        |  |                          |  |  +--Spipo_v2-Spipo17G0004900-Spirodella_polyrhiza
+                        |        |  |                          |  +--| (100)
+                        |        |  |                          |     +--Spipo_v2-Spipo17G0005000-Spirodella_polyrhiza
+                        |        |  |                       +--| (73)
+                        |        |  |                       |  |              +--Arabidopsis_thaliana_LDOX
+                        |        |  |                       |  |           +--| (100)
+                        |        |  |                       |  |           |  +--Arath_TAIR10-AT4G22880_1-Arabidopsis_thaliana
+                        |        |  |                       |  |        +--| (100)
+                        |        |  |                       |  |        |  +--Arath_TAIR10-AT4G22870_2-Arabidopsis_thaliana
+                        |        |  |                       |  |     +--| (46)
+                        |        |  |                       |  |     |  +--Fragaria_ananassa_ANS
+                        |        |  |                       |  |  +--| (15)
+                        |        |  |                       |  |  |  |           +--Poptr_v3_0-Potri_001G113100_1-Populus_trichocarpa
+                        |        |  |                       |  |  |  |        +--| (89)
+                        |        |  |                       |  |  |  |        |  +--Poptr_v3_0-Potri_003G119100_1-Populus_trichocarpa
+                        |        |  |                       |  |  |  |     +--| (55)
+                        |        |  |                       |  |  |  |     |  +--Theca_v1_1-Thecc1EG016139t1-Theobroma_cacao
+                        |        |  |                       |  |  |  |  +--| (38)
+                        |        |  |                       |  |  |  |  |  |  +--AALA-2005806-Meliosma_cuneifolia
+                        |        |  |                       |  |  |  |  |  +--| (98)
+                        |        |  |                       |  |  |  |  |     +--AALA-2008582-Meliosma_cuneifolia
+                        |        |  |                       |  |  |  +--| (27)
+                        |        |  |                       |  |  |     |     +--Nelnu_v1_0-NNU_006875_RA-Nelumbo_nucifera
+                        |        |  |                       |  |  |     |  +--| (98)
+                        |        |  |                       |  |  |     |  |  +--Nelnu_v1_0-NNU_006876_RA-Nelumbo_nucifera
+                        |        |  |                       |  |  |     +--| (75)
+                        |        |  |                       |  |  |        +--Nelnu_v1_0-NNU_017324_RA-Nelumbo_nucifera
+                        |        |  |                       |  +--| (85)
+                        |        |  |                       |     |           +--Ipomoea_nil_ANS
+                        |        |  |                       |     |        +--| (45)
+                        |        |  |                       |     |        |  |  +--Perilla_frutescens_ANS
+                        |        |  |                       |     |        |  +--| (99)
+                        |        |  |                       |     |        |     +--Mimgu_v2_0-Migut_E01023_1-Mimulus_guttatus
+                        |        |  |                       |     |     +--| (46)
+                        |        |  |                       |     |     |  +--Solly_iTAGv2_3-Solyc08g080040_2_1-Solanum_lycopersicum
+                        |        |  |                       |     |  +--| (30)
+                        |        |  |                       |     |  |  |  +--Phytolacca_americana_ANS
+                        |        |  |                       |     |  |  +--| (100)
+                        |        |  |                       |     |  |     |  +--Spinacia_oleracea_ANS
+                        |        |  |                       |     |  |     +--| (100)
+                        |        |  |                       |     |  |        +--Betvu_v1_1-Bv5_096410_imzu_t1-Beta_vulgaris
+                        |        |  |                       |     +--| (20)
+                        |        |  |                       |        +--Vitvi_Genoscope_12X-GSVIVT01019892001-Vitis_vinifera
+                        |        |  |                    +--| (99)
+                        |        |  |                    |  |  +--WBOD-2024499-Magnolia_grandiflora
+                        |        |  |                    |  +--| (87)
+                        |        |  |                    |     +--ABSS-2074343-Sassafras_albidum
+                        |        |  |                 +--| (99)
+                        |        |  |                 |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_188-Amborella_trichopoda
+                        |        |  |              +--| (82)
+                        |        |  |              |  |  +--XZUY-2005939-Cycas_micholitzii
+                        |        |  |              |  +--| (47)
+                        |        |  |              |     +--WLIC-2120406-Dioon_edule
+                        |        |  |           +--| (96)
+                        |        |  |           |  |     +--Ginkgo_biloba_ANS
+                        |        |  |           |  |  +--| (100)
+                        |        |  |           |  |  |  +--SGTW-2000533-Ginkgo_biloba
+                        |        |  |           |  +--| (68)
+                        |        |  |           |     |     +--VDAO-2003315-Ephedra_sinica
+                        |        |  |           |     |  +--| (98)
+                        |        |  |           |     |  |  +--VDAO-2003936-Ephedra_sinica
+                        |        |  |           |     +--| (83)
+                        |        |  |           |        +--Pinta_v2_0-PITA_000022353_RA-Pinus_taeda
+                        |        |  |        +--| (98)
+                        |        |  |        |  +--XZUY-2006700-Cycas_micholitzii
+                        |        |  |     +--| (93)
+                        |        |  |     |  |                                          +--Arabidopsis_thaliana_FLS1
+                        |        |  |     |  |                                       +--| (100)
+                        |        |  |     |  |                                       |  +--Arath_TAIR10-AT5G08640_1-Arabidopsis_thaliana
+                        |        |  |     |  |                                   +---| (100)
+                        |        |  |     |  |                                   |   |     +--Arabidopsis_thaliana_FLS3
+                        |        |  |     |  |                                   |   |  +--| (100)
+                        |        |  |     |  |                                   |   |  |  +--Arath_TAIR10-AT5G63590_1-Arabidopsis_thaliana
+                        |        |  |     |  |                                   |   +--| (100)
+                        |        |  |     |  |                                   |      |            +--Arabidopsis_thaliana_FLS5
+                        |        |  |     |  |                                   |      |        +---| (100)
+                        |        |  |     |  |                                   |      |        |   +--Arath_TAIR10-AT5G63600_2-Arabidopsis_thaliana
+                        |        |  |     |  |                                   |      |     +--| (52)
+                        |        |  |     |  |                                   |      |     |  +---Arath_TAIR10-AT5G63580_1-Arabidopsis_thaliana
+                        |        |  |     |  |                                   |      |  +--| (68)
+                        |        |  |     |  |                                   |      |  |  +--Arath_TAIR10-AT5G43935_1-Arabidopsis_thaliana
+                        |        |  |     |  |                                   |      +--| (82)
+                        |        |  |     |  |                                   |         +----Arath_TAIR10-AT5G63595_1-Arabidopsis_thaliana
+                        |        |  |     |  |                                +--| (74)
+                        |        |  |     |  |                                |  |  +--Citrus_unshiu_FLS
+                        |        |  |     |  |                                |  +--| (41)
+                        |        |  |     |  |                                |     |        +--Poptr_v3_0-Potri_004G139700_1-Populus_trichocarpa
+                        |        |  |     |  |                                |     |     +--| (98)
+                        |        |  |     |  |                                |     |     |  |  +--Poptr_v3_0-Potri_004G139500_1-Populus_trichocarpa
+                        |        |  |     |  |                                |     |     |  +--| (100)
+                        |        |  |     |  |                                |     |     |     +--Poptr_v3_0-Potri_004G139600_1-Populus_trichocarpa
+                        |        |  |     |  |                                |     |  +--| (98)
+                        |        |  |     |  |                                |     |  |  |  +--Poptr_v3_0-Potri_T003300_1-Populus_trichocarpa
+                        |        |  |     |  |                                |     |  |  +--| (100)
+                        |        |  |     |  |                                |     |  |     +--Poptr_v3_0-Potri_009G145500_1-Populus_trichocarpa
+                        |        |  |     |  |                                |     +--| (34)
+                        |        |  |     |  |                                |        +--Theca_v1_1-Thecc1EG025133t1-Theobroma_cacao
+                        |        |  |     |  |                             +--| (83)
+                        |        |  |     |  |                             |  |                 +--Fragaria_ananassa_FLS
+                        |        |  |     |  |                             |  |              +--| (100)
+                        |        |  |     |  |                             |  |              |  +--Rosa_hybrida_FLS
+                        |        |  |     |  |                             |  |           +--| (40)
+                        |        |  |     |  |                             |  |           |  +--Poptr_v3_0-Potri_002G086700_1-Populus_trichocarpa
+                        |        |  |     |  |                             |  |        +--| (65)
+                        |        |  |     |  |                             |  |        |  +--Theca_v1_1-Thecc1EG035060t1-Theobroma_cacao
+                        |        |  |     |  |                             |  |     +--| (43)
+                        |        |  |     |  |                             |  |     |  |  +---Betvu_v1_1-Bv_28310_qmjz_t1-Beta_vulgaris
+                        |        |  |     |  |                             |  |     |  +--| (49)
+                        |        |  |     |  |                             |  |     |     +--Betvu_v1_1-Bv1_000200_ckiq_t1-Beta_vulgaris
+                        |        |  |     |  |                             |  |  +--| (36)
+                        |        |  |     |  |                             |  |  |  |  +--Petroselinum_crispum_FLS
+                        |        |  |     |  |                             |  |  |  +--| (96)
+                        |        |  |     |  |                             |  |  |     |        +--Petunia_hybrida_FLS
+                        |        |  |     |  |                             |  |  |     |     +--| (91)
+                        |        |  |     |  |                             |  |  |     |     |  +--Torenia_fournieri_FLS
+                        |        |  |     |  |                             |  |  |     |  +--| (100)
+                        |        |  |     |  |                             |  |  |     |  |  +--Solly_iTAGv2_3-Solyc11g013110_1_1-Solanum_lycopersicum
+                        |        |  |     |  |                             |  |  |     +--| (61)
+                        |        |  |     |  |                             |  |  |        +--Mimgu_v2_0-Migut_C01158_1-Mimulus_guttatus
+                        |        |  |     |  |                             |  +--| (71)
+                        |        |  |     |  |                             |     |  +--Vitvi_Genoscope_12X-GSVIVT01008913001-Vitis_vinifera
+                        |        |  |     |  |                             |     +--| (100)
+                        |        |  |     |  |                             |        +--Vitvi_Genoscope_12X-GSVIVT01008914001-Vitis_vinifera
+                        |        |  |     |  |                          +--| (22)
+                        |        |  |     |  |                          |  |  +--AALA-2074459-Meliosma_cuneifolia
+                        |        |  |     |  |                          |  +--| (44)
+                        |        |  |     |  |                          |     +--AALA-2078684-Meliosma_cuneifolia
+                        |        |  |     |  |                       +--| (27)
+                        |        |  |     |  |                       |  +--Nelnu_v1_0-NNU_017585_RA-Nelumbo_nucifera
+                        |        |  |     |  |                    +--| (11)
+                        |        |  |     |  |                    |  +--MUNP-2006099-Piper_auritum
+                        |        |  |     |  |                 +--| (13)
+                        |        |  |     |  |                 |  |  +--OSHQ-2047471-Sarcandra_glabra
+                        |        |  |     |  |                 |  +--| (16)
+                        |        |  |     |  |                 |     |  +--ABSS-2073834-Sassafras_albidum
+                        |        |  |     |  |                 |     +--| (36)
+                        |        |  |     |  |                 |        +--WBOD-2010440-Magnolia_grandiflora
+                        |        |  |     |  |              +--| (46)
+                        |        |  |     |  |              |  |     +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00349_1-Amborella_trichopoda
+                        |        |  |     |  |              |  |  +--| (100)
+                        |        |  |     |  |              |  |  |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_14-Amborella_trichopoda
+                        |        |  |     |  |              |  +--| (28)
+                        |        |  |     |  |              |     +--GJPF-2063819-Allium_sativum
+                        |        |  |     |  |           +--| (99)
+                        |        |  |     |  |           |  |     +--Sorbi_v2_1-Sobic_004G310100_1-Sorghum_bicolor
+                        |        |  |     |  |           |  |  +--| (83)
+                        |        |  |     |  |           |  |  |  +---Sorbi_v2_1-Sobic_003G021700_1-Sorghum_bicolor
+                        |        |  |     |  |           |  +--| (100)
+                        |        |  |     |  |           |     +--Orysa_v7_0-LOC_Os02g52840_1-Oryza_sativa
+                        |        |  |     |  |        +--| (65)
+                        |        |  |     |  |        |  |          +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_24-Amborella_trichopoda
+                        |        |  |     |  |        |  |       +--| (96)
+                        |        |  |     |  |        |  |       |  +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_9-Amborella_trichopoda
+                        |        |  |     |  |        |  |  +----| (100)
+                        |        |  |     |  |        |  |  |    +--Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_23-Amborella_trichopoda
+                        |        |  |     |  |        |  +--| (97)
+                        |        |  |     |  |        |     |        +--Nelnu_v1_0-NNU_007261_RA-Nelumbo_nucifera
+                        |        |  |     |  |        |     |     +--| (99)
+                        |        |  |     |  |        |     |     |  +--Nelnu_v1_0-NNU_018430_RA-Nelumbo_nucifera
+                        |        |  |     |  |        |     |  +--| (72)
+                        |        |  |     |  |        |     |  |  |  +--AALA-2078641-Meliosma_cuneifolia
+                        |        |  |     |  |        |     |  |  +--| (80)
+                        |        |  |     |  |        |     |  |     |  +--Theca_v1_1-Thecc1EG035063t1-Theobroma_cacao
+                        |        |  |     |  |        |     |  |     +--| (98)
+                        |        |  |     |  |        |     |  |        +--Vitvi_Genoscope_12X-GSVIVT01008907001-Vitis_vinifera
+                        |        |  |     |  |        |     +--| (91)
+                        |        |  |     |  |        |        |  +--ABSS-2073765-Sassafras_albidum
+                        |        |  |     |  |        |        +--| (100)
+                        |        |  |     |  |        |           +--WBOD-2022710-Magnolia_grandiflora
+                        |        |  |     |  |     +--| (49)
+                        |        |  |     |  |     |  +----------GTHK-2056534-Gnetum_montanum
+                        |        |  |     |  |  +--| (40)
+                        |        |  |     |  |  |  +--Pinta_v2_0-PITA_000061487_RA-Pinus_taeda
+                        |        |  |     |  +--| (74)
+                        |        |  |     |     |     +-------VDAO-2005128-Ephedra_sinica
+                        |        |  |     |     |  +--| (51)
+                        |        |  |     |     |  |  |  +--Ginkgo_biloba_FLS
+                        |        |  |     |     |  |  +--| (100)
+                        |        |  |     |     |  |     +--SGTW-2038701-Ginkgo_biloba
+                        |        |  |     |     +--| (33)
+                        |        |  |     |        |     +--WLIC-2119345-Dioon_edule
+                        |        |  |     |        |  +--| (98)
+                        |        |  |     |        |  |  +--XZUY-2011434-Cycas_micholitzii
+                        |        |  |     |        +--| (71)
+                        |        |  |     |           |  +--SGTW-2000271-Ginkgo_biloba
+                        |        |  |     |           +--| (100)
+                        |        |  |     |              +--SGTW-2000272-Ginkgo_biloba
+                        |        |  |  +--| (86)
+                        |        |  |  |  |       +--Pinta_v2_0-PITA_000042784_RA-Pinus_taeda
+                        |        |  |  |  |    +--| (98)
+                        |        |  |  |  |    |  +--Pinta_v2_0-PITA_000042782_RA-Pinus_taeda
+                        |        |  |  |  +----| (100)
+                        |        |  |  |       +--Pinta_v2_0-PITA_000001634_RA-Pinus_taeda
+                        |        |  +--| (51)
+                        |        |     |       +--ENQF-2084088-Lycopodium_annotinum
+                        |        |     |    +--| (55)
+                        |        |     |    |  |  +--CBAE-2014111-Huperzia_myrisinites
+                        |        |     |    |  +--| (77)
+                        |        |     |    |     +--CBAE-2009268-Huperzia_myrisinites
+                        |        |     +----| (99)
+                        |        |          +--UPMJ-2017671-Pseudolycopodiella_caroliniana
+                        |     +--| (36)
+                        |     |  |           +--Azfi_s0076.g037826
+                        |     |  |        +--| (100)
+                        |     |  |        |  +--Afi_v2_s19G002650.1
+                        |     |  |     +--| (99)
+                        |     |  |     |  +--CVEG-2003723-Azolla_cf._caroliniana
+                        |     |  |  +--| (98)
+                        |     |  |  |  +--PIVW-2091938-Ceratopteris_thalictroides
+                        |     |  +--| (90)
+                        |     |     |        +--ENQF-2000228-Lycopodium_annotinum
+                        |     |     |     +--| (97)
+                        |     |     |     |  +--CBAE-2008336-Huperzia_myrisinites
+                        |     |     |  +--| (58)
+                        |     |     |  |  +--UPMJ-2080508-Pseudolycopodiella_caroliniana
+                        |     |     +--| (99)
+                        |     |        +--Selmo_v1_0-79989-Selaginella_moellendorffii
+                        |  +--| (58)
+                        |  |  |     +--GOWD-2081413-Sphagnum_lescurii
+                        |  |  +-----| (100)
+                        |  |        |  +--RCBT-2005315-Sphagnum_palustre
+                        |  |        +--| (66)
+                        |  |           +--UHLI-2018392-Sphagnum_recurvatum
+                        +--| (60)
+                           |             +--UUHD-2149715-Porella_pinnata
+                           |          +--| (52)
+                           |          |  |     +--UUHD-2001499-Porella_pinnata
+                           |          |  |  +--| (100)
+                           |          |  |  |  +--UUHD-2001501-Porella_pinnata
+                           |          |  +--| (100)
+                           |          |     +--UUHD-2001500-Porella_pinnata
+                           |       +--| (48)
+                           |       |  |           +--HPXA-2000369-Ptilidium_pulcherrimum
+                           |       |  |        +--| (100)
+                           |       |  |        |  +--HPXA-2000367-Ptilidium_pulcherrimum
+                           |       |  |     +--| (85)
+                           |       |  |     |  +--HPXA-2001058-Ptilidium_pulcherrimum
+                           |       |  |  +--| (100)
+                           |       |  |  |  |  +--HPXA-2001059-Ptilidium_pulcherrimum
+                           |       |  |  |  +--| (88)
+                           |       |  |  |     |  +--HPXA-2001057-Ptilidium_pulcherrimum
+                           |       |  |  |     +--| (97)
+                           |       |  |  |        +--HPXA-2001060-Ptilidium_pulcherrimum
+                           |       |  +--| (35)
+                           |       |     +--UUHD-2148344-Porella_pinnata
+                           |  +----| (100)
+                           |  |    +---BNCU-2079402-Radula_lindenbergia
+                           +--| (98)
+                              |   +--HPXA-2134398-Ptilidium_pulcherrimum
+                              +---| (100)
+                                  +--UUHD-2013080-Porella_pinnata
+
+
+Consensus tree in newick format: 
+
+(Chlre_v5_5-Cre10_g466700_t1_1-Chlamydomonas_reinhardtii:0.5209204686,Chlva_v1_0-e_gw1_5_247_1-Chlorella_variabilis:0.5956921366,(Micpu_v3_0-59138-Micromonas_pusilla:1.5487345024,(Chlva_v1_0-gw1_43_12_1-Chlorella_variabilis:0.8806629278,(Klefl_v1_0-kfl00090_0310-Klebsormidium_flaccidum:0.7128601809,(((UHLI-2088343-Sphagnum_recurvatum:0.0000025290,RCBT-2024950-Sphagnum_palustre:0.0000028110)66:0.0673174979,RCBT-2179494-Sphagnum_palustre:0.2140833260)100:1.3307949341,(((((((((Azfi_s0061.g034876:0.0000023082,Afi_v2_s11G001170.4:0.0000023082)100:0.0828172778,CVEG-2124660-Azolla_cf._caroliniana:0.0045593131)100:0.7007333167,(((Azfi_s0108.g045269:0.0000023082,Afi_v2_s44G002700.1:0.0000023082)100:0.0263737315,CVEG-2124962-Azolla_cf._caroliniana:0.0301742356)55:0.0232806041,CVEG-2124941-Azolla_cf._caroliniana:0.1300858133)100:0.4191702365)89:0.2902044889,(((Selmo_v1_0-118442-Selaginella_moellendorffii:0.9346563031,((JVSZ-2125828-Equisetum_hymale:0.1640713288,CAPN-2004627-Equisetum_diffusum:0.1114774053)98:0.1260856228,(CAPN-2007244-Equisetum_diffusum:0.0813498503,JVSZ-2000344-Equisetum_hymale:0.1101301974)95:0.1471483616)73:0.0520258348)48:0.0846603446,((VIBO-2075815-Osmunda_javanica:0.1214276528,(((PIVW-2000366-Ceratopteris_thalictroides:0.1790332186,PIVW-2015072-Ceratopteris_thalictroides:0.5838010471)99:0.2880217638,((BMJR-2009145-Adiantum_tenerum:0.0000023082,BMJR-2009144-Adiantum_tenerum:0.0000021671)100:0.1116312339,(ZXJO-2005153-Hemionitis_arifolia:0.0000023082,ZXJO-2005152-Hemionitis_arifolia:0.0000023082)100:0.0982165673)90:0.0679457398)99:0.2234686581,(MEKP-2001244-Dipteris_conjugata:0.2109488903,MEKP-2009936-Dipteris_conjugata:0.1409049016)67:0.0573596777)61:0.0452232500)67:0.0703171829,(((ALVQ-2000666-Tmesipteris_parva:0.0000028279,ALVQ-2000667-Tmesipteris_parva:0.0540817928)100:0.1129800256,QVMR-2012273-Psilotum_nudum:0.0656611431)100:0.2083093455,(QVMR-2000480-Psilotum_nudum:0.1551488360,(ALVQ-2005667-Tmesipteris_parva:0.0000023082,ALVQ-2005668-Tmesipteris_parva:0.0000023082)100:0.0946426838)100:0.2107214811)87:0.0556853126)95:0.1522238574)47:0.0790938649,CAPN-2009642-Equisetum_diffusum:0.4937618502)63:0.1066520125)70:0.1149147621,((((((((((((((Poptr_v3_0-Potri_010G188000_1-Populus_trichocarpa:0.0851271720,Poptr_v3_0-Potri_008G069300_1-Populus_trichocarpa:0.0457243590)100:0.1018547657,Theca_v1_1-Thecc1EG042490t1-Theobroma_cacao:0.2262671349)51:0.0634787555,Vitvi_Genoscope_12X-GSVIVT01032809001-Vitis_vinifera:0.2067351512)14:0.0254651738,((Arath_TAIR10-AT3G55970_1-Arabidopsis_thaliana:0.3448247900,(Arath_TAIR10-AT5G05600_1-Arabidopsis_thaliana:0.1593405660,Arath_TAIR10-AT3G11180_2-Arabidopsis_thaliana:0.2223719277)100:0.1927140078)64:0.0624733896,AALA-2073945-Meliosma_cuneifolia:0.2996376825)25:0.0522278162)11:0.0300068007,(AALA-2073523-Meliosma_cuneifolia:0.1298964258,AALA-2077414-Meliosma_cuneifolia:0.1958499156)32:0.0755375355)9:0.0306955690,(((Solly_iTAGv2_3-Solyc03g096050_2_1-Solanum_lycopersicum:0.2841572981,Mimgu_v2_0-Migut_F00689_1-Mimulus_guttatus:0.2512137807)39:0.0284199802,Betvu_v1_1-Bv2_024220_uwex_t1-Beta_vulgaris:0.2954073430)27:0.0370666539,AALA-2075823-Meliosma_cuneifolia:0.1144877781)23:0.0276246632)25:0.0451512520,(((Mimgu_v2_0-Migut_J00158_1-Mimulus_guttatus:0.3006343244,Vitvi_Genoscope_12X-GSVIVT01011165001-Vitis_vinifera:0.2795249579)46:0.0540646694,((Solly_iTAGv2_3-Solyc10g085190_1_1-Solanum_lycopersicum:0.3373821257,((Solly_iTAGv2_3-Solyc10g076660_1_1-Solanum_lycopersicum:0.0907509255,Solly_iTAGv2_3-Solyc10g076670_1_1-Solanum_lycopersicum:0.1054467519)47:0.0237017602,Solly_iTAGv2_3-Solyc10g076680_1_1-Solanum_lycopersicum:0.0688644019)46:0.0375736084)95:0.1360212774,Arath_TAIR10-AT2G38240_1-Arabidopsis_thaliana:0.5622444303)53:0.0683908692)23:0.0351257556,(Theca_v1_1-Thecc1EG021686t1-Theobroma_cacao:0.2154190005,(Poptr_v3_0-Potri_016G117100_1-Populus_trichocarpa:0.0560398072,(Poptr_v3_0-Potri_006G101200_1-Populus_trichocarpa:0.1436610032,Poptr_v3_0-Potri_006G101100_1-Populus_trichocarpa:0.0795964216)76:0.0221452144)100:0.1270508644)88:0.0826226140)47:0.0862362796)14:0.0286730170,((Nelnu_v1_0-NNU_015297_RA-Nelumbo_nucifera:0.2183862242,Nelnu_v1_0-NNU_005746_RA-Nelumbo_nucifera:0.0282826327)99:0.0842366745,Nelnu_v1_0-NNU_012345_RA-Nelumbo_nucifera:0.1238720927)91:0.1158935860)18:0.0849546470,((OSHQ-2042462-Sarcandra_glabra:0.3920942210,(WBOD-2023597-Magnolia_grandiflora:0.2009842726,WBOD-2019473-Magnolia_grandiflora:0.3663006032)94:0.1349555891)30:0.0781210811,WBOD-2024359-Magnolia_grandiflora:0.2183413566)18:0.0425129939)17:0.0352061296,((((Sorbi_v2_1-Sobic_008G002600_1-Sorghum_bicolor:0.3927278884,Orysa_v7_0-LOC_Os11g25060_1-Oryza_sativa:0.4873263982)100:0.3710126677,JVBR-2047614-Aloe_vera:0.3620316627)27:0.0186606128,(((Sorbi_v2_1-Sobic_009G028200_1-Sorghum_bicolor:0.1485010890,Orysa_v7_0-LOC_Os05g03640_1-Oryza_sativa:0.1771246890)86:0.1528872427,(Sorbi_v2_1-Sobic_001G407800_1-Sorghum_bicolor:0.1518717243,Orysa_v7_0-LOC_Os03g18030_1-Oryza_sativa:0.1253217376)99:0.2483442929)83:0.1418738734,(Orysa_v7_0-LOC_Os01g61610_2-Oryza_sativa:0.1504447987,Sorbi_v2_1-Sobic_003G345100_1-Sorghum_bicolor:0.1706840151)100:0.2186870322)63:0.1057884540)41:0.0653949457,Ambtr_v1_0_27-AmTr_v1_0_scaffold00007_64-Amborella_trichopoda:0.4552350702)46:0.0920775718)34:0.1100283183,OSHQ-2046109-Sarcandra_glabra:0.3007799578)87:0.2455703203,(Pinta_v2_0-PITA_000039997_RA-Pinus_taeda:0.2480644781,GTHK-2006319-Gnetum_montanum:0.5088270699)39:0.0756956111)83:0.1977114524,(((((WLIC-2120725-Dioon_edule:0.1249889610,XZUY-2049780-Cycas_micholitzii:0.1309635778)45:0.0683806947,SGTW-2036038-Ginkgo_biloba:0.1292723350)90:0.1187159828,(Pinta_v2_0-PITA_000053351_RA-Pinus_taeda:0.0821335585,Pinta_v2_0-PITA_000064233_RA-Pinus_taeda:0.3408529789)99:0.2054531373)47:0.0619846172,(((Pinta_v2_0-PITA_000011980_RA-Pinus_taeda:0.0587523463,Pinta_v2_0-PITA_000011975_RA-Pinus_taeda:0.0792817029)100:0.1576790977,(Pinta_v2_0-PITA_000076581_RA-Pinus_taeda:0.1799485498,Pinta_v2_0-PITA_000089870_RA-Pinus_taeda:0.0780037765)100:0.1404367862)86:0.0468482096,(((Pinta_v2_0-PITA_000077295_RA-Pinus_taeda:0.4708402403,Pinta_v2_0-PITA_000029883_RA-Pinus_taeda:0.4703927360)98:0.1403589513,Pinta_v2_0-PITA_000092827_RA-Pinus_taeda:0.0000022655)32:0.0094726384,(Pinta_v2_0-PITA_000061344_RA-Pinus_taeda:0.0072431278,Pinta_v2_0-PITA_000064959_RA-Pinus_taeda:0.0360716099)37:0.0098791931)100:0.1954834257)98:0.1949135237)69:0.0929493422,((Ambtr_v1_0_27-AmTr_v1_0_scaffold00016_371-Amborella_trichopoda:0.0731131311,(Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_287-Amborella_trichopoda:0.0180969362,Ambtr_v1_0_27-AmTr_v1_0_scaffold00006_288-Amborella_trichopoda:0.3566359146)70:0.1224651934)77:0.2406646052,(WBOD-2098574-Magnolia_grandiflora:0.3594475761,Nelnu_v1_0-NNU_021116_RA-Nelumbo_nucifera:0.4880849945)99:0.3988203767)73:0.4556369504)41:0.1403211521)40:0.1166971644,GTHK-2006619-Gnetum_montanum:0.9790236359)48:0.0546565404)54:0.1652125756,(((((((((((Allium_cepa_ANS:0.2215611899,(((Oryza_sativa_ANS:0.0097175453,Orysa_v7_0-LOC_Os01g27490_1-Oryza_sativa:0.0097829768)82:0.0123467244,Orysa_v7_0-LOC_Os06g42130_1-Oryza_sativa:0.0456742847)100:0.2789884868,(Zea_mays_ANS:0.0658342899,Sorbi_v2_1-Sobic_004G000700_1-Sorghum_bicolor:0.0862581423)99:0.1199712121)100:0.4346822643)91:0.1556455048,(Spipo_v2-Spipo17G0004900-Spirodella_polyrhiza:0.0570179711,Spipo_v2-Spipo17G0005000-Spirodella_polyrhiza:0.2808545538)100:0.2517607782)91:0.1527507547,(((((Arabidopsis_thaliana_LDOX:0.0000023082,Arath_TAIR10-AT4G22880_1-Arabidopsis_thaliana:0.0000023082)100:0.0058881473,Arath_TAIR10-AT4G22870_2-Arabidopsis_thaliana:0.3643239501)100:0.2009923501,Fragaria_ananassa_ANS:0.1262445606)46:0.0636022481,((((Poptr_v3_0-Potri_001G113100_1-Populus_trichocarpa:0.0865926382,Poptr_v3_0-Potri_003G119100_1-Populus_trichocarpa:0.0567362527)89:0.0427955754,Theca_v1_1-Thecc1EG016139t1-Theobroma_cacao:0.0993025649)55:0.0338996224,(AALA-2005806-Meliosma_cuneifolia:0.0380971661,AALA-2008582-Meliosma_cuneifolia:0.0711588983)98:0.0755106703)38:0.0245307252,((Nelnu_v1_0-NNU_006875_RA-Nelumbo_nucifera:0.0615036379,Nelnu_v1_0-NNU_006876_RA-Nelumbo_nucifera:0.0461421185)98:0.0718022929,Nelnu_v1_0-NNU_017324_RA-Nelumbo_nucifera:0.2832049197)75:0.0406192664)27:0.0248911796)15:0.0095500832,((((Ipomoea_nil_ANS:0.1489654191,(Perilla_frutescens_ANS:0.1330637474,Mimgu_v2_0-Migut_E01023_1-Mimulus_guttatus:0.1549202844)99:0.1057927740)45:0.0544157454,Solly_iTAGv2_3-Solyc08g080040_2_1-Solanum_lycopersicum:0.1720783397)46:0.0389296026,(Phytolacca_americana_ANS:0.1073769785,(Spinacia_oleracea_ANS:0.0838323989,Betvu_v1_1-Bv5_096410_imzu_t1-Beta_vulgaris:0.0598137290)100:0.0412925044)100:0.0800144344)30:0.0277544629,Vitvi_Genoscope_12X-GSVIVT01019892001-Vitis_vinifera:0.1994677927)20:0.0141618226)85:0.1038620669)73:0.0445786022,(WBOD-2024499-Magnolia_grandiflora:0.1631557926,ABSS-2074343-Sassafras_albidum:0.1567742313)87:0.0705619123)99:0.1905273854,Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_188-Amborella_trichopoda:0.2246589983)99:0.2437479735,(XZUY-2005939-Cycas_micholitzii:0.1054481470,WLIC-2120406-Dioon_edule:0.1223003242)47:0.0412323904)82:0.0816104240,((Ginkgo_biloba_ANS:0.0115958718,SGTW-2000533-Ginkgo_biloba:0.0000023082)100:0.1472047378,((VDAO-2003315-Ephedra_sinica:0.2266369208,VDAO-2003936-Ephedra_sinica:0.3785972092)98:0.3987805425,Pinta_v2_0-PITA_000022353_RA-Pinus_taeda:0.1133432855)83:0.1128510550)68:0.0736833428)96:0.1276449371,XZUY-2006700-Cycas_micholitzii:0.1955163825)98:0.2601607425,((((((((((((((Arabidopsis_thaliana_FLS1:0.0000023082,Arath_TAIR10-AT5G08640_1-Arabidopsis_thaliana:0.0000023082)100:0.0530061159,((Arabidopsis_thaliana_FLS3:0.0000023082,Arath_TAIR10-AT5G63590_1-Arabidopsis_thaliana:0.0000023082)100:0.3550465082,((((Arabidopsis_thaliana_FLS5:0.0000023082,Arath_TAIR10-AT5G63600_2-Arabidopsis_thaliana:0.0000023082)100:0.5022221932,Arath_TAIR10-AT5G63580_1-Arabidopsis_thaliana:0.4456409265)52:0.0625002689,Arath_TAIR10-AT5G43935_1-Arabidopsis_thaliana:0.3336597920)68:0.0667308158,Arath_TAIR10-AT5G63595_1-Arabidopsis_thaliana:0.5397075612)82:0.0851370324)100:0.1528375583)100:0.4115939610,(Citrus_unshiu_FLS:0.1655015897,(((Poptr_v3_0-Potri_004G139700_1-Populus_trichocarpa:0.0331822048,(Poptr_v3_0-Potri_004G139500_1-Populus_trichocarpa:0.0037977266,Poptr_v3_0-Potri_004G139600_1-Populus_trichocarpa:0.0076959284)100:0.0263246696)98:0.0935261839,(Poptr_v3_0-Potri_T003300_1-Populus_trichocarpa:0.0000020151,Poptr_v3_0-Potri_009G145500_1-Populus_trichocarpa:0.0156654401)100:0.1081254483)98:0.1035131584,Theca_v1_1-Thecc1EG025133t1-Theobroma_cacao:0.2466680884)34:0.0258037074)41:0.0448650737)74:0.0754722379,((((((Fragaria_ananassa_FLS:0.0612807380,Rosa_hybrida_FLS:0.0284753828)100:0.1954680303,Poptr_v3_0-Potri_002G086700_1-Populus_trichocarpa:0.1729813661)40:0.0222197488,Theca_v1_1-Thecc1EG035060t1-Theobroma_cacao:0.2600849778)65:0.0413957562,(Betvu_v1_1-Bv_28310_qmjz_t1-Beta_vulgaris:0.4136491575,Betvu_v1_1-Bv1_000200_ckiq_t1-Beta_vulgaris:0.3887032967)49:0.0727902572)43:0.0357540463,(Petroselinum_crispum_FLS:0.2213529919,(((Petunia_hybrida_FLS:0.0468453948,Torenia_fournieri_FLS:0.0754735545)91:0.0378742254,Solly_iTAGv2_3-Solyc11g013110_1_1-Solanum_lycopersicum:0.1441676000)100:0.0717912190,Mimgu_v2_0-Migut_C01158_1-Mimulus_guttatus:0.2425103635)61:0.0391169060)96:0.0575993536)36:0.0426244792,(Vitvi_Genoscope_12X-GSVIVT01008913001-Vitis_vinifera:0.1273586677,Vitvi_Genoscope_12X-GSVIVT01008914001-Vitis_vinifera:0.1114562993)100:0.1389898885)71:0.0499190778)83:0.0626418864,(AALA-2074459-Meliosma_cuneifolia:0.1568814615,AALA-2078684-Meliosma_cuneifolia:0.1496880891)44:0.0595460845)22:0.0192044828,Nelnu_v1_0-NNU_017585_RA-Nelumbo_nucifera:0.1662482627)27:0.0455648476,MUNP-2006099-Piper_auritum:0.3174253917)11:0.0200136857,(OSHQ-2047471-Sarcandra_glabra:0.2413608401,(ABSS-2073834-Sassafras_albidum:0.1815757580,WBOD-2010440-Magnolia_grandiflora:0.1961379727)36:0.0371040379)16:0.0515525845)13:0.0336266263,((Ambtr_v1_0_27-AmTr_v1_0_scaffold00349_1-Amborella_trichopoda:0.0081663591,Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_14-Amborella_trichopoda:0.0032540224)100:0.3705880138,GJPF-2063819-Allium_sativum:0.2061382247)28:0.0260586676)46:0.0928250206,((Sorbi_v2_1-Sobic_004G310100_1-Sorghum_bicolor:0.1625887309,Sorbi_v2_1-Sobic_003G021700_1-Sorghum_bicolor:0.4396543620)83:0.0323800191,Orysa_v7_0-LOC_Os02g52840_1-Oryza_sativa:0.1293447421)100:0.3822871899)99:0.2757514028,(((Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_24-Amborella_trichopoda:0.1858432524,Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_9-Amborella_trichopoda:0.1442787013)96:0.0943278934,Ambtr_v1_0_27-AmTr_v1_0_scaffold00073_23-Amborella_trichopoda:0.0238192913)100:0.5756851809,(((Nelnu_v1_0-NNU_007261_RA-Nelumbo_nucifera:0.1746353318,Nelnu_v1_0-NNU_018430_RA-Nelumbo_nucifera:0.1699935503)99:0.1007769664,(AALA-2078641-Meliosma_cuneifolia:0.1989765756,(Theca_v1_1-Thecc1EG035063t1-Theobroma_cacao:0.1404368900,Vitvi_Genoscope_12X-GSVIVT01008907001-Vitis_vinifera:0.1746210050)98:0.0735905292)80:0.0540026930)72:0.0403073470,(ABSS-2073765-Sassafras_albidum:0.1801849560,WBOD-2022710-Magnolia_grandiflora:0.1245116635)100:0.1345852280)91:0.0995534500)97:0.1888964922)65:0.0651446598,GTHK-2056534-Gnetum_montanum:1.1360887084)49:0.1596240425,Pinta_v2_0-PITA_000061487_RA-Pinus_taeda:0.2210221628)40:0.0871887396,((VDAO-2005128-Ephedra_sinica:0.8668898826,(Ginkgo_biloba_FLS:0.0000027315,SGTW-2038701-Ginkgo_biloba:0.0179952802)100:0.2413754776)51:0.1696339755,((WLIC-2119345-Dioon_edule:0.0975397155,XZUY-2011434-Cycas_micholitzii:0.1650952608)98:0.1616108079,(SGTW-2000271-Ginkgo_biloba:0.0131807771,SGTW-2000272-Ginkgo_biloba:0.0209696296)100:0.1138631209)71:0.0561794499)33:0.0554080968)74:0.1947802064)93:0.3794477058,((Pinta_v2_0-PITA_000042784_RA-Pinus_taeda:0.0474733225,Pinta_v2_0-PITA_000042782_RA-Pinus_taeda:0.0985979764)98:0.1533556519,Pinta_v2_0-PITA_000001634_RA-Pinus_taeda:0.2599174418)100:0.5155654225)86:0.2146415237,((ENQF-2084088-Lycopodium_annotinum:0.1033417879,(CBAE-2014111-Huperzia_myrisinites:0.1881161214,CBAE-2009268-Huperzia_myrisinites:0.3524886689)77:0.1172977211)55:0.0852569294,UPMJ-2017671-Pseudolycopodiella_caroliniana:0.3242004315)99:0.5405783929)51:0.0996941925)19:0.0755812926,((((Azfi_s0076.g037826:0.0000023082,Afi_v2_s19G002650.1:0.0000023082)100:0.0185814664,CVEG-2003723-Azolla_cf._caroliniana:0.0352251738)99:0.3148690352,PIVW-2091938-Ceratopteris_thalictroides:0.3903782644)98:0.2979320799,(((ENQF-2000228-Lycopodium_annotinum:0.1111941426,CBAE-2008336-Huperzia_myrisinites:0.1485071751)97:0.1060928783,UPMJ-2080508-Pseudolycopodiella_caroliniana:0.2035835787)58:0.0555722736,Selmo_v1_0-79989-Selaginella_moellendorffii:0.3082081670)99:0.2048863091)90:0.1454296035)36:0.1384518234,(GOWD-2081413-Sphagnum_lescurii:0.0000023106,(RCBT-2005315-Sphagnum_palustre:0.0166384228,UHLI-2018392-Sphagnum_recurvatum:0.0103545648)66:0.0097614577)100:0.6863955919)58:0.1539104362,((((UUHD-2149715-Porella_pinnata:0.1277032687,((UUHD-2001499-Porella_pinnata:0.0000023082,UUHD-2001501-Porella_pinnata:0.0054274339)100:0.0190157085,UUHD-2001500-Porella_pinnata:0.0602598404)100:0.1621184644)52:0.0463548070,((((HPXA-2000369-Ptilidium_pulcherrimum:0.0000023082,HPXA-2000367-Ptilidium_pulcherrimum:0.0000022522)100:0.1620894409,HPXA-2001058-Ptilidium_pulcherrimum:0.1285618515)85:0.0421147182,(HPXA-2001059-Ptilidium_pulcherrimum:0.0482549396,(HPXA-2001057-Ptilidium_pulcherrimum:0.0000024260,HPXA-2001060-Ptilidium_pulcherrimum:0.0219742596)97:0.0241241063)88:0.0852749810)100:0.3584263300,UUHD-2148344-Porella_pinnata:0.2905662224)35:0.0739838810)48:0.1810510099,BNCU-2079402-Radula_lindenbergia:0.4426432399)100:0.5229036054,(HPXA-2134398-Ptilidium_pulcherrimum:0.1928030305,UUHD-2013080-Porella_pinnata:0.1405088296)100:0.4572357820)98:0.3353585770)60:0.1341613405)98:0.7692997111)44:0.1888404521)99:0.7865433709)100:0.7346076880);
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  3 10:37:25 2022
+Total CPU time used: 3743.523923 seconds (1h:2m:23s)
+Total wall-clock time used: 973.9774592 seconds (0h:16m:13s)
+
