@@ -26,6 +26,7 @@ Main text figure:
 
 Supplemental figure:
 ----------------------
+View the [pdf](figures/v2g5_transfer_bootstrap.pdf) for all details.
 ![](figures/v2g5_transfer_bootstrap.svg)
 
 ## Guide through directories and files
