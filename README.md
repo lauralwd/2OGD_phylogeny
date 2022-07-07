@@ -16,9 +16,8 @@ Phylogeny of 2-OGD sequences in plants, firstly of the ANS, FLS and JOX subclade
 Secondly of the entire 2-OGD superfamily
 * [treefile](analyses/orthogroup_AtLDOX_AT4g22880_selection-v2_guide-v5_trees/aligned-mafft-einsi_trim-gt3-res.50-seq99-supplmented/orthogroup_AtLDOX_AT4g22880_selection-v2_guide-v5_aligned-mafft-einsi_trim-gt3-res.50-seq99-supplmented_iqtree-bb1000-alrt1000.treefile)
 * Supplemental figure: 
-  [png](figures/v2g5_labels_at_tips.png),
-  [pdf](figures/v2g5_labels_at_tips.pdf) & 
-  [Inkscape_svg](figures/v2g5_labels_at_tips.svg) 
+  [pdf](figures/v2g5_transfer_bootstrap.pdf) & 
+  [Inkscape_svg](figures/v2g5_transfer_bootstrap.svg) 
 
 Main text figure:
 ----------------------
@@ -27,7 +26,7 @@ Main text figure:
 
 Supplemental figure:
 ----------------------
-![](figures/v2g5_labels_at_tips.png)
+![](figures/v2g5_transfer_bootstrap.svg)
 
 ## Guide through directories and files
 
